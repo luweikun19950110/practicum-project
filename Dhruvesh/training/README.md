@@ -45,7 +45,7 @@ Saved as `destination_pressure_2021.csv`:
 
 ## Phase 2 — New Jersey local series
 
-Take only `nj_cases_2021.csv`. Sort by ZIP code and date. Inside each ZIP code:
+Take only `nj_cases_2021.csv`. Sort by ZIP code and date. `day_of_week` is Monday = 0 through Sunday = 6. Inside each ZIP code:
 
 ```
 velocity     = daily_cases today − daily_cases yesterday
@@ -53,7 +53,7 @@ acceleration = velocity today − velocity yesterday
 jerk         = acceleration today − acceleration yesterday
 ```
 
-The first day of each ZIP code has no velocity. The second has no acceleration. The third has no jerk. Those cells are blank.
+The first day of each ZIP code has no velocity. The second has no acceleration. The third has no jerk. Those cells stay blank in this file so the differences are visible. The training file drops them.
 
 Saved as `nj_cases_derivatives_2021.csv`:
 
@@ -61,6 +61,7 @@ Saved as `nj_cases_derivatives_2021.csv`:
 |---|---|
 | `zipcode` | New Jersey ZCTA |
 | `date` | Day |
+| `day_of_week` | Monday = 0 through Sunday = 6 |
 | `daily_cases` | Cases in that ZCTA that day |
 | `velocity` | Day-to-day change in cases |
 | `acceleration` | Day-to-day change in velocity |
@@ -85,6 +86,7 @@ Saved as `training_panel_2021.csv`:
 |---|---|
 | `zipcode` | New Jersey workplace ZCTA |
 | `date` | Day |
+| `day_of_week` | Monday = 0 through Sunday = 6 |
 | `daily_cases` | Cases in that workplace ZCTA |
 | `velocity` | Change in `daily_cases` |
 | `acceleration` | Change in `velocity` |
@@ -92,9 +94,27 @@ Saved as `training_panel_2021.csv`:
 | `pressure` | Inbound commute pressure that day |
 | `weight_coverage` | 1 in this build |
 
-215,350 rows = 590 workplaces × 365 days.
+213,580 rows = 590 workplaces × 362 days. The first three days of 2021 are removed because `velocity`, `acceleration`, or `jerk` is blank there. No column in this file has a blank cell.
 
-Rows from 2021-01-01, 2021-01-02, and 2021-01-03 have blank `jerk` (and some of the earlier derivatives). Drop those three days per ZIP code before a model fit if the model cannot accept blanks. Leave them in for plots.
+## 7-day forecast
+
+`forecast_7day.py` and `forecast_7day.ipynb` train seven LightGBM models on this panel. Each model predicts one future day of `daily_cases`.
+
+The row date is the day you already know. Lag 0 is that day. Features are `day_of_week`, cases lags 0–6, velocity lags 0–5, acceleration lags 0–4, jerk lags 0–3, and pressure lags 0–6 (30 columns). Targets are `target_day_1` through `target_day_7`.
+
+Rows missing a lag or a future day are dropped. Training uses dates before `TEST_START` (1 December 2021). Testing uses December dates that still have all 7 future days inside the file, so the last scored day is 24 December.
+
+To point this at a new panel, change `DATA_PATH` and `TEST_START` at the top of `forecast_7day.py`.
+
+```bash
+python Dhruvesh/training/forecast_7day.py
+```
+
+Outputs:
+
+- `forecast_outputs/predictions_test.csv` — actual and predicted cases for each horizon, plus the persistence baseline
+- `forecast_outputs/metrics_test.csv` — MAE, RMSE, and mean error (predicted minus actual) by horizon
+- `forecast_outputs/feature_importance.csv` — LightGBM gain for every feature and horizon
 
 ## What is not in this folder
 

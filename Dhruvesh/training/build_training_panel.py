@@ -59,6 +59,7 @@ def nj_local_series(cases: pd.DataFrame) -> pd.DataFrame:
     nj = cases.loc[cases["state"].eq("NJ"), ["zipcode", "date", "cases"]].copy()
     nj = nj.sort_values(["zipcode", "date"]).reset_index(drop=True)
     nj = nj.rename(columns={"cases": "daily_cases"})
+    nj["day_of_week"] = nj["date"].dt.dayofweek  # 0=Monday ... 6=Sunday
     grouped = nj.groupby("zipcode", sort=False)["daily_cases"]
     nj["velocity"] = grouped.diff()
     nj["acceleration"] = nj.groupby("zipcode", sort=False)["velocity"].diff()
@@ -85,6 +86,9 @@ def main() -> None:
 
     print("Phase 2: NJ cases with velocity, acceleration, jerk")
     local = nj_local_series(cases)
+    local = local[
+        ["zipcode", "date", "day_of_week", "daily_cases", "velocity", "acceleration", "jerk"]
+    ]
     local_path = TRAINING / "nj_cases_derivatives_2021.csv"
     local.to_csv(local_path, index=False)
     print(f"  rows {len(local):,}  zips {local.zipcode.nunique()}")
@@ -96,10 +100,25 @@ def main() -> None:
         right_on=["destination_zcta", "date"],
         how="inner",
     ).drop(columns=["destination_zcta"])
+    # The first three days of each workplace have blank derivatives.
+    final = final.dropna(subset=["velocity", "acceleration", "jerk"]).reset_index(drop=True)
+    column_order = [
+        "zipcode",
+        "date",
+        "day_of_week",
+        "daily_cases",
+        "velocity",
+        "acceleration",
+        "jerk",
+        "pressure",
+        "weight_coverage",
+    ]
+    final = final[column_order]
     final["date"] = final["date"].dt.strftime("%Y-%m-%d")
     final_path = TRAINING / "training_panel_2021.csv"
     final.to_csv(final_path, index=False)
     print(f"  rows {len(final):,}  zips {final.zipcode.nunique()}")
+    print(f"  blank cells {int(final.isna().sum().sum())}")
     print(f"  saved {final_path}")
 
 
