@@ -1,0 +1,3 @@
+source_file,origin_state,raw_rows,raw_jobs,kept_rows,kept_jobs,unmapped_rows,unmapped_jobs
+nj_od_main_JT00_2021.csv.gz,NJ,3222070,3439824,3222070,3439824,0,0
+nj_od_aux_JT00_2021.csv.gz,NY,392310,397262,121671,123507,71,72

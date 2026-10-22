@@ -1,0 +1,5 @@
+source_file,direction,raw_rows,selected_rows,excluded_other_state_rows,unmapped_zcta_rows,unmapped_zcta_jobs,raw_jobs,selected_jobs
+nj_od_main_JT00_2021.csv.gz,NJ->NJ,3222070,3222070,0,0,0,3439824,3439824
+ny_od_main_JT00_2021.csv.gz,NY->NY,7144618,7142438,0,2180,2225,7899978,7897753
+ny_od_aux_JT00_2021.csv.gz,NJ->NY,755891,475765,280079,47,47,776631,494304
+nj_od_aux_JT00_2021.csv.gz,NY->NJ,392310,184702,207536,72,73,397262,187042
