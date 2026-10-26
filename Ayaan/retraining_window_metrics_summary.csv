@@ -1,0 +1,4 @@
+Training Window,RMSE (Cases),MAE (Cases),Residual Moran's I,PR-AUC,Warning Lead Time
+60 Days,5.833,4.656,-0.0714,-0.8887,5.2 Days
+90 Days (Recommended),7.967,6.975,-0.0713,-0.8902,7.5 Days
+120 Days,8.609,8.109,-0.0712,-0.9437,7.5 Days
