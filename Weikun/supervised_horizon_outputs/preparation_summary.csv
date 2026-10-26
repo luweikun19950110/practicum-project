@@ -1,0 +1,4 @@
+horizon_days,file,rows,zips,features,date_min,date_max,null_cells,last_column,path
+1,supervised_horizon_1_next_day.csv.gz,629527,456,32,2020-02-15,2023-12-30,0,target_cases,/Users/dhruvesh/Desktop/Fall 2026/Analytics/Jupyter/Weikun/supervised_horizon_outputs/supervised_horizon_1_next_day.csv.gz
+2,supervised_horizon_2.csv.gz,629071,456,32,2020-02-15,2023-12-29,0,target_cases,/Users/dhruvesh/Desktop/Fall 2026/Analytics/Jupyter/Weikun/supervised_horizon_outputs/supervised_horizon_2.csv.gz
+3,supervised_horizon_3.csv.gz,628615,456,32,2020-02-15,2023-12-28,0,target_cases,/Users/dhruvesh/Desktop/Fall 2026/Analytics/Jupyter/Weikun/supervised_horizon_outputs/supervised_horizon_3.csv.gz
