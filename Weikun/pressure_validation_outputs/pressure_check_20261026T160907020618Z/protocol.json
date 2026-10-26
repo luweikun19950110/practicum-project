@@ -1,0 +1,46 @@
+{
+  "source": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\nj_daily_feature_outputs\\nj_daily_features.csv.gz",
+  "source_sha256": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4",
+  "reference_folder": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\individual_feature_selection_outputs\\frozen_window_60_20261026T153858733079Z",
+  "window": 60,
+  "regions": 585,
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "retrain_every_days": 7,
+  "feature_reselection": false,
+  "with_pressure": [
+    "cases_today",
+    "cases_mean_7d",
+    "nj_covid_pressure_7d",
+    "target_weekday_2",
+    "target_weekday_3",
+    "target_weekday_4",
+    "target_weekday_5",
+    "target_weekday_6",
+    "target_weekday_7"
+  ],
+  "without_pressure": [
+    "cases_today",
+    "cases_mean_7d",
+    "target_weekday_2",
+    "target_weekday_3",
+    "target_weekday_4",
+    "target_weekday_5",
+    "target_weekday_6",
+    "target_weekday_7"
+  ],
+  "contrast": "Only remove 7-day pressure from the frozen compact model; keep all other inputs and forecast rows identical.",
+  "persistence": "C(i,t) for every horizon h",
+  "seasonal_naive": "C(i,t+h-7), target weekday in previous week",
+  "periods": {
+    "selection": "Jan-Jun 2021, original selection period",
+    "later_validation": "Jul-Dec 2021, exploratory temporal validation"
+  },
+  "comparisons": "Compact with pressure versus no pressure, persistence, seasonal naive; each period overall and horizons 1/2/3 = 24 contrasts.",
+  "statistics": "Paired date-level mean absolute loss, HAC Bartlett bandwidth 14, Holm across 24 contrasts. Pointwise moving-date-block CIs, 2000 replicates; 7/28-day sensitivity.",
+  "limitations": "Pressure and 60-day window chosen after earlier validation inspection. Exploratory, not causal or an untouched holdout. Fixed-forecast bootstrap does not include fitting/selection uncertainty.",
+  "test_2022_2023_evaluated": false
+}

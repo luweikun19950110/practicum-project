@@ -1,0 +1,12 @@
+{
+  "self_checks_passed": true,
+  "cached_subset_OLS_matches_direct_within_OLS": true,
+  "all_predictions_finite": true,
+  "all_training_targets_at_or_before_fit_date": true,
+  "regions": 585,
+  "forecast_dates": 362,
+  "evaluated_specifications": 67,
+  "accepted_removals": 3,
+  "retained_columns": 21,
+  "test_evaluated": false
+}

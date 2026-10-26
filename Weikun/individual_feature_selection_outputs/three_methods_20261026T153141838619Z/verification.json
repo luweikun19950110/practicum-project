@@ -1,0 +1,11 @@
+{
+  "self_checks_passed": true,
+  "cached_subset_OLS_matches_direct_OLS": true,
+  "regions": 585,
+  "forecast_dates": 362,
+  "unique_search_specifications": 135,
+  "search_trial_records": 204,
+  "all_predictions_finite": true,
+  "lists_frozen_before_later_losses": true,
+  "test_evaluated": false
+}

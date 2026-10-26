@@ -1,0 +1,15 @@
+{
+  "same_source_cohort_dates_targets_as_notebook16": true,
+  "with_pressure_predictions_reproduced": true,
+  "max_reference_prediction_difference": 0.0,
+  "benchmark_inputs_no_later_than_forecast_origin": true,
+  "features_reselected": false,
+  "regions": 585,
+  "test_evaluated": false,
+  "paired_contrasts": 24,
+  "saved_metrics_independently_recomputed": true,
+  "max_metric_difference": 8.881784197001252e-16,
+  "all_paired_loss_deltas_verified": true,
+  "baseline_definitions_verified_against_source": true,
+  "all_60_day_windows_and_training_target_timing_verified": true
+}

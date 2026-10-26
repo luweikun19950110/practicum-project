@@ -1,0 +1,146 @@
+{
+  "source": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\nj_daily_feature_outputs\\nj_daily_features.csv.gz",
+  "source_sha256": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4",
+  "windows": [
+    30,
+    60
+  ],
+  "primary_window": 30,
+  "sensitivity_window": 60,
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "validation_start": "2021-01-01",
+  "validation_end": "2021-12-31",
+  "regions": 590,
+  "forecast_dates": 362,
+  "retrain_every_days": 7,
+  "specifications": {
+    "B0_basic": [
+      "cases_today",
+      "cases_lag_1",
+      "cases_lag_7"
+    ],
+    "H0_weekly_mean": [
+      "cases_today",
+      "cases_lag_1",
+      "cases_lag_7",
+      "cases_mean_7d"
+    ],
+    "H1_history_extended": [
+      "cases_today",
+      "cases_lag_1",
+      "cases_lag_7",
+      "cases_mean_7d",
+      "cases_lag_14",
+      "case_std_7d"
+    ],
+    "D1_acceleration": [
+      "cases_today",
+      "cases_lag_1",
+      "cases_lag_7",
+      "cases_mean_7d",
+      "cases_lag_14",
+      "case_std_7d",
+      "case_acceleration"
+    ],
+    "D2_jerk": [
+      "cases_today",
+      "cases_lag_1",
+      "cases_lag_7",
+      "cases_mean_7d",
+      "cases_lag_14",
+      "case_std_7d",
+      "case_acceleration",
+      "case_jerk"
+    ],
+    "P0_basic_pressure7": [
+      "cases_today",
+      "cases_lag_1",
+      "cases_lag_7",
+      "nj_covid_pressure_7d"
+    ],
+    "P1_rich_pressure7": [
+      "cases_today",
+      "cases_lag_1",
+      "cases_lag_7",
+      "cases_mean_7d",
+      "cases_lag_14",
+      "case_std_7d",
+      "case_acceleration",
+      "case_jerk",
+      "nj_covid_pressure_7d"
+    ],
+    "P2_rich_pressure14": [
+      "cases_today",
+      "cases_lag_1",
+      "cases_lag_7",
+      "cases_mean_7d",
+      "cases_lag_14",
+      "case_std_7d",
+      "case_acceleration",
+      "case_jerk",
+      "nj_covid_pressure_14d"
+    ]
+  },
+  "comparisons": [
+    [
+      "B0_basic",
+      "H0_weekly_mean",
+      "weekly_mean"
+    ],
+    [
+      "H0_weekly_mean",
+      "H1_history_extended",
+      "lag14_and_volatility"
+    ],
+    [
+      "H1_history_extended",
+      "D1_acceleration",
+      "acceleration"
+    ],
+    [
+      "D1_acceleration",
+      "D2_jerk",
+      "jerk"
+    ],
+    [
+      "B0_basic",
+      "P0_basic_pressure7",
+      "pressure7_basic"
+    ],
+    [
+      "D2_jerk",
+      "P1_rich_pressure7",
+      "pressure7_rich"
+    ],
+    [
+      "D2_jerk",
+      "P2_rich_pressure14",
+      "pressure14_rich"
+    ],
+    [
+      "P1_rich_pressure7",
+      "P2_rich_pressure14",
+      "pressure14_vs_pressure7"
+    ]
+  ],
+  "primary_metric": "Equal-weight mean validation MAE across horizons 1/2/3.",
+  "prediction_test": "Two-sided normal-approximation HAC test of mean daily paired absolute-loss differences; Bartlett bandwidth 14; 7/28 sensitivity.",
+  "multiplicity": "Holm adjustment over all planned comparisons x overall/horizons x both windows (64 tests).",
+  "bootstrap": "Paired noncircular moving-date-block percentile intervals; 14-day primary, 7/28 sensitivity; fixed saved forecasts, no refitting in resamples.",
+  "bootstrap_repetitions": 2000,
+  "random_seed_base": 20261026,
+  "coefficient_inference": "Exploratory normal-approximate two-way region/date clustered CR1 SE and Wald p-values for FE OLS; does not correct dynamic-panel finite-T bias.",
+  "test_evaluated": false,
+  "inference_status": "Exploratory on repeatedly inspected validation data; not confirmatory, not causal, no post-selection-valid inference claimed.",
+  "outcome": "Final retrospective recorded-onset row count; missing onset excluded upstream; absent rows zero by user rule.",
+  "geography": "Current exact ZIP/ZCTA identifier match remains unvalidated; pressure uses static 2021 population and commuting assumptions.",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  }
+}

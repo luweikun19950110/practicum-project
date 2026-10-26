@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "model_fits": 1404,
+  "regions": 585,
+  "forecast_dates": 362,
+  "prediction_archive_metrics_max_difference": 4.440892098500626e-16,
+  "training_timing_checks_passed": true,
+  "test_evaluated": false
+}

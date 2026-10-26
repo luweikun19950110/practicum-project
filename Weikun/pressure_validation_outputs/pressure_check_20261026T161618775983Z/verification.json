@@ -1,0 +1,10 @@
+{
+  "same_source_cohort_dates_targets_as_notebook16": true,
+  "with_pressure_predictions_reproduced": true,
+  "max_reference_prediction_difference": 1.4210854715202004e-13,
+  "benchmark_inputs_no_later_than_forecast_origin": true,
+  "features_reselected": false,
+  "regions": 585,
+  "test_evaluated": false,
+  "paired_contrasts": 24
+}

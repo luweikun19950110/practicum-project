@@ -1,0 +1,17 @@
+{
+  "self_checks_passed": true,
+  "cached_subset_OLS_matches_direct_OLS": true,
+  "regions": 585,
+  "forecast_dates": 362,
+  "unique_search_specifications": 135,
+  "search_trial_records": 204,
+  "all_predictions_finite": true,
+  "lists_frozen_before_later_losses": true,
+  "test_evaluated": false,
+  "saved_metrics_independently_recomputed": true,
+  "max_metric_difference": 4.440892098500626e-16,
+  "backward_matches_original_notebook15": true,
+  "all_selection_steps_and_stopping_rules_verified": true,
+  "all_training_targets_at_or_before_fit_date": true,
+  "forward_stepwise_same_lists_and_predictions_verified": true
+}

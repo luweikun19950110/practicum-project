@@ -1,0 +1,9 @@
+model,feature_list,weekday_dummies,region_fixed_effects
+B0_basic,cases_today; cases_lag_1; cases_lag_7,6,True
+H0_weekly_mean,cases_today; cases_lag_1; cases_lag_7; cases_mean_7d,6,True
+H1_history_extended,cases_today; cases_lag_1; cases_lag_7; cases_mean_7d; cases_lag_14; case_std_7d,6,True
+D1_acceleration,cases_today; cases_lag_1; cases_lag_7; cases_mean_7d; cases_lag_14; case_std_7d; case_acceleration,6,True
+D2_jerk,cases_today; cases_lag_1; cases_lag_7; cases_mean_7d; cases_lag_14; case_std_7d; case_acceleration; case_jerk,6,True
+P0_basic_pressure7,cases_today; cases_lag_1; cases_lag_7; nj_covid_pressure_7d,6,True
+P1_rich_pressure7,cases_today; cases_lag_1; cases_lag_7; cases_mean_7d; cases_lag_14; case_std_7d; case_acceleration; case_jerk; nj_covid_pressure_7d,6,True
+P2_rich_pressure14,cases_today; cases_lag_1; cases_lag_7; cases_mean_7d; cases_lag_14; case_std_7d; case_acceleration; case_jerk; nj_covid_pressure_14d,6,True

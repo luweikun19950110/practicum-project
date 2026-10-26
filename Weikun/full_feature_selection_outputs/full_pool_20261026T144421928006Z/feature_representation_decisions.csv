@@ -1,0 +1,9 @@
+feature_or_family,reason
+cases_sum_7d; cases_sum_14d,Exactly 7/14 times rolling means; represented by means.
+week_over_week_change,Exactly 14*mean_7d - 14*mean_14d; redundant with both means.
+case_velocity,Exactly cases_today - cases_lag_1.
+origin weekday/month,Use target calendar categories as the prespecified calendar representation.
+population; land_area_sq_km; population_density_per_sq_km,Static regional columns absorbed by full region FE; retain for tree models.
+resident_jobs_nj_network; workplace_jobs_nj_network; inbound_jobs_external_nj; outbound_jobs_external_nj; internal_jobs; external_inbound_share_nj_network; external_outbound_share_nj_network,Static regional columns absorbed by full region FE; retain for tree models.
+inbound_weight_nj; outbound_weight_nj,"Route-level fields, not one predictor per region-day. Inbound information enters pressure."
+coverage flags; mapping status; source metadata; person diagnostic counts,"Audit fields, not prespecified predictors or validated outcomes."

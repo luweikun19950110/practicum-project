@@ -1,0 +1,13 @@
+{
+  "run_id": "20261026T005659191473Z",
+  "rows_predictions": 649428,
+  "regions": 598,
+  "pressure_comparison_regions": 590,
+  "model_fits": 468,
+  "all_checks_passed": true,
+  "outputs": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\dynamic_panel_window_comparison_outputs\\validation_windows_20261026T005454220611Z\\candidate_runs\\window_180d_20261026T005659191473Z",
+  "forecast_origin_dates_by_split": {
+    "validation": 362
+  },
+  "selection_status": "Validation-only candidate window. Test has not been evaluated in this experiment."
+}

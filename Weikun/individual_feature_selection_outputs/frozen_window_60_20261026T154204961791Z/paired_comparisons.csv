@@ -1,0 +1,21 @@
+period,comparison_type,baseline,candidate,delta_MAE_baseline_minus_candidate,ci95_low_pointwise,ci95_high_pointwise,p_HAC_raw_exploratory,interpretation,p_Holm_all_20_exploratory
+selection,methods_at_60_days,FULL,BACKWARD,-0.0002442686339920337,-0.019757107703245978,0.008625788887215269,0.9771985631933754,Positive favors candidate; p-values do not measure practical benefit.,1.0
+selection,methods_at_60_days,FULL,FORWARD,0.0030641993123656625,-0.023890269310846306,0.017243910076908696,0.7928230550195485,Positive favors candidate; p-values do not measure practical benefit.,1.0
+selection,methods_at_60_days,FULL,STEPWISE,0.0030641993123656625,-0.023890269310846306,0.017243910076908696,0.7928230550195485,Positive favors candidate; p-values do not measure practical benefit.,1.0
+selection,methods_at_60_days,BACKWARD,FORWARD,0.0033084679463576973,-0.01323290481712968,0.018792536893092147,0.6885227974426864,Positive favors candidate; p-values do not measure practical benefit.,1.0
+selection,methods_at_60_days,BACKWARD,STEPWISE,0.0033084679463576973,-0.01323290481712968,0.018792536893092147,0.6885227974426864,Positive favors candidate; p-values do not measure practical benefit.,1.0
+selection,methods_at_60_days,FORWARD,STEPWISE,0.0,0.0,0.0,,Positive favors candidate; p-values do not measure practical benefit.,
+selection,same_frozen_features_30_vs_60,FULL_30d,FULL_60d,0.023228984293258034,-0.0016562322600065448,0.049438097460393064,0.07914174796426322,Positive favors candidate; p-values do not measure practical benefit.,1.0
+selection,same_frozen_features_30_vs_60,BACKWARD_30d,BACKWARD_60d,0.015955643066271192,-0.01956122294541825,0.050337346694205566,0.3804351765416889,Positive favors candidate; p-values do not measure practical benefit.,1.0
+selection,same_frozen_features_30_vs_60,FORWARD_30d,FORWARD_60d,0.02009766344848802,-0.01041975880985282,0.04867201029204919,0.1859715264706106,Positive favors candidate; p-values do not measure practical benefit.,1.0
+selection,same_frozen_features_30_vs_60,STEPWISE_30d,STEPWISE_60d,0.02009766344848802,-0.01041975880985282,0.04867201029204919,0.1859715264706106,Positive favors candidate; p-values do not measure practical benefit.,1.0
+later_validation,methods_at_60_days,FULL,BACKWARD,-0.0004381898412149002,-0.01389651048463434,0.0020985616770771934,0.9464168350305647,Positive favors candidate; p-values do not measure practical benefit.,1.0
+later_validation,methods_at_60_days,FULL,FORWARD,-0.005784657756917467,-0.02476384279803964,-0.001407139598185528,0.523774651669426,Positive favors candidate; p-values do not measure practical benefit.,1.0
+later_validation,methods_at_60_days,FULL,STEPWISE,-0.005784657756917467,-0.02476384279803964,-0.001407139598185528,0.523774651669426,Positive favors candidate; p-values do not measure practical benefit.,1.0
+later_validation,methods_at_60_days,BACKWARD,FORWARD,-0.005346467915702567,-0.012999917006315649,-0.0015479826060569785,0.11229926074407424,Positive favors candidate; p-values do not measure practical benefit.,1.0
+later_validation,methods_at_60_days,BACKWARD,STEPWISE,-0.005346467915702567,-0.012999917006315649,-0.0015479826060569785,0.11229926074407424,Positive favors candidate; p-values do not measure practical benefit.,1.0
+later_validation,methods_at_60_days,FORWARD,STEPWISE,0.0,0.0,0.0,,Positive favors candidate; p-values do not measure practical benefit.,
+later_validation,same_frozen_features_30_vs_60,FULL_30d,FULL_60d,0.02172234848933383,0.012246729988757704,0.028323441137431835,2.479108987716484e-05,Positive favors candidate; p-values do not measure practical benefit.,0.00044623961778896714
+later_validation,same_frozen_features_30_vs_60,BACKWARD_30d,BACKWARD_60d,0.01893769244926787,0.00886457542337895,0.03270547554446127,0.001883107206273564,Positive favors candidate; p-values do not measure practical benefit.,0.032012822506650586
+later_validation,same_frozen_features_30_vs_60,FORWARD_30d,FORWARD_60d,0.006743465472324435,-0.006621520434956895,0.018419672410754533,0.3115226450267618,Positive favors candidate; p-values do not measure practical benefit.,1.0
+later_validation,same_frozen_features_30_vs_60,STEPWISE_30d,STEPWISE_60d,0.006743465472324435,-0.006621520434956895,0.018419672410754533,0.3115226450267618,Positive favors candidate; p-values do not measure practical benefit.,1.0

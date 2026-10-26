@@ -1,0 +1,15 @@
+{
+  "rows_source_panel": 873678,
+  "matched_regions": 590,
+  "validation_forecast_dates": 362,
+  "models": 8,
+  "training_windows": [
+    30,
+    60
+  ],
+  "model_fits": 2496,
+  "paired_tests": 64,
+  "test_evaluated": false,
+  "self_checks_passed": true,
+  "path": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\dynamic_panel_feature_experiment_outputs\\feature_ablation_20261026T143430935788Z"
+}

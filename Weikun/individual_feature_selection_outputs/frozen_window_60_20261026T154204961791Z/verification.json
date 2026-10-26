@@ -1,0 +1,11 @@
+{
+  "source_hash_matches_selection_run": true,
+  "cohort_dates_targets_match_30d_archive": true,
+  "features_reselected": false,
+  "all_predictions_finite": true,
+  "forward_stepwise_predictions_identical": true,
+  "cached_subset_OLS_matches_direct_OLS": true,
+  "regions": 585,
+  "forecast_dates": 362,
+  "test_evaluated": false
+}

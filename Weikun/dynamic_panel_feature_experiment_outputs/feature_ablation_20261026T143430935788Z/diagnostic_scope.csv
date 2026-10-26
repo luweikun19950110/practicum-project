@@ -1,0 +1,5 @@
+diagnostic,status,reason
+Sargan / Hansen instruments,not applicable,No GMM estimator or instruments in this experiment.
+Arellano-Bond AR(2),not applicable,Not the GMM differenced-residual diagnostic; save descriptive forecast residual correlations instead.
+PR-AUC / warning lead time,deferred,Requires an agreed outbreak event and warning rule.
+Residual Moran I,deferred,Requires an agreed real geographic weights matrix; no random substitute.
