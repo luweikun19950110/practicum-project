@@ -57,3 +57,11 @@ Notebook 15 now compares Backward, Forward and Stepwise using identical early-20
 
 17_pressure_contribution_and_benchmarks.ipynb removes only 7-day pressure from the frozen compact FE model, retaining matched 585-region forecasts and 60-day windows. Includes persistence/seasonal-naive benchmarks, horizon/month/region comparisons and exploratory uncertainty. Results: pressure_validation_outputs/pressure_check_20261026T160907020618Z. No feature reselection or 2022-2023 test evaluation.
 
+
+
+### Notebook 18: Required-pressure feature selection
+7-day Pressure is required, with 14-day Pressure optional. Backward/Forward/Stepwise retain 21/9/9 encoded columns plus ZIP fixed effects. Same 585-region cohort and 30-day weekly-refit protocol as Notebook 15; selection January-June 2021, frozen-list validation July-December 2021. The free search already retained 7-day Pressure, so the final lists and predictions are unchanged. Results: `required_pressure_selection_outputs/required_pressure_20261026T183725469346Z/`. No new test evaluation; no-pressure ablation remains in Notebook 17.
+
+
+### Notebook 19: Cross-year windows
+Frozen required-pressure compact and Backward specifications, common 585 regions and 1,261 forecast dates, horizons 1/2/3, weekly retraining, 30/60/90/180-day windows. Exploratory 2020-2023 rolling backtest; 2020 partial-year historical replay, 2021 feature-selection data, and previously inspected 2022-2023 outcomes. Results: `cross_year_window_outputs/cross_year_20261026T203232037640Z/`.

@@ -1,0 +1,9 @@
+{
+  "all_windows_same_regions_dates_horizons": true,
+  "all_predictions_finite": true,
+  "all_training_labels_mature_by_fit": true,
+  "required_pressure_in_both_specs": true,
+  "direct_OLS_max_difference": 7.598366380534571e-13,
+  "features_reselected": false,
+  "untouched_test_claim": false
+}

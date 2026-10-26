@@ -1,0 +1,60 @@
+{
+  "source": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\nj_daily_feature_outputs\\nj_daily_features.csv.gz",
+  "source_sha256": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4",
+  "frozen_specs": {
+    "COMPACT_REQUIRED_PRESSURE": [
+      "cases_today",
+      "cases_mean_7d",
+      "nj_covid_pressure_7d",
+      "target_weekday_2",
+      "target_weekday_3",
+      "target_weekday_4",
+      "target_weekday_5",
+      "target_weekday_6",
+      "target_weekday_7"
+    ],
+    "BACKWARD_REQUIRED_PRESSURE": [
+      "cases_today",
+      "cases_lag_1",
+      "cases_lag_7",
+      "cases_lag_14",
+      "cases_mean_7d",
+      "case_std_7d",
+      "case_std_14d",
+      "case_acceleration",
+      "case_jerk",
+      "case_rate_today_per_100k",
+      "case_rate_7d_per_100k",
+      "case_rate_14d_per_100k",
+      "no_previous_observed_case",
+      "nj_covid_pressure_7d",
+      "nj_covid_pressure_14d",
+      "target_weekday_2",
+      "target_weekday_3",
+      "target_weekday_4",
+      "target_weekday_5",
+      "target_weekday_6",
+      "target_weekday_7"
+    ]
+  },
+  "windows": [
+    30,
+    60,
+    90,
+    180
+  ],
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "regions": 585,
+  "refit_every_days": 7,
+  "forecast_origin_start": "2020-07-16",
+  "forecast_origin_end": "2023-12-28",
+  "information_set": "Retrospective onset-date history through forecast origin; latest training label <= weekly fit date. Actual reporting delays not modeled.",
+  "scope": "Exploratory cross-year backtest, not untouched test. 2021 used for feature selection; 2020 retrospective historical replay; 2022-23 outcomes previously inspected. No feature reselection.",
+  "calendar_groups": "Year and quarter determined by forecast origin; exclude last three origins crossing group boundary. Calendar quarters are not named epidemic waves.",
+  "aggregation": "Equal regions per date, equal horizons. Summary RMSE averages horizon-specific RMSE.",
+  "feature_selection_source": "outputs\\nj_required_pressure_selection\\results\\required_pressure_20261026T183725469346Z"
+}

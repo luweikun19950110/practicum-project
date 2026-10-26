@@ -1,0 +1,19 @@
+{
+  "self_checks_passed": true,
+  "cached_subset_OLS_matches_direct_OLS": true,
+  "regions": 585,
+  "forecast_dates": 362,
+  "unique_search_specifications": 112,
+  "search_trial_records": 161,
+  "all_predictions_finite": true,
+  "lists_frozen_before_later_losses": true,
+  "required_pressure_present_all_final_lists": true,
+  "required_pressure_never_a_search_candidate": true,
+  "test_evaluated": false,
+  "all_scored_candidates_retain_required_pressure": true,
+  "selection_paths_and_stopping_verified": true,
+  "same_frozen_lists_and_predictions_as_free_search": true,
+  "saved_metrics_independently_recomputed": true,
+  "max_metric_difference": 4.440892098500626e-16,
+  "training_target_timing_verified": true
+}

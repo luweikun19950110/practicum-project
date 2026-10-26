@@ -6,3 +6,6 @@ __pycache__/
 Weikun/nj_daily_feature_outputs/nj_daily_features.building.csv
 
 Weikun/nj_daily_feature_outputs/nj_daily_features.building.csv
+
+# Large reproducible prediction archives remain local.
+Weikun/cross_year_window_outputs/**/predictions.npz
