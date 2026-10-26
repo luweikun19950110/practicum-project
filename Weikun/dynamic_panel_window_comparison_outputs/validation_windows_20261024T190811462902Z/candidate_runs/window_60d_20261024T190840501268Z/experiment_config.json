@@ -1,0 +1,46 @@
+{
+  "run_id": "20261024T190840501268Z",
+  "training_window_calendar_days": 60,
+  "retrain_every_forecast_days": 7,
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "validation_target_boundaries": [
+    "2021-01-01",
+    "2021-12-31"
+  ],
+  "test_target_boundaries": [
+    "2022-01-01",
+    "2023-12-31"
+  ],
+  "source": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\nj_daily_feature_outputs\\nj_daily_features.csv.gz",
+  "source_sha256": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4",
+  "model": "Direct horizon-specific dynamic panel with region fixed effects, estimated by within OLS.",
+  "features": [
+    "cases_today",
+    "cases_lag_1",
+    "cases_lag_7",
+    "target_weekday (Monday reference, six dummies)"
+  ],
+  "pressure_variant": "Same model + nj_covid_pressure_7d on fixed source-coverage-eligible cohort",
+  "outcome": "Recorded-onset rows after exact deduplication. Missing onset excluded, absent ZIP/date records zero as confirmed by user.",
+  "evaluation": "MAE/RMSE on nonnegative-clipped count forecasts; raw predictions retained. No rounding to integers.",
+  "training_boundary": "For fit date t and horizon h, 90 (or configured W) origin dates end at t-h; all training labels <= t.",
+  "weekly_policy": "Fixed-effects coefficients refit weekly; each day uses newly observed history. Refit schedule restarts at each split.",
+  "test_policy": "NOT EVALUATED. This experiment uses validation data only for training-window selection.",
+  "geography": "ZIP/ZCTA mapping remains unvalidated; pressure conditional on supplied static population/geographic assumptions.",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "limitations": [
+    "Retrospective onset-date evaluation, not real-time reporting simulation.",
+    "Fixed-effects lagged-outcome OLS is a predictive baseline, not causal inference or a GMM estimator.",
+    "Onset completeness changes substantially by year; inspect year-specific metrics.",
+    "No outbreak labels, PR-AUC, warning lead time or Moran diagnostics computed in this experiment."
+  ],
+  "test_evaluated": false
+}

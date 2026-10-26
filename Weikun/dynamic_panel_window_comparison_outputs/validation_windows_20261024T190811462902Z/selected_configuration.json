@@ -1,0 +1,21 @@
+{
+  "selected_window_days": 30,
+  "primary_model": "Dynamic panel FE + pressure",
+  "rule": "Minimum mean validation MAE over horizons 1/2/3; RMSE then shorter window break ties.",
+  "mean_validation_MAE": 1.1273297775386382,
+  "mean_validation_RMSE": 1.9508480098117502,
+  "candidate_windows": [
+    30,
+    60,
+    90,
+    180
+  ],
+  "regions": 590,
+  "same_validation_rows_verified": true,
+  "validation_start": "2021-01-01",
+  "validation_end": "2021-12-31",
+  "retrain_every": 7,
+  "test_evaluated": false,
+  "scope": "Conditional choice for this model, features, cohort and validation period; not a universal best window.",
+  "next_step": "Freeze settings before subsequent test assessment. Earlier test results have already been inspected, so they are not an untouched new test."
+}

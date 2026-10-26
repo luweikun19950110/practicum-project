@@ -1,0 +1,15 @@
+{
+  "invalid_population_regions": 8,
+  "missing_population_records": 0,
+  "zero_estimates_in_original_population_file": 8,
+  "all_eight_present_in_gazetteer_and_lodes": true,
+  "population_join_value_mismatches": 0,
+  "postal_zip_to_zcta_mapping_validated": false,
+  "invalid_population_origins_with_positive_external_nj_outflow": 8,
+  "affected_destinations": 128,
+  "maximum_invalid_source_weight": 0.014705882352941176,
+  "median_invalid_source_weight": 0.00020265827531216026,
+  "supplied_population_geography": "ZCTA (860Z200US identifiers), not a postal ZIP correspondence table",
+  "supplied_lodes_crosswalk_geography": "2020 Census block to ZCTA; createdate in supplied file is 20251202",
+  "no_case_or_model_files_modified": true
+}

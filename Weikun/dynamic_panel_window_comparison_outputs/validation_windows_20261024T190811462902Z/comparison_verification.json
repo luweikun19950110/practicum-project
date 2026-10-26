@@ -1,0 +1,15 @@
+{
+  "checks_passed": true,
+  "validation_only": true,
+  "candidate_windows": [
+    30,
+    60,
+    90,
+    180
+  ],
+  "matched_regions": 590,
+  "same_evaluation_rows": true,
+  "saved_prediction_metrics_recomputed": true,
+  "training_label_boundaries_checked": true,
+  "selected_window_days": 30
+}

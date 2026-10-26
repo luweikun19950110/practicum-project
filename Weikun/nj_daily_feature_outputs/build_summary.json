@@ -1,0 +1,27 @@
+{
+  "rows": 873678,
+  "columns": 54,
+  "regions": 598,
+  "days": 1461,
+  "start": "2020-01-01",
+  "end": "2023-12-31",
+  "case_count_sum": 1040394,
+  "nj_routes_including_self": 181994,
+  "nj_external_routes": 181436,
+  "nj_network_jobs": 3439824,
+  "regions_without_external_inflow": 8,
+  "regions_without_valid_origin_inflow": 8,
+  "regions_with_valid_origin_pressure": 590,
+  "regions_without_valid_population": 8,
+  "pressure_nonmissing_rows": {
+    "7": 858450,
+    "14": 854320
+  },
+  "geographic_mapping": "Exact ZIP/ZCTA identifier match only; correspondence remains unvalidated.",
+  "target_basis": "Retrospective recorded illness-onset rows after exact-row deduplication, not all infections.",
+  "zero_rule": "Absent source ZIP/date groups are zero as confirmed by user; missing onset rows remain excluded.",
+  "source_coverage_flag": "Original surveillance_coverage_confirmed column retained unchanged as prior metadata; user zero-rule confirmation is a separate field.",
+  "network_scope": "NJ-to-NJ only; external excludes self-links; shares use NJ-network denominators.",
+  "pressure_policy": "v2: fixed NJ valid-population origins only, inbound weights renormalized over valid origins. Coverage column uses this new denominator; original-network coverage and static retained-weight fraction are preserved separately. No valid inflow is unavailable.",
+  "status": "Candidate features computed. No future labels, model fitting or final feature selection. Mapping and infection-episode definitions still require review."
+}

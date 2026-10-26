@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 873678,
+  "unchanged_old_columns": 46,
+  "pressure_available_regions_after_initial_window": 590,
+  "old_original_network_coverage_preserved": true,
+  "previously_complete_pressure_values_unchanged": true,
+  "invalid_population_origins_have_zero_new_weight": true,
+  "valid_origin_destination_weights_sum_to_one": true
+}

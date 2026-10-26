@@ -1,0 +1,14 @@
+{
+  "run_id": "20261024T185556193544Z",
+  "rows_predictions": 1953666,
+  "regions": 598,
+  "pressure_comparison_regions": 590,
+  "model_fits": 1404,
+  "all_checks_passed": true,
+  "outputs": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\dynamic_panel_nj_outputs\\window_90d_20261024T185556193544Z",
+  "forecast_origin_dates_by_split": {
+    "test": 727,
+    "validation": 362
+  },
+  "selection_status": "90-day (or configured) starting experiment. Not a validation-selected best window."
+}

@@ -1,0 +1,35 @@
+{
+  "repo": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun",
+  "stage": "C:\\Users\\41240\\Documents\\Codex\\2026-10-06\\new-chat\\outputs\\weikun_layout_update",
+  "notebooks": [
+    "07_clean_real_nj_covid.ipynb",
+    "09_build_nj_daily_features.ipynb",
+    "10_dynamic_panel_nj_cases.ipynb",
+    "population_geography_audit/11_audit_population_geography.ipynb"
+  ],
+  "moves": {
+    "Real NJ COVID Zip.csv": "real_nj_cleaning_outputs/Real NJ COVID Zip.csv",
+    "nj_daily_features.csv.gz": "nj_daily_feature_outputs/nj_daily_features.csv.gz",
+    "build_summary.json": "nj_daily_feature_outputs/build_summary.json",
+    "feature_missingness.csv": "nj_daily_feature_outputs/feature_missingness.csv",
+    "nj_commuting_weights_2021.csv": "nj_daily_feature_outputs/nj_commuting_weights_2021.csv",
+    "nj_daily_features_preview.csv": "nj_daily_feature_outputs/nj_daily_features_preview.csv",
+    "nj_regional_features_2021.csv": "nj_daily_feature_outputs/nj_regional_features_2021.csv",
+    "pressure_v2_verification.json": "nj_daily_feature_outputs/pressure_v2_verification.json"
+  },
+  "original_sha256": {
+    "07_clean_real_nj_covid.ipynb": "b3d7f8a2490ff43fe7e6dd6068a5007ac485f68615bd9eb39975856b878842dd",
+    "09_build_nj_daily_features.ipynb": "e92d24fac33340c747bda7a9626119308feea92c6c72d0db8c3ddf05fc5929d8",
+    "10_dynamic_panel_nj_cases.ipynb": "72a58710ee9e1d6fbb2058fb6f323c6b0cbfe6a0eab8f4a37ae3d22b06e23e9b",
+    "population_geography_audit/11_audit_population_geography.ipynb": "3306d70cad9cc9e2463db1c07eb050ebd1ebee99ee119526ff17a449f099ec5b",
+    "Real NJ COVID Zip.csv": "397b755e97ff4deca3cad7d6d233f1eca447f91b5ffecaf0fda3c9791a180041",
+    "nj_daily_features.csv.gz": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4",
+    "build_summary.json": "1bdd4a6f24c442cd3bb3b81ce85fca80b500fd27614ea6cd9f81c87fcce4096c",
+    "feature_missingness.csv": "ad3ef5debef541e3039140f505adfe901a8ffff224a67da22771e3eb9f5e3394",
+    "nj_commuting_weights_2021.csv": "5997ca61fe68aba9def5dd11d7a1e0a15530e311c9094831264c0d02b73174f3",
+    "nj_daily_features_preview.csv": "632cdc0ce920ce273a361e95369a6309ed73be7c8313e8af1ecb202ae33b6225",
+    "nj_regional_features_2021.csv": "9a5d14eb6dfa96579bce212671722f3d7b5d452635336eb0247fa29c3fb44162",
+    "pressure_v2_verification.json": "29a8e73ec17467c4b4cbc22a89a46c1bba7a7af2da746a1cebe4e1b4f920867d",
+    "README.md": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  }
+}
