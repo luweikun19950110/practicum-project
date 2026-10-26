@@ -1,0 +1,2 @@
+n_windows,n_metric_rows,horizons,share_windows_h1_beat_persistence,mean_model_MAE_h1,mean_persistence_MAE_h1
+23,69,"1,2,3",0.5217391304347826,0.7256442323324576,0.7843514207436023
