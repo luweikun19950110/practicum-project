@@ -1,0 +1,35 @@
+{
+  "primary_metric": "trajectory_MAE",
+  "primary_direction_threshold": 0,
+  "targets": "Raw daily recorded illness-onset counts, not a three-day moving average",
+  "path": "Three future daily count predictions issued from the SAME ZIP and forecast origin",
+  "prediction_shape": [
+    "region",
+    "forecast_origin",
+    "horizon"
+  ],
+  "regions": 585,
+  "forecast_origins": 28,
+  "paths": 16380,
+  "target_values": 49140,
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "forecast_origin_start": "2020-05-01",
+  "forecast_origin_end": "2020-05-28",
+  "clipping": "max(raw_prediction,0), no rounding",
+  "aggregation": "Equal weight to all 585x28 ZIP-origin paths, then three horizons equally. Do not sum ZIPs before computing primary score.",
+  "slope": "(day3-day1)/2, cases/day",
+  "direction": "Sign of slope; endpoint-flat may include an interior peak or trough",
+  "shape": "Exact match of BOTH consecutive daily change signs; endpoint slope cannot capture all shapes",
+  "forecast_protocol": "Fixed March1-April29 2020 parameter-training interval; fit April30, May1-28 origins, no May labels for fitting. Predictors updated through origin.",
+  "feature_design": "34 candidates, ZIP FE; 24 identifiable slopes per horizon in this interval. Not a predictive selection experiment.",
+  "model_role": "Dynamic Panel trajectory forecast is the benchmark output for subsequent models.",
+  "comparison_rule": "Future models must match reference region IDs, forecast origins, horizon order and actual targets. Tune only using declared development data, never May evaluation scores.",
+  "limitations": "Exploratory replay with later-developed definitions and retrospective onset counts. May covers mostly decline. No untouched-test or outbreak-warning claim.",
+  "reference_sha256": "3edda25996616dc417d9e85bce77ada89ef49d2433058fcc12fa9ff7e0c136dd",
+  "candidate_sha256": "3edda25996616dc417d9e85bce77ada89ef49d2433058fcc12fa9ff7e0c136dd",
+  "model_name": "Dynamic Panel FE"
+}

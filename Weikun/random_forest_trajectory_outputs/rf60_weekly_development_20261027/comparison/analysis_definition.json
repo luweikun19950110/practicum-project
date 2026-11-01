@@ -1,0 +1,29 @@
+{
+  "models": {
+    "Dynamic Panel FE": {
+      "path": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\rolling_trajectory_outputs\\rolling60_weekly_development_20261027\\predictions.npz",
+      "sha256": "3fce9343aea4807a4f69cfba300c78f036630306e8ada1e1578e0d7038bfdc23"
+    },
+    "XGBoost": {
+      "path": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\xgboost_trajectory_outputs\\xgb60_weekly_development_20261027\\predictions.npz",
+      "sha256": "532299b807fd8394e66fa9ad6fced47b880f5a76c029c2a17b7843adfca620ad"
+    },
+    "Random Forest": {
+      "path": "outputs\\nj_random_forest_trajectory\\results\\rf60_weekly_development_20261027\\predictions.npz",
+      "sha256": "be006c97a3db4f3fdc1814ef3da6cbfd39058d68805f14236781a266c0a5adfc"
+    }
+  },
+  "primary": "Raw-count trajectory MAE, threshold0 direction is supporting; never select a sign threshold by its validation accuracy",
+  "thresholds": [
+    0,
+    0.5,
+    1
+  ],
+  "threshold_interpretation": "Different deadbands change truth labels, predicted labels and class balance; higher agreement does not imply improved original target prediction.",
+  "p_family": "Three pairwise MAE differences, Holm correction. Supporting metrics have pointwise CIs only, no unadjusted p claims.",
+  "ci": "Common moving date-block draws7days primary/14days sensitivity,2000; no IID region assumption",
+  "report_role": "Exploratory2020 rolling validation with previously developed features/cohort; not final holdout.",
+  "no_new_features": true,
+  "no_pressure_ablation": true,
+  "no_model_refit_in_comparison": true
+}

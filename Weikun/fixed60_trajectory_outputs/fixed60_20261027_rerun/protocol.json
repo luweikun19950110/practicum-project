@@ -1,0 +1,37 @@
+{
+  "fixed_training_interval": [
+    "2020-03-01",
+    "2020-04-29"
+  ],
+  "calendar_days": 60,
+  "fit_date": "2020-04-30",
+  "retraining_during_may": false,
+  "reason": "User confirmed one fixed 60-day date interval. Re-fitting the same complete data has identical parameters.",
+  "forecast_origins": [
+    "2020-05-01",
+    "2020-05-28"
+  ],
+  "historical_predictors": "Updated through each forecast origin, but no May labels enter parameter fitting.",
+  "regions": 585,
+  "candidate_columns": 34,
+  "region_FE": true,
+  "all_candidates_considered": true,
+  "predictive_feature_selection": false,
+  "warmup_days_within_interval": 14,
+  "source": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\fixed60_trajectory_outputs\\fixed60_20261027\\input_snapshot.csv.gz",
+  "source_sha256": "203d902834d74142678a4e6e9cedb9ce29228599d068f553192d310967c1d44e",
+  "source_definition": "Retrospective onset counts, valid_population_nj_origins_renormalized_v2.",
+  "unseen_target_month": "May-specific dummy never varies in training and is omitted. May has no estimated month-specific effect. Month levels encountered are logged; no future parameters are estimated.",
+  "static_features": "Population, density and static commuting attributes absorbed by ZIP FE. Exact duplicate sums/velocity not separately represented.",
+  "sparse_history": "Reset at fixed interval start. No pre-March case history used.",
+  "evaluation": "Exploratory historical replay. Existing cohort/feature definitions used later data. No untouched-test or real-time reporting-delay claim.",
+  "trajectory": "Three raw daily-count predictions from one origin; no 3-day smoothing of prediction targets.",
+  "shape_metrics": {
+    "trajectories": 16380,
+    "slope_MAE": 0.4120987909879548,
+    "slope_RMSE": 0.7922386926235802,
+    "two_step_exact_direction_agreement": 0.15152625152625152,
+    "mean_three_point_MAE": 0.9810209401918949,
+    "primary_direction_rule": "Signs of day3-minus-day1, exact zero classified flat. Threshold 0.5 and 1 cases/day are prespecified sensitivity summaries, not tuned choices."
+  }
+}

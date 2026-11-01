@@ -1,0 +1,5 @@
+metric,ci95_low,ci95_high,block_days,resamples,interpretation
+trajectory_MAE,0.9232817326146365,1.0289081633749149,7,2000,Exploratory pointwise interval over 28 forecast origins; conditional on fixed cohort/model. Not model-selection-adjusted.
+slope_MAE,0.39581177835628273,0.42959382814677444,7,2000,Exploratory pointwise interval over 28 forecast origins; conditional on fixed cohort/model. Not model-selection-adjusted.
+strict_direction_agreement,0.3224664224664224,0.39554792429792424,7,2000,Exploratory pointwise interval over 28 forecast origins; conditional on fixed cohort/model. Not model-selection-adjusted.
+two_step_shape_agreement,0.11885836385836386,0.1894429181929182,7,2000,Exploratory pointwise interval over 28 forecast origins; conditional on fixed cohort/model. Not model-selection-adjusted.

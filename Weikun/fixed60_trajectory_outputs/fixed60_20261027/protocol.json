@@ -1,0 +1,37 @@
+{
+  "fixed_training_interval": [
+    "2020-03-01",
+    "2020-04-29"
+  ],
+  "calendar_days": 60,
+  "fit_date": "2020-04-30",
+  "retraining_during_may": false,
+  "reason": "User confirmed one fixed 60-day date interval. Re-fitting the same complete data has identical parameters.",
+  "forecast_origins": [
+    "2020-05-01",
+    "2020-05-28"
+  ],
+  "historical_predictors": "Updated through each forecast origin, but no May labels enter parameter fitting.",
+  "regions": 585,
+  "candidate_columns": 34,
+  "region_FE": true,
+  "all_candidates_considered": true,
+  "predictive_feature_selection": false,
+  "warmup_days_within_interval": 14,
+  "source": "outputs\\nj_daily_features_valid_origins\\processed\\nj_daily_features.csv.gz",
+  "source_sha256": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4",
+  "source_definition": "Retrospective onset counts, valid_population_nj_origins_renormalized_v2.",
+  "unseen_target_month": "May-specific dummy never varies in training and is omitted. May has no estimated month-specific effect. Month levels encountered are logged; no future parameters are estimated.",
+  "static_features": "Population, density and static commuting attributes absorbed by ZIP FE. Exact duplicate sums/velocity not separately represented.",
+  "sparse_history": "Reset at fixed interval start. No pre-March case history used.",
+  "evaluation": "Exploratory historical replay. Existing cohort/feature definitions used later data. No untouched-test or real-time reporting-delay claim.",
+  "trajectory": "Three raw daily-count predictions from one origin; no 3-day smoothing of prediction targets.",
+  "shape_metrics": {
+    "trajectories": 16380,
+    "slope_MAE": 0.41209879098795293,
+    "slope_RMSE": 0.7922386926235779,
+    "two_step_exact_direction_agreement": 0.15152625152625152,
+    "mean_three_point_MAE": 0.9810209401918953,
+    "primary_direction_rule": "Signs of day3-minus-day1, exact zero classified flat. Threshold 0.5 and 1 cases/day are prespecified sensitivity summaries, not tuned choices."
+  }
+}

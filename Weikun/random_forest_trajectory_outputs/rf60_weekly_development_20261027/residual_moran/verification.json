@@ -1,0 +1,9 @@
+{
+  "all585_coordinates_present": true,
+  "weights_zero_diagonal": true,
+  "weights_rows_sum_to_one": true,
+  "dense_formula_crosscheck": true,
+  "sign_invariance_verified": true,
+  "predictions_unchanged": true,
+  "tests": 729
+}

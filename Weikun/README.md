@@ -65,3 +65,7 @@ Notebook 15 now compares Backward, Forward and Stepwise using identical early-20
 
 ### Notebook 19: Cross-year windows
 Frozen required-pressure compact and Backward specifications, common 585 regions and 1,261 forecast dates, horizons 1/2/3, weekly retraining, 30/60/90/180-day windows. Exploratory 2020-2023 rolling backtest; 2020 partial-year historical replay, 2021 feature-selection data, and previously inspected 2022-2023 outcomes. Results: `cross_year_window_outputs/cross_year_20261026T203232037640Z/`.
+
+
+### Notebook 22: Trajectory benchmark
+Overall three-day path scorecard from Notebook 21, with no refit or feature changes. Primary trajectory MAE, slope/shape metrics, imbalance diagnostics and reusable aligned-model scoring. Fixed March1-April29 training interval and May1-28 origins. Exploratory historical replay. Results: `trajectory_benchmark_outputs/benchmark_20261027/`.

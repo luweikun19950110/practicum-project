@@ -1,0 +1,10 @@
+k,horizon,mean_Moran_I,median_Moran_I,positive_I_share,inference
+4,1,0.029722687390108898,0.027066815390999543,0.7489711934156379,Descriptive sensitivity only; no p-values for alternative k
+4,2,0.03566845289588327,0.032225916743092976,0.7777777777777778,Descriptive sensitivity only; no p-values for alternative k
+4,3,0.043076519462513584,0.03561777583308149,0.8024691358024691,Descriptive sensitivity only; no p-values for alternative k
+8,1,0.025396079950517958,0.019897520492381544,0.7777777777777778,Descriptive sensitivity only; no p-values for alternative k
+8,2,0.03182566744166999,0.024509414922876845,0.8065843621399177,Descriptive sensitivity only; no p-values for alternative k
+8,3,0.03891113990822561,0.031635212299869,0.823045267489712,Descriptive sensitivity only; no p-values for alternative k
+12,1,0.02248982686691944,0.018045210189469054,0.7860082304526749,Descriptive sensitivity only; no p-values for alternative k
+12,2,0.02831372736925827,0.021590237935342933,0.831275720164609,Descriptive sensitivity only; no p-values for alternative k
+12,3,0.034822354245540026,0.02783055463326137,0.8683127572016461,Descriptive sensitivity only; no p-values for alternative k

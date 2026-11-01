@@ -1,0 +1,25 @@
+{
+  "regions": 585,
+  "review_start": "2020-02-01",
+  "review_end": "2020-06-30",
+  "aggregate_trailing_7d_peak_date": "2020-04-05",
+  "aggregate_trailing_7d_peak_count": 2324.8571428571427,
+  "illustrative_training_period": [
+    "2020-03-01",
+    "2020-04-30"
+  ],
+  "training_calendar_days": 61,
+  "illustrative_scoring_origins": [
+    "2020-05-01",
+    "2020-05-28"
+  ],
+  "reason_for_may28_end": "All h=1/2/3 target dates remain within May.",
+  "examples_selected_before_plotting": [
+    "08901",
+    "07102",
+    "07030",
+    "08540"
+  ],
+  "model_trained": false,
+  "final_window_selected": false
+}

@@ -1,0 +1,6 @@
+{
+  "trailing_three_days_includes_current_and_previous_two": true,
+  "daily_counts_unchanged": true,
+  "training_scoring_dates_unchanged": true,
+  "model_trained": false
+}

@@ -1,0 +1,8 @@
+{
+  "no_model_refitted": true,
+  "region_origin_horizon_targets_match_reference": true,
+  "primary_path_mean_equals_pooled_MAE": true,
+  "primary_score_reconciles_with_daily_scores": true,
+  "confusion_count_equals_paths": true,
+  "per_zip_score_tables_created": false
+}

@@ -1,0 +1,11 @@
+{
+  "training_interval_exactly_60_calendar_days": true,
+  "all_training_targets_inside_fixed_interval": true,
+  "no_may_training_labels": true,
+  "training_feature_lookbacks_inside_interval": true,
+  "all_predictions_finite": true,
+  "horizons_share_same_region_origins": true,
+  "direct_OLS_max_difference": 9.936496070395151e-13,
+  "raw_predictions_saved": true,
+  "per_zip_score_tables_created": false
+}

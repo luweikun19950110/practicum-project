@@ -1,0 +1,27 @@
+{
+  "stage": "development",
+  "initial_training": [
+    "2020-03-01",
+    "2020-04-29"
+  ],
+  "development": [
+    "2020-04-30",
+    "2020-12-31"
+  ],
+  "evaluation": [
+    "2021-01-01",
+    "2023-12-31"
+  ],
+  "window_calendar_days": 60,
+  "retrain_every_days": 7,
+  "first_fit": "2020-04-29 end of day",
+  "prediction": "Daily end-of-day origin predicts t+1,t+2,t+3; raw onset counts",
+  "boundaries": "All3 targets remain within stage; development origins end Dec28 2020, evaluation origins end Dec28 2023. December29-31 origins omitted to avoid crossing targets.",
+  "maturity": "Every training target <=fit date; forecast targets >forecast origin>=fit date",
+  "feature_policy": "Same34 candidates including bothPressure plus one-hot ZIP identity. No new static attributes, no feature selection. Training-only tree splits; no early stopping on validation.",
+  "warmup": "14 days inside each60-day window,45/44/43 usable training origins per ZIP per horizon; sparse-history state reset at window start",
+  "inputs": "Updated daily through origin; coefficients updated only on anchored7-day schedule",
+  "evaluation_policy": "Algorithm and settings frozen before subsequent-period run. Past realized evaluation labels may enter future scheduled fits; no retrospective prediction changes or manual tuning.",
+  "limitation": "Exploratory retrospective time evaluation;2021-2023 previously inspected. Onset-date availability assumed, reporting delays not modeled.",
+  "source_sha256": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4"
+}

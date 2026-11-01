@@ -1,0 +1,11 @@
+model,metric,value,unit,role,definition
+Dynamic Panel FE,trajectory_MAE,0.9810209401918952,cases,primary,"Mean of three absolute daily errors per ZIP-origin path, then mean across all paths"
+Dynamic Panel FE,pooled_RMSE,1.962174523427873,cases,secondary,Root mean squared error across all ZIP-origin-horizon targets
+Dynamic Panel FE,mean_path_RMSE,1.1034714870429647,cases,secondary,Mean of each individual three-point path RMSE; differs from pooled RMSE
+Dynamic Panel FE,mean_bias,0.6728546894077131,cases,diagnostic,"Prediction minus actual, pooled across targets"
+Dynamic Panel FE,slope_MAE,0.41209879098795293,cases/day,secondary,Slope=(day3-day1)/2; mean absolute predicted-minus-actual slope error
+Dynamic Panel FE,strict_direction_agreement,0.35433455433455435,proportion,secondary,"Sign of day3-day1: negative declining, exact zero flat, positive rising"
+Dynamic Panel FE,balanced_direction_accuracy,0.42688970593157416,proportion,diagnostic,"Mean recall across actual declining, flat and rising classes"
+Dynamic Panel FE,two_step_shape_agreement,0.15152625152625152,proportion,secondary,Both signs day2-day1 and day3-day2 must match exactly
+Dynamic Panel FE,always_flat_direction_reference,0.6554945054945055,proportion,diagnostic,Direction agreement if every path is classified endpoint-flat
+Dynamic Panel FE,all_zero_actual_path_share,0.5269230769230769,proportion,diagnostic,All three actual daily counts are zero

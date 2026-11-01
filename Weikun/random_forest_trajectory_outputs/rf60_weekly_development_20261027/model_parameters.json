@@ -1,0 +1,18 @@
+{
+  "parameters": {
+    "n_estimators": 200,
+    "max_depth": 8,
+    "min_samples_leaf": 20,
+    "max_features": 1.0,
+    "bootstrap": true,
+    "max_samples": 0.8,
+    "criterion": "squared_error",
+    "random_state": 20261027,
+    "n_jobs": 4
+  },
+  "sklearn_version": "1.9.0",
+  "python_version": "3.14.6",
+  "tuning": "None; fixed before viewing this run",
+  "region_identity": "585 one-hot ZIP identity columns, same region identity available to FE benchmark. Not numeric postal ordering.",
+  "static_attributes": "Not added; matched34-column candidate information set"
+}

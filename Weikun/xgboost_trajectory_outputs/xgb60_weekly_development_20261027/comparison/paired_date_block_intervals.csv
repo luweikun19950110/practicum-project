@@ -1,0 +1,11 @@
+metric,mean_improvement,ci95_low,ci95_high,block_days,resamples,interpretation
+trajectory_MAE_improvement,0.019983905730873792,0.006661587762880442,0.038683847357136064,7,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."
+direction_agreement_improvement,-0.054194365305476416,-0.07072034047342689,-0.038653758221659465,7,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."
+two_step_shape_agreement_improvement,-0.036164749744996665,-0.051846400056276595,-0.021152439238858997,7,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."
+change_MAE_improvement,0.025778170832666113,0.015418481748057943,0.03649564840223146,7,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."
+acceleration_MAE_improvement,0.0407765319478842,0.02197758769874727,0.06184744748164784,7,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."
+trajectory_MAE_improvement,0.019983905730873792,0.004211599764447251,0.04169635797916124,14,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."
+direction_agreement_improvement,-0.054194365305476416,-0.07316010692553904,-0.03422004150399214,14,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."
+two_step_shape_agreement_improvement,-0.036164749744996665,-0.053515001231050616,-0.01600277865709969,14,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."
+change_MAE_improvement,0.025778170832666113,0.012467666370879529,0.04030825414186115,14,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."
+acceleration_MAE_improvement,0.0407765319478842,0.0170419648063106,0.06847637411800848,14,2000,"Positive favors XGBoost; exploratory pointwise date-block interval, not selection-adjusted. All ZIPs resampled together."

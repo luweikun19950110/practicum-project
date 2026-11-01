@@ -1,0 +1,9 @@
+{
+  "all_training_targets_mature": true,
+  "window_exactly60": true,
+  "forecast_targets_after_fit": true,
+  "all_predictions_finite": true,
+  "all34_candidates_considered": true,
+  "per_zip_metrics_produced": false,
+  "no_validation_early_stopping": true
+}

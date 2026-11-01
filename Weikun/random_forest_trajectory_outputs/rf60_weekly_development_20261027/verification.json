@@ -1,0 +1,17 @@
+{
+  "all_training_targets_mature": true,
+  "window_exactly60": true,
+  "forecast_targets_after_fit": true,
+  "all_predictions_finite": true,
+  "all34_candidates_considered": true,
+  "per_zip_metrics_produced": false,
+  "no_validation_early_stopping": true,
+  "training_dates_match_dynamic_panel": true,
+  "reference_target_arrays_match": true,
+  "number_saved_models": 105,
+  "independent_path_MAE_verified": true,
+  "expanded_input_columns619": true,
+  "all_three_archive_targets_match": true,
+  "HAC_SE_independently_checked_with_statsmodels": true,
+  "all_three_spatial_weights_identical": true
+}

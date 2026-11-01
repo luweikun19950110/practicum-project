@@ -1,0 +1,4 @@
+horizon,fit_date,fixed_interval_start,fixed_interval_end,interval_calendar_days,training_origin_start,training_origin_end,latest_training_target,usable_training_origins,regions,estimated_slopes,candidate_columns
+1,2020-04-30,2020-03-01,2020-04-29,60,2020-03-15,2020-04-28,2020-04-29,45,585,24,34
+2,2020-04-30,2020-03-01,2020-04-29,60,2020-03-15,2020-04-27,2020-04-29,44,585,24,34
+3,2020-04-30,2020-03-01,2020-04-29,60,2020-03-15,2020-04-26,2020-04-29,43,585,24,34

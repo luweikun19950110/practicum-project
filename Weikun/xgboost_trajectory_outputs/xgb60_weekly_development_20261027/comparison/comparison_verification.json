@@ -1,0 +1,9 @@
+{
+  "identical_region_order": true,
+  "identical_origin_dates": true,
+  "identical_horizons": true,
+  "identical_actuals": true,
+  "paths": 142155,
+  "reference_sha256": "3fce9343aea4807a4f69cfba300c78f036630306e8ada1e1578e0d7038bfdc23",
+  "candidate_sha256": "532299b807fd8394e66fa9ad6fced47b880f5a76c029c2a17b7843adfca620ad"
+}

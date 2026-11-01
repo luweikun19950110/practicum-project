@@ -1,0 +1,16 @@
+{
+  "source_sha256": "3edda25996616dc417d9e85bce77ada89ef49d2433058fcc12fa9ff7e0c136dd",
+  "regions": 585,
+  "origins": 28,
+  "paths": 16380,
+  "change_observations": 32760,
+  "change": "Day2-Day1 and Day3-Day2, within same-origin raw-count path, one-day spacing",
+  "acceleration": "Day3-2*Day2+Day1; one second difference per path",
+  "prediction_processing": "max(raw_predictions,0), no rounding; matches Notebook22",
+  "sign": "Exact negative/zero/positive, no tolerance tuning",
+  "primary_metric_unchanged": "trajectory_MAE",
+  "no_refit": true,
+  "scope": "Fixed March1-April29 2020 training; May1-28 origins; exploratory retrospective replay",
+  "intervals": "Pointwise 7-origin moving-block bootstrap, 2000 resamples; all regions resampled together. Only28 origins, conditional on existing model/cohort; not post-selection-adjusted.",
+  "interpretation": "Difference of daily NEW counts, not cumulative cases. Negative acceleration does not necessarily imply declining cases. No jerk estimate from only3 future points; no outbreak claims."
+}
