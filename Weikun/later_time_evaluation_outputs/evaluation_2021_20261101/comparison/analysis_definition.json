@@ -1,0 +1,29 @@
+{
+  "models": {
+    "Dynamic Panel FE": {
+      "path": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\later_time_evaluation_outputs\\evaluation_2021_20261101\\dynamic_panel\\predictions.npz",
+      "sha256": "a3d17267544c50c7d89afdacf706e97847025b9aea95e5b2debac527bdbc74a6"
+    },
+    "XGBoost": {
+      "path": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\later_time_evaluation_outputs\\evaluation_2021_20261101\\xgboost\\predictions.npz",
+      "sha256": "135b4647bb816764665ae59003954d772d765939221277f9f4960322d7ccddbb"
+    },
+    "Random Forest": {
+      "path": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\later_time_evaluation_outputs\\evaluation_2021_20261101\\random_forest\\predictions.npz",
+      "sha256": "e32908b97f7d3e8471335d015d95ab1254d55fe26777cffe7d468ce049e76ec1"
+    }
+  },
+  "primary": "Raw-count trajectory MAE, threshold0 direction is supporting; never select a sign threshold by its validation accuracy",
+  "thresholds": [
+    0,
+    0.5,
+    1
+  ],
+  "threshold_interpretation": "Different deadbands change truth labels, predicted labels and class balance; higher agreement does not imply improved original target prediction.",
+  "p_family": "Three pairwise MAE differences, Holm correction. Supporting metrics have pointwise CIs only, no unadjusted p claims.",
+  "ci": "Common moving date-block draws7days primary/14days sensitivity,2000; no IID region assumption",
+  "report_role": "Exploratory2021 subsequent time evaluation with previously developed features/cohort; not final holdout.",
+  "no_new_features": true,
+  "no_pressure_ablation": true,
+  "no_model_refit_in_comparison": true
+}

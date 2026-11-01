@@ -1,0 +1,10 @@
+{
+  "primary_ma3_replicates_notebook27": true,
+  "all_windows_zero_constant_and_prefix_checks": true,
+  "vector_score_matches_scalar_checks": true,
+  "calibration_targets_end": "2020-08-31",
+  "assessment_origins_start": "2020-09-01",
+  "no_refit": true,
+  "no_2021_2023_used": true,
+  "notebook_compiles": true
+}

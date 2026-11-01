@@ -1,0 +1,10 @@
+{
+  "regions": 585,
+  "origins": 362,
+  "paths": 211770,
+  "all_targets_within_2021": true,
+  "models_and_targets_matched": true,
+  "no_2022_2023_outcomes_in_analysis": true,
+  "existing_2020_warning_rule": true,
+  "focus_windows_calendar_context_only": true
+}

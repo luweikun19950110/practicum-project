@@ -1,0 +1,42 @@
+{
+  "primary_replicated_notebook27": true,
+  "source_hashes": {
+    "warning_metrics.csv": "15af38626d5bc14b7c8657ae0e05101ec03b2a9b519ba6d39ef4db89a9602315",
+    "daily_event_labels_2020.csv.gz": "4f4b8dff0b093bf8da1f22cc3841eab980fddb4145fce00cfaf38ba3ed2c3642",
+    "task_definition.json": "64a685d87c5f4922f434a11fdfa898ded518ecaa6255ccdff6d0382e71b31e40"
+  },
+  "one_factor_at_a_time": [
+    {
+      "scenario": "PRIMARY",
+      "min_cases": 5,
+      "sd_multiplier": 2
+    },
+    {
+      "scenario": "MIN3",
+      "min_cases": 3,
+      "sd_multiplier": 2
+    },
+    {
+      "scenario": "MIN10",
+      "min_cases": 10,
+      "sd_multiplier": 2
+    },
+    {
+      "scenario": "SD1_5",
+      "min_cases": 5,
+      "sd_multiplier": 1.5
+    },
+    {
+      "scenario": "SD2_5",
+      "min_cases": 5,
+      "sd_multiplier": 2.5
+    }
+  ],
+  "primary_rule_unchanged": true,
+  "model_refit": false,
+  "later_years_used": false,
+  "examples": "Deterministic median severity outcomes for Dynamic Panel; all model warnings overlaid, illustrative only",
+  "caution": "APs across different label definitions are different tasks; do not select definition by maximum AP. No paired statistical superiority claims.",
+  "before_signal": "qualifying_at_alarm=False only means today fails composite gate; earlier abnormalities can exist. It does not establish warning before biological onset.",
+  "threshold_policy": "Each scenario uses calibration only, original nonnegative grid and <=1false alert/30at-riskZIP-days budget. Assessment never chooses thresholds."
+}

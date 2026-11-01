@@ -1,0 +1,4 @@
+case,zip,forecast_origin,event_date,pool_size
+shared_success,07755,2020-11-14,2020-11-16,748
+xgb_miss_other_detect,07869,2020-09-25,2020-09-26,153
+xgb_false_warning,08829,2020-11-27,,161

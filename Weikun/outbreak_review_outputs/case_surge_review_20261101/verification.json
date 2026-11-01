@@ -1,0 +1,11 @@
+{
+  "primary_results_replicated": true,
+  "primary_files_unchanged": true,
+  "all_five_causal_label_checks_pass": true,
+  "training_targets_matched": true,
+  "calibration_boundary_checked": true,
+  "lead_count_arithmetic_passed": true,
+  "notebook_cells_compile": true,
+  "no_model_refit": true,
+  "no_2021_2023_outcomes": true
+}

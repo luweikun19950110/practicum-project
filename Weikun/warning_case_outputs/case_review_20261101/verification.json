@@ -1,0 +1,8 @@
+{
+  "common_forecasts_verified": true,
+  "actual_paths_match_daily_table": true,
+  "unresolved_missed_event_reasons": 0,
+  "missed_events": 782,
+  "no_model_refit": true,
+  "notebook27_policy_unchanged": true
+}

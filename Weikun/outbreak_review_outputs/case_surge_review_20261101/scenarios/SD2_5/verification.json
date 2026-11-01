@@ -1,0 +1,12 @@
+{
+  "regions": 585,
+  "origins": 243,
+  "events_2020": 1657,
+  "zips_with_events": 492,
+  "qualifying_zip_days": 9918,
+  "matched_targets_verified": true,
+  "causal_prefix_checks_passed": true,
+  "no_model_refit": true,
+  "calibration_targets_end": "2020-08-31",
+  "assessment_origins_start": "2020-09-01"
+}

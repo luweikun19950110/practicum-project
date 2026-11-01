@@ -1,0 +1,15 @@
+{
+  "matched_models": true,
+  "regions": 585,
+  "origins": 362,
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "tests": 3258,
+  "dates2021only": true,
+  "p_values_bounded": true,
+  "BH_family": "all three models jointly",
+  "no_model_refit": true
+}

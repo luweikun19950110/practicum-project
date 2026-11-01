@@ -1,0 +1,39 @@
+{
+  "name": "Rule-defined NJ case-surge task v1; not official outbreak labels",
+  "baseline": "Trailing3-day mean; preceding28 MA3 values excluding current and last2 MA3 values",
+  "threshold": "baseline mean +2 sample SD; minimum3-day sum5; strict exceedance",
+  "confirmation": "2 consecutive qualifying days; onset=second day, never backdate",
+  "reset": "7 consecutive nonqualifying days; onset cannot recur while active",
+  "forecast": "Existing raw direct1/2/3-day predictions clipped at0; no refit",
+  "risk": "max over future confirmation days of min(two consecutive qualification margins); normalized by max(baselineSD,1); count gate incorporated",
+  "eligibility": "Origin inactive and baseline defined; predicts new confirmation within1..3days",
+  "warning": "score > calibrated threshold,7-day cooldown after each issued warning",
+  "calibration": "Origins2020-04-30..2020-08-28; all targets <=Aug31; Aug29-31 origins omitted",
+  "assessment": "2020-09-01..2020-12-28 exploratory; previously inspected",
+  "threshold_selection": "smallest fixed nonnegative grid threshold with <=1 false warning per30 at-risk ZIP-days in calibration; no assessment tuning",
+  "AP": "sklearn average_precision_score, step-integrated PR summary; not trapezoidal area",
+  "event_matching": "earliest issued alert1..3days before confirmation; one-to-one; denominators only events with eligible scored origins",
+  "lead_time": "reported only for detected events; misses and false alarms reported alongside",
+  "limitations": [
+    "Research proxy labels, not independently adjudicated outbreaks",
+    "Onset records missing excluded; retrospective availability assumption",
+    "Static2021 covariates and unvalidated ZIP-ZCTA linkage",
+    "2020 thresholds/definitions are exploratory; later assessment is not an untouched test"
+  ],
+  "sources": {
+    "Dynamic Panel FE": {
+      "path": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\rolling_trajectory_outputs\\rolling60_weekly_development_20261027\\predictions.npz",
+      "sha256": "3fce9343aea4807a4f69cfba300c78f036630306e8ada1e1578e0d7038bfdc23"
+    },
+    "XGBoost": {
+      "path": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\xgboost_trajectory_outputs\\xgb60_weekly_development_20261027\\predictions.npz",
+      "sha256": "532299b807fd8394e66fa9ad6fced47b880f5a76c029c2a17b7843adfca620ad"
+    },
+    "Random Forest": {
+      "path": "C:\\Users\\41240\\OneDrive\\\u6587\u6863\\GitHub\\practicum-project\\Weikun\\random_forest_trajectory_outputs\\rf60_weekly_development_20261027\\predictions.npz",
+      "sha256": "be006c97a3db4f3fdc1814ef3da6cbfd39058d68805f14236781a266c0a5adfc"
+    }
+  },
+  "min_cases": 5,
+  "sd_multiplier": 2
+}

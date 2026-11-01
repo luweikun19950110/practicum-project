@@ -1,0 +1,23 @@
+{
+  "source": "Notebook27 primary MA3 warnings, unchanged",
+  "selection": "Median actual MA3 within three retrospective outcome strata; stable ZIP/date tie-break; not representative sampling or threshold tuning",
+  "cases": {
+    "shared_success": "All three models detected this event",
+    "xgb_miss_other_detect": "XGBoost missed an event another model detected",
+    "xgb_false_warning": "XGBoost warning had no confirmation within 3 days"
+  },
+  "warning": "Existing calibrated threshold, original7day cooldown,1..3day matching",
+  "diagnostic": "Missed-event reason checks all three origins before confirmation; absence of eligible above-threshold opportunity vs cooldown block",
+  "plot": "top realized MA3 and thresholds for review, bottom daily case paths issued from exactly one origin, all3models same origin",
+  "limits": [
+    "case examples cannot establish causal reasons",
+    "an event miss refers to the whole1..3day warning window, not just plotted origin",
+    "false warning means no qualifying confirmation in next3days, not absence of any later increase",
+    "confirmation is second abnormal day, not biological outbreak onset",
+    "no retraining, no budget tuning, no2021-2023data"
+  ],
+  "source_hashes": {
+    "warning_metrics.csv": "15af38626d5bc14b7c8657ae0e05101ec03b2a9b519ba6d39ef4db89a9602315",
+    "task_definition.json": "64a685d87c5f4922f434a11fdfa898ded518ecaa6255ccdff6d0382e71b31e40"
+  }
+}

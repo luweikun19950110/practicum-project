@@ -1,0 +1,89 @@
+{
+  "regions": 585,
+  "forecast_origins": 243,
+  "start": "2020-04-30",
+  "end": "2020-12-28",
+  "months_compared": 8,
+  "month_basis": "forecast origin, May-Dec; April30 partial month excluded from stability plot only",
+  "wins_vs_dynamic_panel": {
+    "XGBoost": 5,
+    "Random Forest": 6
+  },
+  "overall": [
+    {
+      "model": "Dynamic Panel FE",
+      "trajectory_MAE": 0.7742829497091025,
+      "trajectory_RMSE": 1.4183962468853617,
+      "bias": 0.06702459808187293,
+      "improvement_percent": 0.0
+    },
+    {
+      "model": "XGBoost",
+      "trajectory_MAE": 0.7542990439782286,
+      "trajectory_RMSE": 1.431244581898349,
+      "bias": 0.003983558976760305,
+      "improvement_percent": 2.5809564498846163
+    },
+    {
+      "model": "Random Forest",
+      "trajectory_MAE": 0.7518854078618636,
+      "trajectory_RMSE": 1.4357663726578658,
+      "bias": 0.061613847400447404,
+      "improvement_percent": 2.892681784566429
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2020-05",
+      "Dynamic Panel FE": 0.6250908785056297,
+      "Random Forest": 0.5521053040629109,
+      "XGBoost": 0.58958230000079
+    },
+    {
+      "month": "2020-06",
+      "Dynamic Panel FE": 0.3531155307664821,
+      "Random Forest": 0.326623452752179,
+      "XGBoost": 0.3421573546322437
+    },
+    {
+      "month": "2020-07",
+      "Dynamic Panel FE": 0.4137283069251521,
+      "Random Forest": 0.42179519885992517,
+      "XGBoost": 0.41748008547806026
+    },
+    {
+      "month": "2020-08",
+      "Dynamic Panel FE": 0.3614081858172834,
+      "Random Forest": 0.3613957730833936,
+      "XGBoost": 0.3667485224993697
+    },
+    {
+      "month": "2020-09",
+      "Dynamic Panel FE": 0.5081751800226743,
+      "Random Forest": 0.5108471442250663,
+      "XGBoost": 0.49127795560203197
+    },
+    {
+      "month": "2020-10",
+      "Dynamic Panel FE": 0.8861153544252234,
+      "Random Forest": 0.835687744660031,
+      "XGBoost": 0.8401662969787808
+    },
+    {
+      "month": "2020-11",
+      "Dynamic Panel FE": 1.572865274607064,
+      "Random Forest": 1.5319615011671142,
+      "XGBoost": 1.5072455380504137
+    },
+    {
+      "month": "2020-12",
+      "Dynamic Panel FE": 1.5461199545009994,
+      "Random Forest": 1.5433686294982738,
+      "XGBoost": 1.5518661094028658
+    }
+  ],
+  "same_targets_verified": true,
+  "prediction": "raw predictions clipped at0, equal ZIP-origin-horizon weights",
+  "trajectory_MAE": "mean of absolute errors across3horizons perZIP-origin, then mean overZIP-origins",
+  "interpretation": "2020 development/rolling validation, not independent final test. Monthly counts are descriptive, no significance claim. Different epidemic activity affects absolute error levels."
+}

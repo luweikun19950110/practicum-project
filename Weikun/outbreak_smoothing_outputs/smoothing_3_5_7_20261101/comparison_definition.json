@@ -1,0 +1,19 @@
+{
+  "smoothing_windows": [
+    3,
+    5,
+    7
+  ],
+  "primary": 3,
+  "forecast_horizon": 3,
+  "history_baseline": "28 same-window mean observations ending t-window; excludes latest window positions so raw baseline does not overlap current window",
+  "count_gate": "UNCHANGED: last3days total >=5, even for MA5/7",
+  "confirmation": "2consecutive qualifying days; second day is onset",
+  "reset_and_cooldown": "unchanged7days",
+  "warning_threshold": "each definition calibrates on Apr30-Aug28 origins only; targets<=Aug31; fixed grid and <=1false/30at-riskZIP-days policy",
+  "assessment": "Sep1-Dec28 2020 exploratory",
+  "interpretation": "Definitions change labels, prevalence, active-day exclusions and event denominators. Compare model ranking within each rule; higher AP across windows does not establish a better forecasting model.",
+  "checks": "MA3 replicates Notebook27, prefix-causality and vector/scalar score checks in all3runs, source27unchanged",
+  "no_model_refit": true,
+  "no_2021_2023_outcomes": true
+}

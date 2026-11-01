@@ -1,0 +1,24 @@
+{
+  "metric": "Global residual Moran's I",
+  "residual": "max(raw_prediction,0)-actual; sign convention does not change I",
+  "alignment": "At each forecast origin and horizon, compare585 ZIP residuals; never flatten region-days or sum across regions",
+  "spatial_weights": "Symmetric union of8 nearest neighbors using haversine distances between2021 Gazetteer internal points; zero diagonal, row-standardized after symmetrizing. Weights after normalization are not necessarily symmetric.",
+  "primary_k": 8,
+  "sensitivity_k": [
+    4,
+    12
+  ],
+  "distance": "Great-circle km; internal points, not polygon centroid or adjacency",
+  "mapping": "Exact postal ZIP identifier to ZCTA GEOID remains unvalidated; diagnostic conditional on this mapping",
+  "null": "Exchangeability of residual labels across regions conditional on fitted predictions; heteroskedastic count residuals may violate it. Exploratory diagnostic, not a formal spatial-regression specification test.",
+  "permutations": 999,
+  "seed": 20261027,
+  "p_value": "(1+count(|I_perm-EI|>=|I_obs-EI|))/(B+1), two-sided centered atEI=-1/(n-1)",
+  "multiple_testing": "Benjamini-Hochberg across all valid dates x horizons in this stage; overlapping dates/spatial dependence mean FDR control is not guaranteed. No pooled overall significance claim.",
+  "constant_residual_policy": "Undefined I and p, retained as NA",
+  "parameter_fitting": "None. No prediction or feature changes.",
+  "inference": "Positive I indicates similar signed residuals cluster under selected W. Nonsignificance is not evidence that all spatial patterns are explained.",
+  "reference": "https://pysal.org/esda/stable/user-guide/global_morans_i.html",
+  "archive_sha256": "e32908b97f7d3e8471335d015d95ab1254d55fe26777cffe7d468ce049e76ec1",
+  "geography_sha256": "04a432ca241af61dc6a0b9539a6c1e59d9a33cf0f22ccaac684916db8408adf2"
+}

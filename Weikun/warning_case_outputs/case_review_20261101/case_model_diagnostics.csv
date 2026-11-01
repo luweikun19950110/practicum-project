@@ -1,0 +1,10 @@
+case,model,zip,forecast_origin,event_date,eligible,risk_score,warning_threshold,issued_warning_here,warning_correct_here,prior_warning_in_last_6_days,event_detected_in_any_1_3day_origin
+shared_success,Dynamic Panel FE,07755,2020-11-14,2020-11-16,True,0.2303170178475331,0,True,True,False,True
+shared_success,XGBoost,07755,2020-11-14,2020-11-16,True,-0.3478323083656216,0,False,False,False,True
+shared_success,Random Forest,07755,2020-11-14,2020-11-16,True,-0.2968885754565862,0,False,False,False,True
+xgb_miss_other_detect,Dynamic Panel FE,07869,2020-09-25,2020-09-26,True,0.0530833789984767,0,True,True,False,True
+xgb_miss_other_detect,XGBoost,07869,2020-09-25,2020-09-26,True,-0.1631315148517049,0,False,False,False,False
+xgb_miss_other_detect,Random Forest,07869,2020-09-25,2020-09-26,True,-0.0930913191953918,0,False,False,False,False
+xgb_false_warning,Dynamic Panel FE,08829,2020-11-27,,True,0.278633717382472,0,True,False,False,
+xgb_false_warning,XGBoost,08829,2020-11-27,,True,0.1576488575434178,0,True,False,False,
+xgb_false_warning,Random Forest,08829,2020-11-27,,True,0.2102577301619168,0,True,False,False,

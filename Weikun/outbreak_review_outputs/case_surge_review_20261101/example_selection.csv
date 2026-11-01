@@ -1,0 +1,4 @@
+type,reference_model,zip,focus_date,illustrative_forecast_origin,event_date,selection_ma3,selection
+true_warning,Dynamic Panel FE,07930,2020-11-24,2020-11-24,2020-11-25,2.333333333333333,"Median reference-model outcome MA3, ties ZIP/date; retrospective illustration"
+missed_event,Dynamic Panel FE,08518,2020-11-29,2020-11-26,2020-11-29,2.6666666666666665,"Median reference-model outcome MA3, ties ZIP/date; retrospective illustration"
+false_warning,Dynamic Panel FE,08036,2020-10-28,2020-10-28,,1.6666666666666667,"Median reference-model outcome MA3, ties ZIP/date; retrospective illustration"

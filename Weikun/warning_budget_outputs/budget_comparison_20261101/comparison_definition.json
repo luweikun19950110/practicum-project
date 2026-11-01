@@ -1,0 +1,31 @@
+{
+  "primary_definition": "Notebook27 MA3 unchanged",
+  "budgets_per_1000_at_risk_zip_days": [
+    0.0,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "threshold_candidates": "0, calibration-only positive-score quantiles (81 positions), fixed values .25,.5,1,2,3,5,10 and infinity; never negative",
+  "selection": "maximize calibration event recall subject to budget; ties lower realized false warning rate, then lower threshold",
+  "calibration": "Apr30-Aug28 2020 origins, targets end Aug31",
+  "assessment": "Sep1-Dec28 2020, previously inspected, exploratory",
+  "warning_policy": "score strictly greater than threshold; seven-day issue cooldown; one-to-one matching before confirmation by1..3days",
+  "early_recall": "events detected at least2days before confirmation / all eligible events; not conditional on detection",
+  "comparison": "same labels,585ZIPs,dates and horizon for all models; calibration budget equal, realized assessment rate may differ",
+  "limitations": [
+    "quantile grid is finite",
+    "calibration has226events vs1131assessment events; epidemic activity shifts",
+    "no inference of pre-biological-onset warning",
+    "no formal statistical superiority tests",
+    "no model refit; no2021-2023outcomes"
+  ],
+  "source_sha256": {
+    "dynamic_panel_fe_risk_scores.csv.gz": "179eeef65cdc1354d592920402b026c035bbd136b21bb9d267fe18ad2e473cc8",
+    "xgboost_risk_scores.csv.gz": "400f38808c76abf3b03fd69a3101594232d42349102bce8e9ad248294239b490",
+    "random_forest_risk_scores.csv.gz": "ed9ed76bbfe42e2f72632cfa6da11bc24c3da6547b1651c79c9a34604f51192c"
+  }
+}

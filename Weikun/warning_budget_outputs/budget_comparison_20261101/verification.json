@@ -1,0 +1,8 @@
+{
+  "same_cohort_verified": true,
+  "notebook27_zero_threshold_reproduced": true,
+  "calibration_targets_before_assessment": true,
+  "no_model_refit": true,
+  "regions": 585,
+  "assessment_events": 1131
+}

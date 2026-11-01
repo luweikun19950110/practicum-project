@@ -1,0 +1,10 @@
+case,model,zip,event_date,matched_warning_origin,lead_days
+shared_success,Dynamic Panel FE,07755,2020-11-16,2020-11-14,2.0
+shared_success,XGBoost,07755,2020-11-16,2020-11-15,1.0
+shared_success,Random Forest,07755,2020-11-16,2020-11-15,1.0
+xgb_miss_other_detect,Dynamic Panel FE,07869,2020-09-26,2020-09-25,1.0
+xgb_miss_other_detect,XGBoost,07869,2020-09-26,,
+xgb_miss_other_detect,Random Forest,07869,2020-09-26,,
+xgb_false_warning,Dynamic Panel FE,08829,,2020-11-27,
+xgb_false_warning,XGBoost,08829,,2020-11-27,
+xgb_false_warning,Random Forest,08829,,2020-11-27,

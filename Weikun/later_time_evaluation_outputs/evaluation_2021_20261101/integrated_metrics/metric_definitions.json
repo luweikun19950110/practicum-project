@@ -1,0 +1,7 @@
+{
+  "spatial": "Same previous symmetric union8-neighbor geographic weights, row standardized. 999permutations, seed20261027. Per-model q preserved. Primary reporting uses BH across all3models x362dates x3horizons =3258tests.",
+  "interpretation": "Mean I is descriptive. Lower positive I suggests less residual clustering under this graph, not proof of better forecasts or transmission removal. No paired significance test for model differences in I. Exact ZIP-ZCTA mapping unvalidated. Count residual exchangeability may fail.",
+  "lead": "Mean and median lead among detected events only. Reference is second qualifying-day confirmation, not first abnormal day. Missed events excluded from lead mean. Rule and thresholds unchanged.",
+  "changes": "No retraining, no forecasts changed, only2021diagnostics.",
+  "scope": "2022\u20132023 excluded."
+}

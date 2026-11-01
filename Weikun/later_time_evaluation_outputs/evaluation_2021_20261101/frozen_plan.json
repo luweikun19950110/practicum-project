@@ -1,0 +1,46 @@
+{
+  "initial_training": [
+    "2020-03-01",
+    "2020-04-29"
+  ],
+  "evaluation_origins": [
+    "2021-01-01",
+    "2021-12-28"
+  ],
+  "window_days": 60,
+  "retrain_days": 7,
+  "horizons": [
+    1,
+    2,
+    3
+  ],
+  "candidate_features": 34,
+  "regions": 585,
+  "event_definition": "Notebook27 MA3 unchanged",
+  "warning_thresholds": {
+    "Dynamic Panel FE": 0,
+    "XGBoost": 0,
+    "Random Forest": 0
+  },
+  "warning_cooldown_days": 7,
+  "no_tuning_on_evaluation": true,
+  "prior_exploration_disclosed": true,
+  "source_sha256": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4",
+  "cohort_sha256": "2c53373ea2e9fe169d69985e558ea2eb5d9bd790601e4f5c56ebe60e56dfbc67",
+  "storage": "weekly resumable prediction checkpoints; estimator files not persisted, fixed original fitting rules and seeds retained",
+  "compute_only_change": "Random Forest n_jobs16 vs original4, same200trees,seed,features and statistical parameters; no estimator files saved. Parallelism can introduce tiny floating-point summation differences.",
+  "evaluation_origin_count": 362,
+  "boundary_clarification": "All targets in2021. No2022-2023results used in this comparison.",
+  "focus_windows": {
+    "Delta-associated surge context": [
+      "2021-07-01",
+      "2021-09-27"
+    ],
+    "Omicron emergence context": [
+      "2021-12-01",
+      "2021-12-28"
+    ]
+  },
+  "variant_context_source": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7106a4.htm",
+  "variant_caveat": "National calendar context, not NJ-specific variant labels. December mixes Delta/Omicron and omits2022peak."
+}

@@ -1,0 +1,21 @@
+{
+  "definition": "Original Notebook27 MA3, baseline28means gap3, +2SD, minimum3day sum5, two-day confirmation, seven-day reset",
+  "threshold_source": "2020 calibration only, unchanged per model",
+  "thresholds": {
+    "Dynamic Panel FE": 0,
+    "XGBoost": 0,
+    "Random Forest": 0
+  },
+  "truth": "Full continuous2020\u20132023recorded onset history; no annual reset of event state",
+  "cooldown": "Start evaluation with no carried alert onJan1 2021, then continuous7day issue cooldown across2021; no yearly reset",
+  "period_basis": "AP and precision by forecast-origin period; recall and lead by event-confirmation period. Cross-period matched alerts retain their original issue dates.",
+  "denominator": "all eligible events with at least one scored inactive origin1..3days before confirmation",
+  "limitations": [
+    "onset availability retrospective",
+    "prior2021exploration means not untouched finaltest",
+    "lead refers to confirmation, not biological onset",
+    "no model or alert parameter tuned on these outcomes",
+    "last3days2021origins excluded, earlier year-end origins retained within evaluation stage"
+  ],
+  "no_budget_analysis": true
+}

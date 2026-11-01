@@ -1,0 +1,4 @@
+model,Above-threshold opportunity blocked by cooldown,No eligible score exceeded threshold
+Dynamic Panel FE,84,158
+XGBoost,27,279
+Random Forest,49,185

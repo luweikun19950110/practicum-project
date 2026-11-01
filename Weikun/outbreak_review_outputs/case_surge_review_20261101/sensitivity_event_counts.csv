@@ -1,0 +1,6 @@
+scenario,min_cases,sd_multiplier,events_2020,zips_with_events
+PRIMARY,5,2.0,1838,496
+MIN3,3,2.0,2548,538
+MIN10,10,2.0,1030,374
+SD1_5,5,1.5,1965,497
+SD2_5,5,2.5,1657,492
