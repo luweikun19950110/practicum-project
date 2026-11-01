@@ -1,0 +1,27 @@
+{
+  "horizon_days": 7,
+  "relative_change": "(cases_tplus7 - cases_today) / cases_today",
+  "softening": "if cases_today < 10 (or 0), label = flat",
+  "bins_when_base_ge_min": {
+    "down_300p": "r <= -3.0",
+    "down_100p": "-3.0 < r <= -1.0",
+    "down_50p": "-1.0 < r <= -0.5",
+    "down_10p": "-0.5 < r < -0.1",
+    "flat": "-0.1 <= r <= 0.1",
+    "up_50p": "0.1 < r <= 0.5",
+    "up_100p": "0.5 < r <= 1.0",
+    "up_300p": "1.0 < r <= 3.0",
+    "up_300p_plus": "r > 3.0"
+  },
+  "predictors": [
+    "case_velocity",
+    "case_acceleration",
+    "case_jerk",
+    "slope_3d",
+    "slope_3d_lag1",
+    "slope_3d_lag2",
+    "avg_slope_10d",
+    "population",
+    "population_density_per_sq_km"
+  ]
+}
