@@ -1,0 +1,4 @@
+Model Architecture,Day 1 MAE,Day 2 MAE,Day 3 MAE,3-Day Trajectory MAE,Pooled RMSE,Strict Shape Agreement,Average Precision (AP),Warning Precision,Event Recall,Median Lead Time
+Dynamic Panel FE,0.747,0.773,0.804,0.774,1.418,12.6% (Highest),0.52,58.4%,78.6%,1 Day
+Random Forest,0.734,0.751,0.77,0.752,1.436,8.4%,0.54,63.4%,79.3% (Highest),1 Day
+XGBoost,0.735,0.753,0.775,0.754,1.431,9.0%,0.542,82.5% - 84.5% (Highest),72.9% (Lowest),1 Day
