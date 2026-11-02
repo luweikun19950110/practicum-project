@@ -1,0 +1,11 @@
+Feature,RF Importance
+est_ed_visits,0.9999661445849058
+seir_R_t,1.626371516730237e-05
+case_velocity,6.129322174224676e-06
+case_acceleration,3.559400624475424e-06
+cases_lag7,2.5076286464524552e-06
+spatial_lag_cases_lag1,2.0730692371953934e-06
+commuting_weighted_covid_pressure,1.927875873918205e-06
+cases_lag1,1.3944033705952063e-06
+pop_density_sqmi,0.0
+svi_score,0.0

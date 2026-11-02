@@ -1,0 +1,11 @@
+Feature,XGB Importance
+est_ed_visits,0.9998609
+cases_lag1,0.00013909432
+cases_lag7,0.0
+spatial_lag_cases_lag1,0.0
+seir_R_t,0.0
+commuting_weighted_covid_pressure,0.0
+case_velocity,0.0
+case_acceleration,0.0
+pop_density_sqmi,0.0
+svi_score,0.0
