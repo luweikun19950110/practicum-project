@@ -1,0 +1,211 @@
+model,horizon,feature,normalized_training_importance
+Random Forest,1,case_acceleration,0.002776293145893375
+Random Forest,1,case_jerk,0.004477350494714017
+Random Forest,1,case_rate_14d_per_100k,0.0197942043003983
+Random Forest,1,case_rate_7d_per_100k,0.012879965103814636
+Random Forest,1,case_rate_today_per_100k,0.00804851694564089
+Random Forest,1,case_std_14d,0.01399451805539269
+Random Forest,1,case_std_7d,0.007212602133407127
+Random Forest,1,cases_lag_1,0.013604583177784227
+Random Forest,1,cases_lag_14,0.003463250680015847
+Random Forest,1,cases_lag_7,0.0026675258098194663
+Random Forest,1,cases_mean_14d,0.19175205372238432
+Random Forest,1,cases_mean_7d,0.631611460906472
+Random Forest,1,cases_today,0.04078106229232016
+Random Forest,1,days_since_last_observed_case_censored,0.0031742663342125624
+Random Forest,1,nj_covid_pressure_14d,0.013404607335202295
+Random Forest,1,nj_covid_pressure_7d,0.01993253824390908
+Random Forest,1,no_previous_observed_case,0.0005029279372390646
+Random Forest,1,region_id,0.000821955345681737
+Random Forest,1,target_month_10,0.00011313203205280663
+Random Forest,1,target_month_11,0.000460456014986932
+Random Forest,1,target_month_12,4.5980756460582966e-05
+Random Forest,1,target_month_2,0.0
+Random Forest,1,target_month_3,0.0005692652923975378
+Random Forest,1,target_month_4,0.0003161841046843031
+Random Forest,1,target_month_5,0.0004805892311326891
+Random Forest,1,target_month_6,0.001089267452412739
+Random Forest,1,target_month_7,0.0008677252590991582
+Random Forest,1,target_month_8,0.00031606490599966463
+Random Forest,1,target_month_9,0.00017638957001801821
+Random Forest,1,target_weekday_2,0.0006069667909935516
+Random Forest,1,target_weekday_3,0.0011803431881281692
+Random Forest,1,target_weekday_4,0.0006253933445502195
+Random Forest,1,target_weekday_5,0.0005152627143427499
+Random Forest,1,target_weekday_6,0.0008045163251729181
+Random Forest,1,target_weekday_7,0.0009327810532661167
+Random Forest,2,case_acceleration,0.002860626920449938
+Random Forest,2,case_jerk,0.005024033656326927
+Random Forest,2,case_rate_14d_per_100k,0.02334019596031466
+Random Forest,2,case_rate_7d_per_100k,0.01412799006087781
+Random Forest,2,case_rate_today_per_100k,0.008140377344287214
+Random Forest,2,case_std_14d,0.015114341599581528
+Random Forest,2,case_std_7d,0.007227117788445563
+Random Forest,2,cases_lag_1,0.020269121567410467
+Random Forest,2,cases_lag_14,0.003750479585613553
+Random Forest,2,cases_lag_7,0.002655162262292655
+Random Forest,2,cases_mean_14d,0.21819358887116824
+Random Forest,2,cases_mean_7d,0.5867101386490186
+Random Forest,2,cases_today,0.03847325557200756
+Random Forest,2,days_since_last_observed_case_censored,0.003117266074194812
+Random Forest,2,nj_covid_pressure_14d,0.01475514223227192
+Random Forest,2,nj_covid_pressure_7d,0.021529106465244953
+Random Forest,2,no_previous_observed_case,0.000653910275128333
+Random Forest,2,region_id,0.003855114859058912
+Random Forest,2,target_month_10,0.00020255118608245446
+Random Forest,2,target_month_11,0.000688535112652055
+Random Forest,2,target_month_12,4.869782209007433e-05
+Random Forest,2,target_month_2,0.0
+Random Forest,2,target_month_3,0.0006302018344222806
+Random Forest,2,target_month_4,0.0003296945398012947
+Random Forest,2,target_month_5,0.0006034414640144894
+Random Forest,2,target_month_6,0.0013188924812077608
+Random Forest,2,target_month_7,0.0008809287886401984
+Random Forest,2,target_month_8,0.00038345449993415194
+Random Forest,2,target_month_9,0.00025823090163583975
+Random Forest,2,target_weekday_2,0.0007767039889664255
+Random Forest,2,target_weekday_3,0.0013059464901598945
+Random Forest,2,target_weekday_4,0.0005667941579327037
+Random Forest,2,target_weekday_5,0.000580489195031098
+Random Forest,2,target_weekday_6,0.0007416423303736266
+Random Forest,2,target_weekday_7,0.0008868254633620024
+Random Forest,3,case_acceleration,0.003156171208434413
+Random Forest,3,case_jerk,0.005082545220008967
+Random Forest,3,case_rate_14d_per_100k,0.0274549192636044
+Random Forest,3,case_rate_7d_per_100k,0.015486224080216871
+Random Forest,3,case_rate_today_per_100k,0.008475033974690701
+Random Forest,3,case_std_14d,0.01717872821284049
+Random Forest,3,case_std_7d,0.007982971815577953
+Random Forest,3,cases_lag_1,0.015242866975264148
+Random Forest,3,cases_lag_14,0.0037552822668273566
+Random Forest,3,cases_lag_7,0.0027478744250362184
+Random Forest,3,cases_mean_14d,0.23091524146121367
+Random Forest,3,cases_mean_7d,0.5583487848010815
+Random Forest,3,cases_today,0.03855311608830248
+Random Forest,3,days_since_last_observed_case_censored,0.00259616458210647
+Random Forest,3,nj_covid_pressure_14d,0.017390720509023988
+Random Forest,3,nj_covid_pressure_7d,0.02307687152579801
+Random Forest,3,no_previous_observed_case,0.0008267978822214489
+Random Forest,3,region_id,0.010025622128046828
+Random Forest,3,target_month_10,0.0002507270479276365
+Random Forest,3,target_month_11,0.0008975601867175038
+Random Forest,3,target_month_12,5.825121097421435e-05
+Random Forest,3,target_month_2,0.0
+Random Forest,3,target_month_3,0.0007515608110465752
+Random Forest,3,target_month_4,0.0005063486139482234
+Random Forest,3,target_month_5,0.0007196629544439952
+Random Forest,3,target_month_6,0.0017766789352921977
+Random Forest,3,target_month_7,0.0010164882741735043
+Random Forest,3,target_month_8,0.0004789113945005451
+Random Forest,3,target_month_9,0.0003617483041018694
+Random Forest,3,target_weekday_2,0.0007190451299635855
+Random Forest,3,target_weekday_3,0.001741815788792968
+Random Forest,3,target_weekday_4,0.00044460582702300215
+Random Forest,3,target_weekday_5,0.0005297945335047457
+Random Forest,3,target_weekday_6,0.000607842444236798
+Random Forest,3,target_weekday_7,0.0008430221230566649
+XGBoost,1,case_acceleration,0.010787433363493821
+XGBoost,1,case_jerk,0.010593928312793889
+XGBoost,1,case_rate_14d_per_100k,0.014840696912295828
+XGBoost,1,case_rate_7d_per_100k,0.015720268812530424
+XGBoost,1,case_rate_today_per_100k,0.017069355641150186
+XGBoost,1,case_std_14d,0.017647069607711344
+XGBoost,1,case_std_7d,0.016432802311981576
+XGBoost,1,cases_lag_1,0.05406191834456138
+XGBoost,1,cases_lag_14,0.014964681531905583
+XGBoost,1,cases_lag_7,0.015349718822095801
+XGBoost,1,cases_mean_14d,0.14250597378341287
+XGBoost,1,cases_mean_7d,0.3713701245345837
+XGBoost,1,cases_today,0.07971292865347171
+XGBoost,1,days_since_last_observed_case_censored,0.03132432942680829
+XGBoost,1,nj_covid_pressure_14d,0.019898893011546275
+XGBoost,1,nj_covid_pressure_7d,0.01993481549053301
+XGBoost,1,no_previous_observed_case,0.0
+XGBoost,1,region_id,0.06399797354338822
+XGBoost,1,target_month_10,0.0036452603119466534
+XGBoost,1,target_month_11,0.0015093733895530771
+XGBoost,1,target_month_12,0.0001621196635784062
+XGBoost,1,target_month_2,0.0
+XGBoost,1,target_month_3,0.0017033408527509569
+XGBoost,1,target_month_4,0.003066860668245721
+XGBoost,1,target_month_5,0.001523789871569209
+XGBoost,1,target_month_6,0.005022983328813766
+XGBoost,1,target_month_7,0.0033243387621110154
+XGBoost,1,target_month_8,0.0034481791771896636
+XGBoost,1,target_month_9,0.004103351956402855
+XGBoost,1,target_weekday_2,0.006926468953846705
+XGBoost,1,target_weekday_3,0.010663891026589649
+XGBoost,1,target_weekday_4,0.00993734968385104
+XGBoost,1,target_weekday_5,0.009773901870681133
+XGBoost,1,target_weekday_6,0.008888950984305985
+XGBoost,1,target_weekday_7,0.01008692739430031
+XGBoost,2,case_acceleration,0.011853314940065552
+XGBoost,2,case_jerk,0.012147241401131097
+XGBoost,2,case_rate_14d_per_100k,0.014208527528739743
+XGBoost,2,case_rate_7d_per_100k,0.019026935308678928
+XGBoost,2,case_rate_today_per_100k,0.0202798584814443
+XGBoost,2,case_std_14d,0.011298416615339552
+XGBoost,2,case_std_7d,0.01982951913506651
+XGBoost,2,cases_lag_1,0.053011508045089785
+XGBoost,2,cases_lag_14,0.015393378099762187
+XGBoost,2,cases_lag_7,0.014691330129808021
+XGBoost,2,cases_mean_14d,0.1344954006930445
+XGBoost,2,cases_mean_7d,0.3466697297615087
+XGBoost,2,cases_today,0.08779458001019166
+XGBoost,2,days_since_last_observed_case_censored,0.03327655056950976
+XGBoost,2,nj_covid_pressure_14d,0.021902349975226165
+XGBoost,2,nj_covid_pressure_7d,0.022783445595277174
+XGBoost,2,no_previous_observed_case,0.0
+XGBoost,2,region_id,0.0720361310841454
+XGBoost,2,target_month_10,0.0029441275607268633
+XGBoost,2,target_month_11,0.0018620541217133626
+XGBoost,2,target_month_12,0.00016197348516773912
+XGBoost,2,target_month_2,0.0
+XGBoost,2,target_month_3,0.001387801254824775
+XGBoost,2,target_month_4,0.003076824058267458
+XGBoost,2,target_month_5,0.0016620226719080632
+XGBoost,2,target_month_6,0.006124862358475864
+XGBoost,2,target_month_7,0.004374303026101272
+XGBoost,2,target_month_8,0.002550140038851741
+XGBoost,2,target_month_9,0.004578944625727271
+XGBoost,2,target_weekday_2,0.00689017510532093
+XGBoost,2,target_weekday_3,0.012503735794049639
+XGBoost,2,target_weekday_4,0.011810937836550033
+XGBoost,2,target_weekday_5,0.011181618308827537
+XGBoost,2,target_weekday_6,0.007793665311312778
+XGBoost,2,target_weekday_7,0.010398597068145618
+XGBoost,3,case_acceleration,0.01255182594821074
+XGBoost,3,case_jerk,0.013850266084290533
+XGBoost,3,case_rate_14d_per_100k,0.013861004476351689
+XGBoost,3,case_rate_7d_per_100k,0.01953772496341399
+XGBoost,3,case_rate_today_per_100k,0.019839916079042074
+XGBoost,3,case_std_14d,0.016155659863846834
+XGBoost,3,case_std_7d,0.01802633944033496
+XGBoost,3,cases_lag_1,0.048843814461149306
+XGBoost,3,cases_lag_14,0.015900564492408502
+XGBoost,3,cases_lag_7,0.01581011119012874
+XGBoost,3,cases_mean_14d,0.14665404585531522
+XGBoost,3,cases_mean_7d,0.31185035111538156
+XGBoost,3,cases_today,0.08510693878242269
+XGBoost,3,days_since_last_observed_case_censored,0.031872087968170704
+XGBoost,3,nj_covid_pressure_14d,0.027448484487031688
+XGBoost,3,nj_covid_pressure_7d,0.023073245449824274
+XGBoost,3,no_previous_observed_case,0.0
+XGBoost,3,region_id,0.07853768916431683
+XGBoost,3,target_month_10,0.0034201563369842644
+XGBoost,3,target_month_11,0.002001464353654354
+XGBoost,3,target_month_12,0.00022665086825099942
+XGBoost,3,target_month_2,0.0
+XGBoost,3,target_month_3,0.0014158402649116538
+XGBoost,3,target_month_4,0.004147178478216687
+XGBoost,3,target_month_5,0.004310254399126175
+XGBoost,3,target_month_6,0.0066855426088909455
+XGBoost,3,target_month_7,0.005575580039959658
+XGBoost,3,target_month_8,0.0031006624179328933
+XGBoost,3,target_month_9,0.004457272864445092
+XGBoost,3,target_weekday_2,0.006395393793137472
+XGBoost,3,target_weekday_3,0.016844626745263463
+XGBoost,3,target_weekday_4,0.012278041610865804
+XGBoost,3,target_weekday_5,0.011891339759809924
+XGBoost,3,target_weekday_6,0.009644862651504438
+XGBoost,3,target_weekday_7,0.008685062985405856

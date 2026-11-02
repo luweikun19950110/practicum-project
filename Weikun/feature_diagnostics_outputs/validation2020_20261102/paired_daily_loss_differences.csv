@@ -1,0 +1,2188 @@
+model,drop_group,daily_forecast_date,delta_MAE_DROP_minus_FULL
+Dynamic Panel FE,local_case_history,2020-04-30,0.37903373479471036
+Dynamic Panel FE,local_case_history,2020-05-01,0.3458417478298266
+Dynamic Panel FE,local_case_history,2020-05-02,0.3422627207413822
+Dynamic Panel FE,local_case_history,2020-05-03,0.3181760568575014
+Dynamic Panel FE,local_case_history,2020-05-04,0.45766870130061177
+Dynamic Panel FE,local_case_history,2020-05-05,0.37382627241125377
+Dynamic Panel FE,local_case_history,2020-05-06,0.4235977938930374
+Dynamic Panel FE,local_case_history,2020-05-07,0.43295645557149454
+Dynamic Panel FE,local_case_history,2020-05-08,0.4156927575700837
+Dynamic Panel FE,local_case_history,2020-05-09,0.40801265367532946
+Dynamic Panel FE,local_case_history,2020-05-10,0.3894376632709242
+Dynamic Panel FE,local_case_history,2020-05-11,0.4443091018961801
+Dynamic Panel FE,local_case_history,2020-05-12,0.4278005848239055
+Dynamic Panel FE,local_case_history,2020-05-13,0.35597636290618295
+Dynamic Panel FE,local_case_history,2020-05-14,0.3850290816680393
+Dynamic Panel FE,local_case_history,2020-05-15,0.367078443522862
+Dynamic Panel FE,local_case_history,2020-05-16,0.32481556358109553
+Dynamic Panel FE,local_case_history,2020-05-17,0.2650350222508968
+Dynamic Panel FE,local_case_history,2020-05-18,0.34202908198888526
+Dynamic Panel FE,local_case_history,2020-05-19,0.3310330598118394
+Dynamic Panel FE,local_case_history,2020-05-20,0.21885927230853053
+Dynamic Panel FE,local_case_history,2020-05-21,0.24355583778901596
+Dynamic Panel FE,local_case_history,2020-05-22,0.2352899467873379
+Dynamic Panel FE,local_case_history,2020-05-23,0.20418527212678123
+Dynamic Panel FE,local_case_history,2020-05-24,0.16883294606102295
+Dynamic Panel FE,local_case_history,2020-05-25,0.22944112329968464
+Dynamic Panel FE,local_case_history,2020-05-26,0.21623254330033687
+Dynamic Panel FE,local_case_history,2020-05-27,0.16479931791342112
+Dynamic Panel FE,local_case_history,2020-05-28,0.1954416588137598
+Dynamic Panel FE,local_case_history,2020-05-29,0.17761117298076012
+Dynamic Panel FE,local_case_history,2020-05-30,0.14691082364250135
+Dynamic Panel FE,local_case_history,2020-05-31,0.0969728391641485
+Dynamic Panel FE,local_case_history,2020-06-01,0.13875479899284726
+Dynamic Panel FE,local_case_history,2020-06-02,0.13060921493085498
+Dynamic Panel FE,local_case_history,2020-06-03,0.13637225368226097
+Dynamic Panel FE,local_case_history,2020-06-04,0.15291579533271332
+Dynamic Panel FE,local_case_history,2020-06-05,0.14568130315419198
+Dynamic Panel FE,local_case_history,2020-06-06,0.1315335378023157
+Dynamic Panel FE,local_case_history,2020-06-07,0.09238039347543037
+Dynamic Panel FE,local_case_history,2020-06-08,0.1398825908731724
+Dynamic Panel FE,local_case_history,2020-06-09,0.12300525450615185
+Dynamic Panel FE,local_case_history,2020-06-10,0.06729699611639653
+Dynamic Panel FE,local_case_history,2020-06-11,0.07001646003546963
+Dynamic Panel FE,local_case_history,2020-06-12,0.07261828090789779
+Dynamic Panel FE,local_case_history,2020-06-13,0.054320246622320045
+Dynamic Panel FE,local_case_history,2020-06-14,0.012210961475067894
+Dynamic Panel FE,local_case_history,2020-06-15,0.038332927608313916
+Dynamic Panel FE,local_case_history,2020-06-16,0.03922028294964297
+Dynamic Panel FE,local_case_history,2020-06-17,0.02016251145644099
+Dynamic Panel FE,local_case_history,2020-06-18,0.02699085853500366
+Dynamic Panel FE,local_case_history,2020-06-19,0.011502001657677563
+Dynamic Panel FE,local_case_history,2020-06-20,-0.006197063753568377
+Dynamic Panel FE,local_case_history,2020-06-21,-0.032347210626360146
+Dynamic Panel FE,local_case_history,2020-06-22,-0.016959929033753762
+Dynamic Panel FE,local_case_history,2020-06-23,-0.015954504602740616
+Dynamic Panel FE,local_case_history,2020-06-24,-0.013408079073717993
+Dynamic Panel FE,local_case_history,2020-06-25,-0.01617600744751846
+Dynamic Panel FE,local_case_history,2020-06-26,-0.021285829610020124
+Dynamic Panel FE,local_case_history,2020-06-27,-0.025689228565108746
+Dynamic Panel FE,local_case_history,2020-06-28,-0.023320467926275068
+Dynamic Panel FE,local_case_history,2020-06-29,-0.011930635351886987
+Dynamic Panel FE,local_case_history,2020-06-30,-0.010738209109180497
+Dynamic Panel FE,local_case_history,2020-07-01,0.017135781574502462
+Dynamic Panel FE,local_case_history,2020-07-02,0.01773709817201219
+Dynamic Panel FE,local_case_history,2020-07-03,0.022767019645818287
+Dynamic Panel FE,local_case_history,2020-07-04,0.02041949601342108
+Dynamic Panel FE,local_case_history,2020-07-05,0.026245418970319734
+Dynamic Panel FE,local_case_history,2020-07-06,0.024259332100034614
+Dynamic Panel FE,local_case_history,2020-07-07,0.022043785817178307
+Dynamic Panel FE,local_case_history,2020-07-08,0.02093590583419891
+Dynamic Panel FE,local_case_history,2020-07-09,0.021881193331647786
+Dynamic Panel FE,local_case_history,2020-07-10,0.027519119918775092
+Dynamic Panel FE,local_case_history,2020-07-11,0.023998029472985183
+Dynamic Panel FE,local_case_history,2020-07-12,0.02672275210070285
+Dynamic Panel FE,local_case_history,2020-07-13,0.026256245605635498
+Dynamic Panel FE,local_case_history,2020-07-14,0.028299627602580146
+Dynamic Panel FE,local_case_history,2020-07-15,0.022569969967345005
+Dynamic Panel FE,local_case_history,2020-07-16,0.019184481138683207
+Dynamic Panel FE,local_case_history,2020-07-17,0.018389402250941767
+Dynamic Panel FE,local_case_history,2020-07-18,0.01716779277293423
+Dynamic Panel FE,local_case_history,2020-07-19,0.022443671834795842
+Dynamic Panel FE,local_case_history,2020-07-20,0.02269006431296966
+Dynamic Panel FE,local_case_history,2020-07-21,0.019971059763091215
+Dynamic Panel FE,local_case_history,2020-07-22,0.00921716387429189
+Dynamic Panel FE,local_case_history,2020-07-23,0.005892374025516567
+Dynamic Panel FE,local_case_history,2020-07-24,0.0025771687992858783
+Dynamic Panel FE,local_case_history,2020-07-25,0.005932766945708823
+Dynamic Panel FE,local_case_history,2020-07-26,0.003039627420149793
+Dynamic Panel FE,local_case_history,2020-07-27,0.007138739645786263
+Dynamic Panel FE,local_case_history,2020-07-28,0.008892853476003715
+Dynamic Panel FE,local_case_history,2020-07-29,0.004729230203488144
+Dynamic Panel FE,local_case_history,2020-07-30,0.0011260589619936923
+Dynamic Panel FE,local_case_history,2020-07-31,-0.00023730746319933216
+Dynamic Panel FE,local_case_history,2020-08-01,-0.0024577290913130323
+Dynamic Panel FE,local_case_history,2020-08-02,-0.003925913541231729
+Dynamic Panel FE,local_case_history,2020-08-03,0.0008894665163886595
+Dynamic Panel FE,local_case_history,2020-08-04,0.0031372467154157646
+Dynamic Panel FE,local_case_history,2020-08-05,0.005566069455804179
+Dynamic Panel FE,local_case_history,2020-08-06,0.003775204568979784
+Dynamic Panel FE,local_case_history,2020-08-07,-0.0019996406961689805
+Dynamic Panel FE,local_case_history,2020-08-08,-0.00542301157904862
+Dynamic Panel FE,local_case_history,2020-08-09,-0.006554299624833615
+Dynamic Panel FE,local_case_history,2020-08-10,0.0008479385363880931
+Dynamic Panel FE,local_case_history,2020-08-11,0.004497149948743562
+Dynamic Panel FE,local_case_history,2020-08-12,0.006477241131386535
+Dynamic Panel FE,local_case_history,2020-08-13,0.006060931541575332
+Dynamic Panel FE,local_case_history,2020-08-14,0.001100765875903742
+Dynamic Panel FE,local_case_history,2020-08-15,-0.001001998283710115
+Dynamic Panel FE,local_case_history,2020-08-16,-0.003924703777945293
+Dynamic Panel FE,local_case_history,2020-08-17,-0.00024418731013586825
+Dynamic Panel FE,local_case_history,2020-08-18,0.004292248927963038
+Dynamic Panel FE,local_case_history,2020-08-19,0.0019113161174543758
+Dynamic Panel FE,local_case_history,2020-08-20,0.0014329862281843853
+Dynamic Panel FE,local_case_history,2020-08-21,-0.004874860273935577
+Dynamic Panel FE,local_case_history,2020-08-22,-0.005856341815209221
+Dynamic Panel FE,local_case_history,2020-08-23,-0.008085036226701425
+Dynamic Panel FE,local_case_history,2020-08-24,0.0015508289712284906
+Dynamic Panel FE,local_case_history,2020-08-25,0.003623400668129384
+Dynamic Panel FE,local_case_history,2020-08-26,0.006004017923886551
+Dynamic Panel FE,local_case_history,2020-08-27,0.0048535888938706084
+Dynamic Panel FE,local_case_history,2020-08-28,0.002167950645837746
+Dynamic Panel FE,local_case_history,2020-08-29,0.0004816803442653228
+Dynamic Panel FE,local_case_history,2020-08-30,-0.004397893745312853
+Dynamic Panel FE,local_case_history,2020-08-31,0.00037363554663721876
+Dynamic Panel FE,local_case_history,2020-09-01,-0.0011630785236234065
+Dynamic Panel FE,local_case_history,2020-09-02,0.0052744129629493375
+Dynamic Panel FE,local_case_history,2020-09-03,0.011548623782047351
+Dynamic Panel FE,local_case_history,2020-09-04,0.011838743537321783
+Dynamic Panel FE,local_case_history,2020-09-05,0.011742464757431237
+Dynamic Panel FE,local_case_history,2020-09-06,0.011851928735346462
+Dynamic Panel FE,local_case_history,2020-09-07,0.01631022540471755
+Dynamic Panel FE,local_case_history,2020-09-08,0.018556931166147872
+Dynamic Panel FE,local_case_history,2020-09-09,0.03476553292667944
+Dynamic Panel FE,local_case_history,2020-09-10,0.03208109722221636
+Dynamic Panel FE,local_case_history,2020-09-11,0.03686278735651216
+Dynamic Panel FE,local_case_history,2020-09-12,0.035692280840432744
+Dynamic Panel FE,local_case_history,2020-09-13,0.037782496651053155
+Dynamic Panel FE,local_case_history,2020-09-14,0.03698788540758685
+Dynamic Panel FE,local_case_history,2020-09-15,0.03727200570456102
+Dynamic Panel FE,local_case_history,2020-09-16,0.0408641301526807
+Dynamic Panel FE,local_case_history,2020-09-17,0.03502431592037952
+Dynamic Panel FE,local_case_history,2020-09-18,0.037563459574815106
+Dynamic Panel FE,local_case_history,2020-09-19,0.04440066022831124
+Dynamic Panel FE,local_case_history,2020-09-20,0.050289256045537356
+Dynamic Panel FE,local_case_history,2020-09-21,0.07628853725650442
+Dynamic Panel FE,local_case_history,2020-09-22,0.08638143330050452
+Dynamic Panel FE,local_case_history,2020-09-23,0.0814035384707893
+Dynamic Panel FE,local_case_history,2020-09-24,0.09360612924725875
+Dynamic Panel FE,local_case_history,2020-09-25,0.10553395060614723
+Dynamic Panel FE,local_case_history,2020-09-26,0.10338828707824577
+Dynamic Panel FE,local_case_history,2020-09-27,0.09920539008115259
+Dynamic Panel FE,local_case_history,2020-09-28,0.11282963805870283
+Dynamic Panel FE,local_case_history,2020-09-29,0.10699985830439396
+Dynamic Panel FE,local_case_history,2020-09-30,0.10718780765710323
+Dynamic Panel FE,local_case_history,2020-10-01,0.08113528860526809
+Dynamic Panel FE,local_case_history,2020-10-02,0.08510486101316783
+Dynamic Panel FE,local_case_history,2020-10-03,0.08367288855903232
+Dynamic Panel FE,local_case_history,2020-10-04,0.10651150311341451
+Dynamic Panel FE,local_case_history,2020-10-05,0.10767718819541783
+Dynamic Panel FE,local_case_history,2020-10-06,0.1331516908328314
+Dynamic Panel FE,local_case_history,2020-10-07,0.12085945715647128
+Dynamic Panel FE,local_case_history,2020-10-08,0.12305842015179891
+Dynamic Panel FE,local_case_history,2020-10-09,0.12394550719293707
+Dynamic Panel FE,local_case_history,2020-10-10,0.15258832098586306
+Dynamic Panel FE,local_case_history,2020-10-11,0.16305816581548038
+Dynamic Panel FE,local_case_history,2020-10-12,0.19902447589634242
+Dynamic Panel FE,local_case_history,2020-10-13,0.18698486240978662
+Dynamic Panel FE,local_case_history,2020-10-14,0.14478638671975375
+Dynamic Panel FE,local_case_history,2020-10-15,0.14678875419942605
+Dynamic Panel FE,local_case_history,2020-10-16,0.16585796110285445
+Dynamic Panel FE,local_case_history,2020-10-17,0.19861181874088207
+Dynamic Panel FE,local_case_history,2020-10-18,0.2227059542188733
+Dynamic Panel FE,local_case_history,2020-10-19,0.2308169784788957
+Dynamic Panel FE,local_case_history,2020-10-20,0.23305570274687637
+Dynamic Panel FE,local_case_history,2020-10-21,0.2278102904991821
+Dynamic Panel FE,local_case_history,2020-10-22,0.2444604496452868
+Dynamic Panel FE,local_case_history,2020-10-23,0.29586108800349376
+Dynamic Panel FE,local_case_history,2020-10-24,0.32814111848856875
+Dynamic Panel FE,local_case_history,2020-10-25,0.3630624405935168
+Dynamic Panel FE,local_case_history,2020-10-26,0.3966602304808895
+Dynamic Panel FE,local_case_history,2020-10-27,0.4137077235306883
+Dynamic Panel FE,local_case_history,2020-10-28,0.31497123177706843
+Dynamic Panel FE,local_case_history,2020-10-29,0.3250645244424806
+Dynamic Panel FE,local_case_history,2020-10-30,0.35163469260378655
+Dynamic Panel FE,local_case_history,2020-10-31,0.3655917572668701
+Dynamic Panel FE,local_case_history,2020-11-01,0.46579927188003456
+Dynamic Panel FE,local_case_history,2020-11-02,0.587263123085066
+Dynamic Panel FE,local_case_history,2020-11-03,0.689587796612698
+Dynamic Panel FE,local_case_history,2020-11-04,0.5025893057530713
+Dynamic Panel FE,local_case_history,2020-11-05,0.548121145374596
+Dynamic Panel FE,local_case_history,2020-11-06,0.6790592810444986
+Dynamic Panel FE,local_case_history,2020-11-07,0.7713774711908195
+Dynamic Panel FE,local_case_history,2020-11-08,0.8860663228935701
+Dynamic Panel FE,local_case_history,2020-11-09,0.8745197070498094
+Dynamic Panel FE,local_case_history,2020-11-10,0.909931371459443
+Dynamic Panel FE,local_case_history,2020-11-11,0.7162228333059732
+Dynamic Panel FE,local_case_history,2020-11-12,0.8021920406068945
+Dynamic Panel FE,local_case_history,2020-11-13,0.9761244808187097
+Dynamic Panel FE,local_case_history,2020-11-14,1.0812457525652444
+Dynamic Panel FE,local_case_history,2020-11-15,1.151301302333449
+Dynamic Panel FE,local_case_history,2020-11-16,1.1880959341836514
+Dynamic Panel FE,local_case_history,2020-11-17,1.2444489802430505
+Dynamic Panel FE,local_case_history,2020-11-18,0.3437901623369579
+Dynamic Panel FE,local_case_history,2020-11-19,0.3670824376291042
+Dynamic Panel FE,local_case_history,2020-11-20,0.43069129327128874
+Dynamic Panel FE,local_case_history,2020-11-21,0.49289436065529535
+Dynamic Panel FE,local_case_history,2020-11-22,0.5384835614703827
+Dynamic Panel FE,local_case_history,2020-11-23,0.4879645789043572
+Dynamic Panel FE,local_case_history,2020-11-24,0.46168960533441594
+Dynamic Panel FE,local_case_history,2020-11-25,0.23091400892327218
+Dynamic Panel FE,local_case_history,2020-11-26,0.27257194805838103
+Dynamic Panel FE,local_case_history,2020-11-27,0.3468815292000498
+Dynamic Panel FE,local_case_history,2020-11-28,0.43141445261816225
+Dynamic Panel FE,local_case_history,2020-11-29,0.5116201698434975
+Dynamic Panel FE,local_case_history,2020-11-30,0.4975381322428014
+Dynamic Panel FE,local_case_history,2020-12-01,0.46192318074870453
+Dynamic Panel FE,local_case_history,2020-12-02,0.25470900904766314
+Dynamic Panel FE,local_case_history,2020-12-03,0.24225387046712554
+Dynamic Panel FE,local_case_history,2020-12-04,0.3017358703494526
+Dynamic Panel FE,local_case_history,2020-12-05,0.3423981483084202
+Dynamic Panel FE,local_case_history,2020-12-06,0.3611418895350267
+Dynamic Panel FE,local_case_history,2020-12-07,0.31257611618153414
+Dynamic Panel FE,local_case_history,2020-12-08,0.3238406041875055
+Dynamic Panel FE,local_case_history,2020-12-09,0.09209095394826439
+Dynamic Panel FE,local_case_history,2020-12-10,0.09581980644425192
+Dynamic Panel FE,local_case_history,2020-12-11,0.12395316841312631
+Dynamic Panel FE,local_case_history,2020-12-12,0.16169832106525028
+Dynamic Panel FE,local_case_history,2020-12-13,0.20357601409267034
+Dynamic Panel FE,local_case_history,2020-12-14,0.17221816754961328
+Dynamic Panel FE,local_case_history,2020-12-15,0.16656201359169764
+Dynamic Panel FE,local_case_history,2020-12-16,0.0859089941380331
+Dynamic Panel FE,local_case_history,2020-12-17,0.09594732656906024
+Dynamic Panel FE,local_case_history,2020-12-18,0.09415018332461722
+Dynamic Panel FE,local_case_history,2020-12-19,0.09870945310097623
+Dynamic Panel FE,local_case_history,2020-12-20,0.09000284543933734
+Dynamic Panel FE,local_case_history,2020-12-21,0.10720779649518697
+Dynamic Panel FE,local_case_history,2020-12-22,0.11971895983462577
+Dynamic Panel FE,local_case_history,2020-12-23,0.08724076941002767
+Dynamic Panel FE,local_case_history,2020-12-24,0.09764310950243349
+Dynamic Panel FE,local_case_history,2020-12-25,0.07297065592251539
+Dynamic Panel FE,local_case_history,2020-12-26,0.10043594894988561
+Dynamic Panel FE,local_case_history,2020-12-27,0.11141320941215516
+Dynamic Panel FE,local_case_history,2020-12-28,0.13101818492213657
+Dynamic Panel FE,commuting_pressure,2020-04-30,0.10752767596036517
+Dynamic Panel FE,commuting_pressure,2020-05-01,0.13906955315727854
+Dynamic Panel FE,commuting_pressure,2020-05-02,0.15655680777902314
+Dynamic Panel FE,commuting_pressure,2020-05-03,0.20179178434947387
+Dynamic Panel FE,commuting_pressure,2020-05-04,0.1675430264636546
+Dynamic Panel FE,commuting_pressure,2020-05-05,0.2335925405821222
+Dynamic Panel FE,commuting_pressure,2020-05-06,0.018596120085103474
+Dynamic Panel FE,commuting_pressure,2020-05-07,0.012395870520300889
+Dynamic Panel FE,commuting_pressure,2020-05-08,0.022449125312519858
+Dynamic Panel FE,commuting_pressure,2020-05-09,0.027442510408562826
+Dynamic Panel FE,commuting_pressure,2020-05-10,0.0432532056767817
+Dynamic Panel FE,commuting_pressure,2020-05-11,0.022249238658925474
+Dynamic Panel FE,commuting_pressure,2020-05-12,0.033120428917314926
+Dynamic Panel FE,commuting_pressure,2020-05-13,-0.0008549118450399407
+Dynamic Panel FE,commuting_pressure,2020-05-14,-0.007893336940752449
+Dynamic Panel FE,commuting_pressure,2020-05-15,-0.026284876962789583
+Dynamic Panel FE,commuting_pressure,2020-05-16,-0.03790891156669374
+Dynamic Panel FE,commuting_pressure,2020-05-17,-0.04002335271700086
+Dynamic Panel FE,commuting_pressure,2020-05-18,-0.04223590216234485
+Dynamic Panel FE,commuting_pressure,2020-05-19,-0.04139994284391724
+Dynamic Panel FE,commuting_pressure,2020-05-20,-0.010607120112734014
+Dynamic Panel FE,commuting_pressure,2020-05-21,-0.005163535867588609
+Dynamic Panel FE,commuting_pressure,2020-05-22,-0.009272131087848468
+Dynamic Panel FE,commuting_pressure,2020-05-23,-0.015375052837593939
+Dynamic Panel FE,commuting_pressure,2020-05-24,0.00493831861659888
+Dynamic Panel FE,commuting_pressure,2020-05-25,0.0007183223544855455
+Dynamic Panel FE,commuting_pressure,2020-05-26,0.007045427056375619
+Dynamic Panel FE,commuting_pressure,2020-05-27,0.015993440819535742
+Dynamic Panel FE,commuting_pressure,2020-05-28,0.017110406758004792
+Dynamic Panel FE,commuting_pressure,2020-05-29,0.009906878304843492
+Dynamic Panel FE,commuting_pressure,2020-05-30,0.0114842846656103
+Dynamic Panel FE,commuting_pressure,2020-05-31,0.023101349495809498
+Dynamic Panel FE,commuting_pressure,2020-06-01,0.012199749462148357
+Dynamic Panel FE,commuting_pressure,2020-06-02,0.013040207889132183
+Dynamic Panel FE,commuting_pressure,2020-06-03,-0.0035598413003385954
+Dynamic Panel FE,commuting_pressure,2020-06-04,-0.0006801320403509448
+Dynamic Panel FE,commuting_pressure,2020-06-05,-0.0019152846915139743
+Dynamic Panel FE,commuting_pressure,2020-06-06,-0.006275734005141254
+Dynamic Panel FE,commuting_pressure,2020-06-07,-0.00803862437018732
+Dynamic Panel FE,commuting_pressure,2020-06-08,-0.009675747340461172
+Dynamic Panel FE,commuting_pressure,2020-06-09,-0.00880199283539046
+Dynamic Panel FE,commuting_pressure,2020-06-10,-0.0005758822955843346
+Dynamic Panel FE,commuting_pressure,2020-06-11,0.002220219120529776
+Dynamic Panel FE,commuting_pressure,2020-06-12,-0.0008364501874492947
+Dynamic Panel FE,commuting_pressure,2020-06-13,-0.004570199074904524
+Dynamic Panel FE,commuting_pressure,2020-06-14,-0.00492977582424059
+Dynamic Panel FE,commuting_pressure,2020-06-15,-0.011353756781290192
+Dynamic Panel FE,commuting_pressure,2020-06-16,-0.010015821100234856
+Dynamic Panel FE,commuting_pressure,2020-06-17,-0.002300040572352058
+Dynamic Panel FE,commuting_pressure,2020-06-18,-0.003470325270528929
+Dynamic Panel FE,commuting_pressure,2020-06-19,-0.0027802673062195526
+Dynamic Panel FE,commuting_pressure,2020-06-20,-0.005037729203651364
+Dynamic Panel FE,commuting_pressure,2020-06-21,-0.0003785304587355376
+Dynamic Panel FE,commuting_pressure,2020-06-22,-0.0036644977445467464
+Dynamic Panel FE,commuting_pressure,2020-06-23,-0.005966056708845868
+Dynamic Panel FE,commuting_pressure,2020-06-24,-0.01088136013177321
+Dynamic Panel FE,commuting_pressure,2020-06-25,-0.010804793840485272
+Dynamic Panel FE,commuting_pressure,2020-06-26,-0.0087359877145185
+Dynamic Panel FE,commuting_pressure,2020-06-27,-0.014451043398059915
+Dynamic Panel FE,commuting_pressure,2020-06-28,-0.019395256941286743
+Dynamic Panel FE,commuting_pressure,2020-06-29,-0.024156598089635717
+Dynamic Panel FE,commuting_pressure,2020-06-30,-0.028656100547327923
+Dynamic Panel FE,commuting_pressure,2020-07-01,0.002288989536298691
+Dynamic Panel FE,commuting_pressure,2020-07-02,0.00702309255385708
+Dynamic Panel FE,commuting_pressure,2020-07-03,0.00831402555540317
+Dynamic Panel FE,commuting_pressure,2020-07-04,0.019721317749528455
+Dynamic Panel FE,commuting_pressure,2020-07-05,0.02781218972451993
+Dynamic Panel FE,commuting_pressure,2020-07-06,0.02590210393352088
+Dynamic Panel FE,commuting_pressure,2020-07-07,0.02687576678782555
+Dynamic Panel FE,commuting_pressure,2020-07-08,0.00964461969994923
+Dynamic Panel FE,commuting_pressure,2020-07-09,0.008171735766226207
+Dynamic Panel FE,commuting_pressure,2020-07-10,0.006784349935140266
+Dynamic Panel FE,commuting_pressure,2020-07-11,0.005098751707050764
+Dynamic Panel FE,commuting_pressure,2020-07-12,0.014263817544857171
+Dynamic Panel FE,commuting_pressure,2020-07-13,0.01982212513747672
+Dynamic Panel FE,commuting_pressure,2020-07-14,0.024630653057690077
+Dynamic Panel FE,commuting_pressure,2020-07-15,0.025131376835614727
+Dynamic Panel FE,commuting_pressure,2020-07-16,0.03508855561169272
+Dynamic Panel FE,commuting_pressure,2020-07-17,0.04521372678735758
+Dynamic Panel FE,commuting_pressure,2020-07-18,0.053089802623412785
+Dynamic Panel FE,commuting_pressure,2020-07-19,0.048507182613347966
+Dynamic Panel FE,commuting_pressure,2020-07-20,0.045379191796210194
+Dynamic Panel FE,commuting_pressure,2020-07-21,0.03866568711581064
+Dynamic Panel FE,commuting_pressure,2020-07-22,0.025792703429040442
+Dynamic Panel FE,commuting_pressure,2020-07-23,0.030837787408563466
+Dynamic Panel FE,commuting_pressure,2020-07-24,0.032520015928412416
+Dynamic Panel FE,commuting_pressure,2020-07-25,0.028001839822637986
+Dynamic Panel FE,commuting_pressure,2020-07-26,0.02213064420140909
+Dynamic Panel FE,commuting_pressure,2020-07-27,0.01528464298056148
+Dynamic Panel FE,commuting_pressure,2020-07-28,0.012964964072551988
+Dynamic Panel FE,commuting_pressure,2020-07-29,0.007412132310068098
+Dynamic Panel FE,commuting_pressure,2020-07-30,0.00628933954117733
+Dynamic Panel FE,commuting_pressure,2020-07-31,0.007442420593860355
+Dynamic Panel FE,commuting_pressure,2020-08-01,0.006885466198747636
+Dynamic Panel FE,commuting_pressure,2020-08-02,0.004327476410946718
+Dynamic Panel FE,commuting_pressure,2020-08-03,0.009054629639441925
+Dynamic Panel FE,commuting_pressure,2020-08-04,0.006670289397042672
+Dynamic Panel FE,commuting_pressure,2020-08-05,-0.0015257931421185367
+Dynamic Panel FE,commuting_pressure,2020-08-06,0.0006281910437842542
+Dynamic Panel FE,commuting_pressure,2020-08-07,0.0031434770166098858
+Dynamic Panel FE,commuting_pressure,2020-08-08,0.0032697317266028314
+Dynamic Panel FE,commuting_pressure,2020-08-09,0.00020886878797532482
+Dynamic Panel FE,commuting_pressure,2020-08-10,6.821144862656503e-05
+Dynamic Panel FE,commuting_pressure,2020-08-11,0.0008732522151160826
+Dynamic Panel FE,commuting_pressure,2020-08-12,0.003083976086828255
+Dynamic Panel FE,commuting_pressure,2020-08-13,0.0022607206128741897
+Dynamic Panel FE,commuting_pressure,2020-08-14,0.0013486837094031645
+Dynamic Panel FE,commuting_pressure,2020-08-15,0.002464533969424143
+Dynamic Panel FE,commuting_pressure,2020-08-16,0.0009332811800288332
+Dynamic Panel FE,commuting_pressure,2020-08-17,0.0026443017505116684
+Dynamic Panel FE,commuting_pressure,2020-08-18,0.0038692498447123747
+Dynamic Panel FE,commuting_pressure,2020-08-19,0.0008355889989409282
+Dynamic Panel FE,commuting_pressure,2020-08-20,-0.00041293049796325976
+Dynamic Panel FE,commuting_pressure,2020-08-21,-0.0016098664841124877
+Dynamic Panel FE,commuting_pressure,2020-08-22,-0.0035799837743261675
+Dynamic Panel FE,commuting_pressure,2020-08-23,0.00027067172996986244
+Dynamic Panel FE,commuting_pressure,2020-08-24,0.002418314100038621
+Dynamic Panel FE,commuting_pressure,2020-08-25,0.0020133829788892554
+Dynamic Panel FE,commuting_pressure,2020-08-26,0.002930466361862394
+Dynamic Panel FE,commuting_pressure,2020-08-27,0.003841890839345663
+Dynamic Panel FE,commuting_pressure,2020-08-28,0.0048891302583757845
+Dynamic Panel FE,commuting_pressure,2020-08-29,0.004855003625307663
+Dynamic Panel FE,commuting_pressure,2020-08-30,0.006591158135720532
+Dynamic Panel FE,commuting_pressure,2020-08-31,0.002601065433357419
+Dynamic Panel FE,commuting_pressure,2020-09-01,-0.0025827888526875897
+Dynamic Panel FE,commuting_pressure,2020-09-02,-0.005824568896407645
+Dynamic Panel FE,commuting_pressure,2020-09-03,-0.006567908080035101
+Dynamic Panel FE,commuting_pressure,2020-09-04,-0.007305267052535924
+Dynamic Panel FE,commuting_pressure,2020-09-05,-0.008415028327108776
+Dynamic Panel FE,commuting_pressure,2020-09-06,-0.0068293806645445265
+Dynamic Panel FE,commuting_pressure,2020-09-07,-0.007045728252203898
+Dynamic Panel FE,commuting_pressure,2020-09-08,-0.008780693588748223
+Dynamic Panel FE,commuting_pressure,2020-09-09,-0.0026191452665758064
+Dynamic Panel FE,commuting_pressure,2020-09-10,-0.003362712920218225
+Dynamic Panel FE,commuting_pressure,2020-09-11,-0.0026919463735147198
+Dynamic Panel FE,commuting_pressure,2020-09-12,-0.0025787638669229618
+Dynamic Panel FE,commuting_pressure,2020-09-13,-0.003569510743425708
+Dynamic Panel FE,commuting_pressure,2020-09-14,-0.005585455073273127
+Dynamic Panel FE,commuting_pressure,2020-09-15,-0.004479839114898743
+Dynamic Panel FE,commuting_pressure,2020-09-16,-0.00833750643214548
+Dynamic Panel FE,commuting_pressure,2020-09-17,-0.009086881858753892
+Dynamic Panel FE,commuting_pressure,2020-09-18,-0.008914085473711142
+Dynamic Panel FE,commuting_pressure,2020-09-19,-0.0073750840540277585
+Dynamic Panel FE,commuting_pressure,2020-09-20,-0.006677947833388154
+Dynamic Panel FE,commuting_pressure,2020-09-21,-0.008571406066466891
+Dynamic Panel FE,commuting_pressure,2020-09-22,-0.010668817645637874
+Dynamic Panel FE,commuting_pressure,2020-09-23,-0.019679425553477903
+Dynamic Panel FE,commuting_pressure,2020-09-24,-0.022342379793964584
+Dynamic Panel FE,commuting_pressure,2020-09-25,-0.022734882577478133
+Dynamic Panel FE,commuting_pressure,2020-09-26,-0.018600901884884058
+Dynamic Panel FE,commuting_pressure,2020-09-27,-0.0207783966735563
+Dynamic Panel FE,commuting_pressure,2020-09-28,-0.024407277737077404
+Dynamic Panel FE,commuting_pressure,2020-09-29,-0.031118167231563576
+Dynamic Panel FE,commuting_pressure,2020-09-30,-0.038145578907918254
+Dynamic Panel FE,commuting_pressure,2020-10-01,-0.04409521175041631
+Dynamic Panel FE,commuting_pressure,2020-10-02,-0.04570740607191037
+Dynamic Panel FE,commuting_pressure,2020-10-03,-0.0420263137319179
+Dynamic Panel FE,commuting_pressure,2020-10-04,-0.045554100270821296
+Dynamic Panel FE,commuting_pressure,2020-10-05,-0.05881204993442246
+Dynamic Panel FE,commuting_pressure,2020-10-06,-0.0637976409041845
+Dynamic Panel FE,commuting_pressure,2020-10-07,-0.015570590893035585
+Dynamic Panel FE,commuting_pressure,2020-10-08,-0.010665415339541129
+Dynamic Panel FE,commuting_pressure,2020-10-09,-0.0067040953137675885
+Dynamic Panel FE,commuting_pressure,2020-10-10,-0.004203557747190612
+Dynamic Panel FE,commuting_pressure,2020-10-11,-0.0008850188616346122
+Dynamic Panel FE,commuting_pressure,2020-10-12,-0.0092401176592668
+Dynamic Panel FE,commuting_pressure,2020-10-13,-0.013403605035982258
+Dynamic Panel FE,commuting_pressure,2020-10-14,-0.020206260760706196
+Dynamic Panel FE,commuting_pressure,2020-10-15,-0.021955066317988048
+Dynamic Panel FE,commuting_pressure,2020-10-16,-0.015201622541763937
+Dynamic Panel FE,commuting_pressure,2020-10-17,-0.004141891557918775
+Dynamic Panel FE,commuting_pressure,2020-10-18,-0.0009565297487681423
+Dynamic Panel FE,commuting_pressure,2020-10-19,-0.01364670683312863
+Dynamic Panel FE,commuting_pressure,2020-10-20,-0.027623456068370023
+Dynamic Panel FE,commuting_pressure,2020-10-21,-0.07866584878804406
+Dynamic Panel FE,commuting_pressure,2020-10-22,-0.09684273607158078
+Dynamic Panel FE,commuting_pressure,2020-10-23,-0.0802861851936536
+Dynamic Panel FE,commuting_pressure,2020-10-24,-0.09079341180289036
+Dynamic Panel FE,commuting_pressure,2020-10-25,-0.07269282565311941
+Dynamic Panel FE,commuting_pressure,2020-10-26,-0.12818720473348078
+Dynamic Panel FE,commuting_pressure,2020-10-27,-0.14210896985749977
+Dynamic Panel FE,commuting_pressure,2020-10-28,-0.10223176103860787
+Dynamic Panel FE,commuting_pressure,2020-10-29,-0.058702313414857876
+Dynamic Panel FE,commuting_pressure,2020-10-30,-0.01360013614993516
+Dynamic Panel FE,commuting_pressure,2020-10-31,-0.004764415508056397
+Dynamic Panel FE,commuting_pressure,2020-11-01,0.0036439623908128826
+Dynamic Panel FE,commuting_pressure,2020-11-02,-0.019988851870546
+Dynamic Panel FE,commuting_pressure,2020-11-03,-0.03441662166923298
+Dynamic Panel FE,commuting_pressure,2020-11-04,-0.08189515756272203
+Dynamic Panel FE,commuting_pressure,2020-11-05,-0.12408830636690027
+Dynamic Panel FE,commuting_pressure,2020-11-06,-0.1584900666765483
+Dynamic Panel FE,commuting_pressure,2020-11-07,-0.17780346669706248
+Dynamic Panel FE,commuting_pressure,2020-11-08,-0.17689575948872283
+Dynamic Panel FE,commuting_pressure,2020-11-09,-0.280098649454507
+Dynamic Panel FE,commuting_pressure,2020-11-10,-0.3536073975370786
+Dynamic Panel FE,commuting_pressure,2020-11-11,-0.10220215007693723
+Dynamic Panel FE,commuting_pressure,2020-11-12,-0.11476797486217216
+Dynamic Panel FE,commuting_pressure,2020-11-13,-0.11700300058788082
+Dynamic Panel FE,commuting_pressure,2020-11-14,-0.11984774153739619
+Dynamic Panel FE,commuting_pressure,2020-11-15,-0.11285089674535542
+Dynamic Panel FE,commuting_pressure,2020-11-16,-0.13239386145068055
+Dynamic Panel FE,commuting_pressure,2020-11-17,-0.1342082567600804
+Dynamic Panel FE,commuting_pressure,2020-11-18,0.05209376625458306
+Dynamic Panel FE,commuting_pressure,2020-11-19,0.053344910853937666
+Dynamic Panel FE,commuting_pressure,2020-11-20,0.056626655613030374
+Dynamic Panel FE,commuting_pressure,2020-11-21,0.05608251470279879
+Dynamic Panel FE,commuting_pressure,2020-11-22,0.042963549597131445
+Dynamic Panel FE,commuting_pressure,2020-11-23,0.04333343899850295
+Dynamic Panel FE,commuting_pressure,2020-11-24,0.0195501887141476
+Dynamic Panel FE,commuting_pressure,2020-11-25,0.0070374551648488826
+Dynamic Panel FE,commuting_pressure,2020-11-26,-0.0015379135487290085
+Dynamic Panel FE,commuting_pressure,2020-11-27,0.00522771823336976
+Dynamic Panel FE,commuting_pressure,2020-11-28,0.0007261482568474698
+Dynamic Panel FE,commuting_pressure,2020-11-29,0.000349677178384189
+Dynamic Panel FE,commuting_pressure,2020-11-30,0.001279948216085458
+Dynamic Panel FE,commuting_pressure,2020-12-01,-0.005613749594212347
+Dynamic Panel FE,commuting_pressure,2020-12-02,-0.021567571070689295
+Dynamic Panel FE,commuting_pressure,2020-12-03,-0.031910338080560985
+Dynamic Panel FE,commuting_pressure,2020-12-04,-0.02129859348423202
+Dynamic Panel FE,commuting_pressure,2020-12-05,-0.013324492094742624
+Dynamic Panel FE,commuting_pressure,2020-12-06,0.01126913659061124
+Dynamic Panel FE,commuting_pressure,2020-12-07,0.02112155148396133
+Dynamic Panel FE,commuting_pressure,2020-12-08,0.044695904933102826
+Dynamic Panel FE,commuting_pressure,2020-12-09,0.012773010501040183
+Dynamic Panel FE,commuting_pressure,2020-12-10,0.022376299510424635
+Dynamic Panel FE,commuting_pressure,2020-12-11,0.023491602363226782
+Dynamic Panel FE,commuting_pressure,2020-12-12,0.03519556724472528
+Dynamic Panel FE,commuting_pressure,2020-12-13,0.040682094377796796
+Dynamic Panel FE,commuting_pressure,2020-12-14,0.041886015723270775
+Dynamic Panel FE,commuting_pressure,2020-12-15,0.034827463513348755
+Dynamic Panel FE,commuting_pressure,2020-12-16,0.017749370481337845
+Dynamic Panel FE,commuting_pressure,2020-12-17,0.0037985252873178332
+Dynamic Panel FE,commuting_pressure,2020-12-18,0.020567029793424174
+Dynamic Panel FE,commuting_pressure,2020-12-19,0.036556890119376906
+Dynamic Panel FE,commuting_pressure,2020-12-20,0.0444282967624865
+Dynamic Panel FE,commuting_pressure,2020-12-21,0.02847282423905062
+Dynamic Panel FE,commuting_pressure,2020-12-22,0.014071278503641427
+Dynamic Panel FE,commuting_pressure,2020-12-23,-0.022598464877647162
+Dynamic Panel FE,commuting_pressure,2020-12-24,-0.032863300514910376
+Dynamic Panel FE,commuting_pressure,2020-12-25,-0.04817119590818453
+Dynamic Panel FE,commuting_pressure,2020-12-26,-0.03152410454069621
+Dynamic Panel FE,commuting_pressure,2020-12-27,-0.013084864941685481
+Dynamic Panel FE,commuting_pressure,2020-12-28,-0.015687912206399535
+Dynamic Panel FE,calendar,2020-04-30,0.06457916416172416
+Dynamic Panel FE,calendar,2020-05-01,-0.00026383229035920053
+Dynamic Panel FE,calendar,2020-05-02,-0.017561724080686347
+Dynamic Panel FE,calendar,2020-05-03,-0.15038319150722101
+Dynamic Panel FE,calendar,2020-05-04,-0.02745872799722915
+Dynamic Panel FE,calendar,2020-05-05,-0.06995065529991207
+Dynamic Panel FE,calendar,2020-05-06,0.0699214059593628
+Dynamic Panel FE,calendar,2020-05-07,0.08471263331129375
+Dynamic Panel FE,calendar,2020-05-08,0.04178828824241576
+Dynamic Panel FE,calendar,2020-05-09,0.01797950640537105
+Dynamic Panel FE,calendar,2020-05-10,-0.03562973113744283
+Dynamic Panel FE,calendar,2020-05-11,0.02416466389372407
+Dynamic Panel FE,calendar,2020-05-12,0.003913644882158174
+Dynamic Panel FE,calendar,2020-05-13,0.04367737724051246
+Dynamic Panel FE,calendar,2020-05-14,0.08153823218028333
+Dynamic Panel FE,calendar,2020-05-15,0.03258456131027987
+Dynamic Panel FE,calendar,2020-05-16,0.0027050657604790196
+Dynamic Panel FE,calendar,2020-05-17,-0.10489541335577723
+Dynamic Panel FE,calendar,2020-05-18,-0.007084808129791842
+Dynamic Panel FE,calendar,2020-05-19,-0.051649404821152545
+Dynamic Panel FE,calendar,2020-05-20,0.009726471593166863
+Dynamic Panel FE,calendar,2020-05-21,0.04071013571765053
+Dynamic Panel FE,calendar,2020-05-22,0.0020110495398671935
+Dynamic Panel FE,calendar,2020-05-23,-0.02801748276278443
+Dynamic Panel FE,calendar,2020-05-24,-0.1015637901471177
+Dynamic Panel FE,calendar,2020-05-25,-0.015961482794679238
+Dynamic Panel FE,calendar,2020-05-26,-0.04758907828257297
+Dynamic Panel FE,calendar,2020-05-27,-0.006879473882835163
+Dynamic Panel FE,calendar,2020-05-28,0.021371804585463117
+Dynamic Panel FE,calendar,2020-05-29,0.000493916746748646
+Dynamic Panel FE,calendar,2020-05-30,-0.021650605370170217
+Dynamic Panel FE,calendar,2020-05-31,-0.08951815381610262
+Dynamic Panel FE,calendar,2020-06-01,-0.03166744453157677
+Dynamic Panel FE,calendar,2020-06-02,-0.0597727736939615
+Dynamic Panel FE,calendar,2020-06-03,0.027649220400044028
+Dynamic Panel FE,calendar,2020-06-04,0.0469432828515946
+Dynamic Panel FE,calendar,2020-06-05,0.04193890634423769
+Dynamic Panel FE,calendar,2020-06-06,0.01631218476252222
+Dynamic Panel FE,calendar,2020-06-07,-0.027520634865004057
+Dynamic Panel FE,calendar,2020-06-08,0.02783862008806287
+Dynamic Panel FE,calendar,2020-06-09,0.007100826810586991
+Dynamic Panel FE,calendar,2020-06-10,0.025490086334822665
+Dynamic Panel FE,calendar,2020-06-11,0.03737633428257825
+Dynamic Panel FE,calendar,2020-06-12,0.039989141054378785
+Dynamic Panel FE,calendar,2020-06-13,0.01481681407883928
+Dynamic Panel FE,calendar,2020-06-14,-0.03165930034514769
+Dynamic Panel FE,calendar,2020-06-15,-0.0002277200080688102
+Dynamic Panel FE,calendar,2020-06-16,-0.0024713046318927123
+Dynamic Panel FE,calendar,2020-06-17,0.01910686197841366
+Dynamic Panel FE,calendar,2020-06-18,0.02969637821426957
+Dynamic Panel FE,calendar,2020-06-19,0.021357382899075683
+Dynamic Panel FE,calendar,2020-06-20,0.0006977464549969281
+Dynamic Panel FE,calendar,2020-06-21,-0.017570507532878976
+Dynamic Panel FE,calendar,2020-06-22,-0.004241843564015468
+Dynamic Panel FE,calendar,2020-06-23,-0.0018752146605715003
+Dynamic Panel FE,calendar,2020-06-24,0.012819305815256421
+Dynamic Panel FE,calendar,2020-06-25,0.017074220557760644
+Dynamic Panel FE,calendar,2020-06-26,0.008377882237270207
+Dynamic Panel FE,calendar,2020-06-27,-0.005322142024480114
+Dynamic Panel FE,calendar,2020-06-28,-0.02278746131058551
+Dynamic Panel FE,calendar,2020-06-29,-0.010826210019802496
+Dynamic Panel FE,calendar,2020-06-30,-0.004265529863109296
+Dynamic Panel FE,calendar,2020-07-01,0.016215742469186334
+Dynamic Panel FE,calendar,2020-07-02,0.011822520566912575
+Dynamic Panel FE,calendar,2020-07-03,-0.002341520157804977
+Dynamic Panel FE,calendar,2020-07-04,-0.009526007541259984
+Dynamic Panel FE,calendar,2020-07-05,-0.024268152749305383
+Dynamic Panel FE,calendar,2020-07-06,-0.013566212772704422
+Dynamic Panel FE,calendar,2020-07-07,-0.0026043763314258506
+Dynamic Panel FE,calendar,2020-07-08,0.008405252102615335
+Dynamic Panel FE,calendar,2020-07-09,-0.005309541246521499
+Dynamic Panel FE,calendar,2020-07-10,-0.027807839027300663
+Dynamic Panel FE,calendar,2020-07-11,-0.0360581529225833
+Dynamic Panel FE,calendar,2020-07-12,-0.044036780184763924
+Dynamic Panel FE,calendar,2020-07-13,-0.02481387009679542
+Dynamic Panel FE,calendar,2020-07-14,-0.009726915703805017
+Dynamic Panel FE,calendar,2020-07-15,0.019020208339646127
+Dynamic Panel FE,calendar,2020-07-16,0.004260305331043934
+Dynamic Panel FE,calendar,2020-07-17,-0.023634321765219457
+Dynamic Panel FE,calendar,2020-07-18,-0.026777654420635677
+Dynamic Panel FE,calendar,2020-07-19,-0.036283572573158396
+Dynamic Panel FE,calendar,2020-07-20,-0.011522407386020728
+Dynamic Panel FE,calendar,2020-07-21,0.0006521363631079025
+Dynamic Panel FE,calendar,2020-07-22,0.01576715924748323
+Dynamic Panel FE,calendar,2020-07-23,0.005210422224060818
+Dynamic Panel FE,calendar,2020-07-24,-0.018400314148947827
+Dynamic Panel FE,calendar,2020-07-25,-0.024513263352490933
+Dynamic Panel FE,calendar,2020-07-26,-0.028159418076011244
+Dynamic Panel FE,calendar,2020-07-27,-0.007112425198583461
+Dynamic Panel FE,calendar,2020-07-28,0.009070140429575269
+Dynamic Panel FE,calendar,2020-07-29,0.03108756414354047
+Dynamic Panel FE,calendar,2020-07-30,0.018015208022011342
+Dynamic Panel FE,calendar,2020-07-31,-0.013533848645339741
+Dynamic Panel FE,calendar,2020-08-01,-0.017492853525274077
+Dynamic Panel FE,calendar,2020-08-02,-0.0185381615457752
+Dynamic Panel FE,calendar,2020-08-03,0.007555287686182133
+Dynamic Panel FE,calendar,2020-08-04,0.024062447765492267
+Dynamic Panel FE,calendar,2020-08-05,0.06353298676912472
+Dynamic Panel FE,calendar,2020-08-06,0.050988285016378865
+Dynamic Panel FE,calendar,2020-08-07,0.022153771317440007
+Dynamic Panel FE,calendar,2020-08-08,0.018157680825183486
+Dynamic Panel FE,calendar,2020-08-09,0.01027451108717553
+Dynamic Panel FE,calendar,2020-08-10,0.03518573249203688
+Dynamic Panel FE,calendar,2020-08-11,0.051405998976172096
+Dynamic Panel FE,calendar,2020-08-12,0.042296080292408
+Dynamic Panel FE,calendar,2020-08-13,0.03675975941893134
+Dynamic Panel FE,calendar,2020-08-14,0.007446057920640847
+Dynamic Panel FE,calendar,2020-08-15,0.0008096841930811949
+Dynamic Panel FE,calendar,2020-08-16,-0.011532805447020122
+Dynamic Panel FE,calendar,2020-08-17,0.014220401467199384
+Dynamic Panel FE,calendar,2020-08-18,0.028348739731554107
+Dynamic Panel FE,calendar,2020-08-19,0.026044431706916393
+Dynamic Panel FE,calendar,2020-08-20,0.027749640112806895
+Dynamic Panel FE,calendar,2020-08-21,0.0032012617631383966
+Dynamic Panel FE,calendar,2020-08-22,-0.002648803287948198
+Dynamic Panel FE,calendar,2020-08-23,-0.027578590001875514
+Dynamic Panel FE,calendar,2020-08-24,0.0024123275312869508
+Dynamic Panel FE,calendar,2020-08-25,0.0162534286599606
+Dynamic Panel FE,calendar,2020-08-26,0.02015705761167247
+Dynamic Panel FE,calendar,2020-08-27,0.021785171661303893
+Dynamic Panel FE,calendar,2020-08-28,0.002399525173096717
+Dynamic Panel FE,calendar,2020-08-29,-0.005602064529445727
+Dynamic Panel FE,calendar,2020-08-30,-0.017890181737638067
+Dynamic Panel FE,calendar,2020-08-31,0.00023209731626394614
+Dynamic Panel FE,calendar,2020-09-01,0.008606069710025976
+Dynamic Panel FE,calendar,2020-09-02,-0.03947476989787463
+Dynamic Panel FE,calendar,2020-09-03,-0.039720959256128285
+Dynamic Panel FE,calendar,2020-09-04,-0.06117169429031438
+Dynamic Panel FE,calendar,2020-09-05,-0.06580216657868959
+Dynamic Panel FE,calendar,2020-09-06,-0.06925058635388998
+Dynamic Panel FE,calendar,2020-09-07,-0.04637759502486993
+Dynamic Panel FE,calendar,2020-09-08,-0.04225275016883273
+Dynamic Panel FE,calendar,2020-09-09,0.0034690871915565857
+Dynamic Panel FE,calendar,2020-09-10,0.006011839388908258
+Dynamic Panel FE,calendar,2020-09-11,-0.011878629381771921
+Dynamic Panel FE,calendar,2020-09-12,-0.027159939499119712
+Dynamic Panel FE,calendar,2020-09-13,-0.044186184164550724
+Dynamic Panel FE,calendar,2020-09-14,-0.02282385649199864
+Dynamic Panel FE,calendar,2020-09-15,-0.008287180555122231
+Dynamic Panel FE,calendar,2020-09-16,0.01800257710991915
+Dynamic Panel FE,calendar,2020-09-17,0.017568279248704688
+Dynamic Panel FE,calendar,2020-09-18,-0.0014661054483659508
+Dynamic Panel FE,calendar,2020-09-19,-0.018394119632596073
+Dynamic Panel FE,calendar,2020-09-20,-0.031440333075144045
+Dynamic Panel FE,calendar,2020-09-21,-0.012140692797476094
+Dynamic Panel FE,calendar,2020-09-22,0.0031152088524167842
+Dynamic Panel FE,calendar,2020-09-23,0.02496879535462393
+Dynamic Panel FE,calendar,2020-09-24,0.025016249267040602
+Dynamic Panel FE,calendar,2020-09-25,0.010377688524093043
+Dynamic Panel FE,calendar,2020-09-26,-0.008454877303578745
+Dynamic Panel FE,calendar,2020-09-27,-0.017689347735242222
+Dynamic Panel FE,calendar,2020-09-28,0.0009203968069447788
+Dynamic Panel FE,calendar,2020-09-29,0.014940287823505427
+Dynamic Panel FE,calendar,2020-09-30,0.027716029868072978
+Dynamic Panel FE,calendar,2020-10-01,0.032174901887670915
+Dynamic Panel FE,calendar,2020-10-02,0.016681223878555973
+Dynamic Panel FE,calendar,2020-10-03,-0.006061772334145288
+Dynamic Panel FE,calendar,2020-10-04,-0.015374682108529769
+Dynamic Panel FE,calendar,2020-10-05,0.005071645191233931
+Dynamic Panel FE,calendar,2020-10-06,0.019382335085889713
+Dynamic Panel FE,calendar,2020-10-07,0.03154523809272658
+Dynamic Panel FE,calendar,2020-10-08,0.03274439002845442
+Dynamic Panel FE,calendar,2020-10-09,0.01465083115006982
+Dynamic Panel FE,calendar,2020-10-10,-0.007709856248501623
+Dynamic Panel FE,calendar,2020-10-11,-0.0143344499874285
+Dynamic Panel FE,calendar,2020-10-12,0.0020521513043973982
+Dynamic Panel FE,calendar,2020-10-13,0.015784924707509695
+Dynamic Panel FE,calendar,2020-10-14,0.029227860635475222
+Dynamic Panel FE,calendar,2020-10-15,0.02826382216859935
+Dynamic Panel FE,calendar,2020-10-16,0.012516963175249196
+Dynamic Panel FE,calendar,2020-10-17,-0.004759598170165913
+Dynamic Panel FE,calendar,2020-10-18,-0.0172431408615622
+Dynamic Panel FE,calendar,2020-10-19,-0.0023366007640855946
+Dynamic Panel FE,calendar,2020-10-20,0.011730745980750634
+Dynamic Panel FE,calendar,2020-10-21,0.021912713498706715
+Dynamic Panel FE,calendar,2020-10-22,0.023562307361508772
+Dynamic Panel FE,calendar,2020-10-23,0.00042846779085992104
+Dynamic Panel FE,calendar,2020-10-24,-0.028579268549509207
+Dynamic Panel FE,calendar,2020-10-25,-0.03943766359820611
+Dynamic Panel FE,calendar,2020-10-26,-0.019363558381730206
+Dynamic Panel FE,calendar,2020-10-27,-0.0024810372844417117
+Dynamic Panel FE,calendar,2020-10-28,0.029184379700789242
+Dynamic Panel FE,calendar,2020-10-29,0.021217153939518063
+Dynamic Panel FE,calendar,2020-10-30,0.011520581084615511
+Dynamic Panel FE,calendar,2020-10-31,0.00023853207827784217
+Dynamic Panel FE,calendar,2020-11-01,-0.008937249025503968
+Dynamic Panel FE,calendar,2020-11-02,-0.00141306414926623
+Dynamic Panel FE,calendar,2020-11-03,0.007670194408601949
+Dynamic Panel FE,calendar,2020-11-04,-0.02957809138438461
+Dynamic Panel FE,calendar,2020-11-05,-0.01834727050598306
+Dynamic Panel FE,calendar,2020-11-06,-0.04125445140182915
+Dynamic Panel FE,calendar,2020-11-07,-0.06162342261248588
+Dynamic Panel FE,calendar,2020-11-08,-0.07660633901385339
+Dynamic Panel FE,calendar,2020-11-09,-0.011813825505012865
+Dynamic Panel FE,calendar,2020-11-10,0.04250585131655793
+Dynamic Panel FE,calendar,2020-11-11,0.17409754717562276
+Dynamic Panel FE,calendar,2020-11-12,0.2061516463950408
+Dynamic Panel FE,calendar,2020-11-13,0.12579625070838785
+Dynamic Panel FE,calendar,2020-11-14,0.08384422531090596
+Dynamic Panel FE,calendar,2020-11-15,0.05698204831252229
+Dynamic Panel FE,calendar,2020-11-16,0.16490394961390642
+Dynamic Panel FE,calendar,2020-11-17,0.1967955550765268
+Dynamic Panel FE,calendar,2020-11-18,0.0650715866619962
+Dynamic Panel FE,calendar,2020-11-19,0.07566993683688983
+Dynamic Panel FE,calendar,2020-11-20,0.05256447643964823
+Dynamic Panel FE,calendar,2020-11-21,0.022206066574191885
+Dynamic Panel FE,calendar,2020-11-22,-0.0017655512530228012
+Dynamic Panel FE,calendar,2020-11-23,0.03781513641451739
+Dynamic Panel FE,calendar,2020-11-24,0.0339751551821621
+Dynamic Panel FE,calendar,2020-11-25,0.03082082908401018
+Dynamic Panel FE,calendar,2020-11-26,0.0047925356583296
+Dynamic Panel FE,calendar,2020-11-27,0.01409773089661126
+Dynamic Panel FE,calendar,2020-11-28,0.011559439265165006
+Dynamic Panel FE,calendar,2020-11-29,0.014928201525200357
+Dynamic Panel FE,calendar,2020-11-30,0.04705906211571875
+Dynamic Panel FE,calendar,2020-12-01,0.10388240002315552
+Dynamic Panel FE,calendar,2020-12-02,0.02938101349816713
+Dynamic Panel FE,calendar,2020-12-03,0.05131948679991649
+Dynamic Panel FE,calendar,2020-12-04,-0.02667937634325801
+Dynamic Panel FE,calendar,2020-12-05,-0.09388646741900541
+Dynamic Panel FE,calendar,2020-12-06,-0.14084336738812042
+Dynamic Panel FE,calendar,2020-12-07,-0.061359308395325884
+Dynamic Panel FE,calendar,2020-12-08,-0.045446170349118464
+Dynamic Panel FE,calendar,2020-12-09,0.03919371367521962
+Dynamic Panel FE,calendar,2020-12-10,0.053411345038426816
+Dynamic Panel FE,calendar,2020-12-11,-0.0013258310300512388
+Dynamic Panel FE,calendar,2020-12-12,-0.029934930327844445
+Dynamic Panel FE,calendar,2020-12-13,-0.04439245136048631
+Dynamic Panel FE,calendar,2020-12-14,0.02518907090886291
+Dynamic Panel FE,calendar,2020-12-15,0.04629018889259595
+Dynamic Panel FE,calendar,2020-12-16,0.0639046058647117
+Dynamic Panel FE,calendar,2020-12-17,0.04083288067829427
+Dynamic Panel FE,calendar,2020-12-18,-0.005170056351961438
+Dynamic Panel FE,calendar,2020-12-19,-0.03225613961831075
+Dynamic Panel FE,calendar,2020-12-20,-0.04018811576893455
+Dynamic Panel FE,calendar,2020-12-21,0.004436728609154672
+Dynamic Panel FE,calendar,2020-12-22,0.01960136657204492
+Dynamic Panel FE,calendar,2020-12-23,-0.012114198143973187
+Dynamic Panel FE,calendar,2020-12-24,-0.037645640027123006
+Dynamic Panel FE,calendar,2020-12-25,-0.008337103251508049
+Dynamic Panel FE,calendar,2020-12-26,0.006271675503623175
+Dynamic Panel FE,calendar,2020-12-27,0.025707054875342195
+Dynamic Panel FE,calendar,2020-12-28,-0.0009492223479783402
+XGBoost,local_case_history,2020-04-30,0.06431089447898464
+XGBoost,local_case_history,2020-05-01,0.0413550547741689
+XGBoost,local_case_history,2020-05-02,0.03980545328006824
+XGBoost,local_case_history,2020-05-03,0.038297549834404476
+XGBoost,local_case_history,2020-05-04,0.11440288020956901
+XGBoost,local_case_history,2020-05-05,0.045228899276473555
+XGBoost,local_case_history,2020-05-06,0.01988354427487904
+XGBoost,local_case_history,2020-05-07,0.037684184866597414
+XGBoost,local_case_history,2020-05-08,0.02997100675402964
+XGBoost,local_case_history,2020-05-09,0.04596672371284238
+XGBoost,local_case_history,2020-05-10,0.06259358475293875
+XGBoost,local_case_history,2020-05-11,0.08989226456666544
+XGBoost,local_case_history,2020-05-12,0.09519165727131451
+XGBoost,local_case_history,2020-05-13,0.016796437335685477
+XGBoost,local_case_history,2020-05-14,0.029981013205422458
+XGBoost,local_case_history,2020-05-15,0.028564563125903886
+XGBoost,local_case_history,2020-05-16,0.036702663895552656
+XGBoost,local_case_history,2020-05-17,0.050191202838364535
+XGBoost,local_case_history,2020-05-18,0.056659498699377586
+XGBoost,local_case_history,2020-05-19,0.08929875013897759
+XGBoost,local_case_history,2020-05-20,0.026854645562997714
+XGBoost,local_case_history,2020-05-21,0.027715512170811918
+XGBoost,local_case_history,2020-05-22,0.021959281839135814
+XGBoost,local_case_history,2020-05-23,0.03065615003690403
+XGBoost,local_case_history,2020-05-24,0.042246643752403557
+XGBoost,local_case_history,2020-05-25,0.04324447174388729
+XGBoost,local_case_history,2020-05-26,0.08329868374818244
+XGBoost,local_case_history,2020-05-27,0.01417421844096034
+XGBoost,local_case_history,2020-05-28,0.01754633365125169
+XGBoost,local_case_history,2020-05-29,0.015401740772702677
+XGBoost,local_case_history,2020-05-30,0.013858628330156553
+XGBoost,local_case_history,2020-05-31,0.02318829522813748
+XGBoost,local_case_history,2020-06-01,0.026837864566688574
+XGBoost,local_case_history,2020-06-02,0.04108618772469269
+XGBoost,local_case_history,2020-06-03,0.012456154497788086
+XGBoost,local_case_history,2020-06-04,0.015478949048264523
+XGBoost,local_case_history,2020-06-05,0.0038743455439533836
+XGBoost,local_case_history,2020-06-06,0.007745242100427874
+XGBoost,local_case_history,2020-06-07,0.01649071946375319
+XGBoost,local_case_history,2020-06-08,0.022666473239408236
+XGBoost,local_case_history,2020-06-09,0.03256183615879038
+XGBoost,local_case_history,2020-06-10,0.0072824643574695425
+XGBoost,local_case_history,2020-06-11,0.0012740333686135918
+XGBoost,local_case_history,2020-06-12,0.0002993356752404308
+XGBoost,local_case_history,2020-06-13,0.00322030881143498
+XGBoost,local_case_history,2020-06-14,0.004022298167188354
+XGBoost,local_case_history,2020-06-15,0.0069395534130857195
+XGBoost,local_case_history,2020-06-16,0.014183100382847202
+XGBoost,local_case_history,2020-06-17,0.0023060619408789562
+XGBoost,local_case_history,2020-06-18,-0.001273809295876338
+XGBoost,local_case_history,2020-06-19,-0.0013637487138780657
+XGBoost,local_case_history,2020-06-20,0.00317657728532883
+XGBoost,local_case_history,2020-06-21,0.0006004879759734516
+XGBoost,local_case_history,2020-06-22,-0.0024717685415779345
+XGBoost,local_case_history,2020-06-23,-0.004606209245249682
+XGBoost,local_case_history,2020-06-24,0.0012782281602217171
+XGBoost,local_case_history,2020-06-25,-0.003435069367419219
+XGBoost,local_case_history,2020-06-26,-0.006357240637527517
+XGBoost,local_case_history,2020-06-27,-0.006487030834756435
+XGBoost,local_case_history,2020-06-28,0.00356682001966635
+XGBoost,local_case_history,2020-06-29,0.006127879564899796
+XGBoost,local_case_history,2020-06-30,0.011604515360997492
+XGBoost,local_case_history,2020-07-01,0.01763286873740688
+XGBoost,local_case_history,2020-07-02,0.013445887704011006
+XGBoost,local_case_history,2020-07-03,0.017722117624900946
+XGBoost,local_case_history,2020-07-04,0.014171405321257713
+XGBoost,local_case_history,2020-07-05,0.01869943424677234
+XGBoost,local_case_history,2020-07-06,0.018966915617641245
+XGBoost,local_case_history,2020-07-07,0.018144398212347923
+XGBoost,local_case_history,2020-07-08,0.0004822316545027294
+XGBoost,local_case_history,2020-07-09,0.006172350205035315
+XGBoost,local_case_history,2020-07-10,0.006761972033060504
+XGBoost,local_case_history,2020-07-11,0.007222333333940623
+XGBoost,local_case_history,2020-07-12,0.00994972414907569
+XGBoost,local_case_history,2020-07-13,0.004711832016961182
+XGBoost,local_case_history,2020-07-14,0.009213776250722727
+XGBoost,local_case_history,2020-07-15,-0.00032609701445168726
+XGBoost,local_case_history,2020-07-16,-0.0015041558202316674
+XGBoost,local_case_history,2020-07-17,-1.0108765602090397e-05
+XGBoost,local_case_history,2020-07-18,-0.00037553011933261216
+XGBoost,local_case_history,2020-07-19,0.0016161206869562128
+XGBoost,local_case_history,2020-07-20,0.0018500863013263258
+XGBoost,local_case_history,2020-07-21,-0.00022924740777546804
+XGBoost,local_case_history,2020-07-22,-0.0053102952388216496
+XGBoost,local_case_history,2020-07-23,-0.00592331400572621
+XGBoost,local_case_history,2020-07-24,-0.0036526170394720614
+XGBoost,local_case_history,2020-07-25,-0.0038409842797448857
+XGBoost,local_case_history,2020-07-26,-0.0038313240408525684
+XGBoost,local_case_history,2020-07-27,-0.004226777482425614
+XGBoost,local_case_history,2020-07-28,-0.00389344280183207
+XGBoost,local_case_history,2020-07-29,-0.008683390087054044
+XGBoost,local_case_history,2020-07-30,-0.007463920965957882
+XGBoost,local_case_history,2020-07-31,-0.005530887635483095
+XGBoost,local_case_history,2020-08-01,-0.003038412300636617
+XGBoost,local_case_history,2020-08-02,-0.004442242015832432
+XGBoost,local_case_history,2020-08-03,-0.005210274958417915
+XGBoost,local_case_history,2020-08-04,-0.0035668949894089863
+XGBoost,local_case_history,2020-08-05,-0.0065354343145512805
+XGBoost,local_case_history,2020-08-06,-0.004986917942183922
+XGBoost,local_case_history,2020-08-07,-0.0051438717369223785
+XGBoost,local_case_history,2020-08-08,-0.003332750596095446
+XGBoost,local_case_history,2020-08-09,-0.0024725817211577183
+XGBoost,local_case_history,2020-08-10,-0.002983039488221262
+XGBoost,local_case_history,2020-08-11,-0.0029760586461344274
+XGBoost,local_case_history,2020-08-12,-0.0031481457560753046
+XGBoost,local_case_history,2020-08-13,-0.004176152526915722
+XGBoost,local_case_history,2020-08-14,-0.0005833505566610886
+XGBoost,local_case_history,2020-08-15,-0.0014481544158732595
+XGBoost,local_case_history,2020-08-16,0.0004632776589835741
+XGBoost,local_case_history,2020-08-17,-0.0017721082173265401
+XGBoost,local_case_history,2020-08-18,-0.0036168356622075515
+XGBoost,local_case_history,2020-08-19,0.0006678375543527904
+XGBoost,local_case_history,2020-08-20,3.702707348712808e-05
+XGBoost,local_case_history,2020-08-21,0.00038926380721621134
+XGBoost,local_case_history,2020-08-22,0.001323098808220513
+XGBoost,local_case_history,2020-08-23,0.0038327802227348107
+XGBoost,local_case_history,2020-08-24,0.004480191255704702
+XGBoost,local_case_history,2020-08-25,0.0022803325811003305
+XGBoost,local_case_history,2020-08-26,0.001102691192174654
+XGBoost,local_case_history,2020-08-27,0.0023108936798496016
+XGBoost,local_case_history,2020-08-28,0.0013912124019991867
+XGBoost,local_case_history,2020-08-29,0.0032477919901177654
+XGBoost,local_case_history,2020-08-30,0.005052503487599336
+XGBoost,local_case_history,2020-08-31,0.004970888407142049
+XGBoost,local_case_history,2020-09-01,0.00034589877649293665
+XGBoost,local_case_history,2020-09-02,0.008067304742366
+XGBoost,local_case_history,2020-09-03,0.018096959023627623
+XGBoost,local_case_history,2020-09-04,0.024070146849692053
+XGBoost,local_case_history,2020-09-05,0.025101242730250717
+XGBoost,local_case_history,2020-09-06,0.021930092006412327
+XGBoost,local_case_history,2020-09-07,0.0203457220932442
+XGBoost,local_case_history,2020-09-08,0.018484315327620737
+XGBoost,local_case_history,2020-09-09,0.004747859478803462
+XGBoost,local_case_history,2020-09-10,0.001404774178382029
+XGBoost,local_case_history,2020-09-11,0.004619679702419333
+XGBoost,local_case_history,2020-09-12,0.00795898507229792
+XGBoost,local_case_history,2020-09-13,0.009007613055216968
+XGBoost,local_case_history,2020-09-14,0.01022000266106382
+XGBoost,local_case_history,2020-09-15,0.0031910882567577903
+XGBoost,local_case_history,2020-09-16,-0.002518044234362249
+XGBoost,local_case_history,2020-09-17,-0.007779406682930479
+XGBoost,local_case_history,2020-09-18,0.003833441700298146
+XGBoost,local_case_history,2020-09-19,0.023721199792854808
+XGBoost,local_case_history,2020-09-20,0.020147868791366985
+XGBoost,local_case_history,2020-09-21,0.009735030546635826
+XGBoost,local_case_history,2020-09-22,0.002413236636912508
+XGBoost,local_case_history,2020-09-23,0.0018411124385150357
+XGBoost,local_case_history,2020-09-24,0.004478744255575151
+XGBoost,local_case_history,2020-09-25,0.00642299697418669
+XGBoost,local_case_history,2020-09-26,0.005887085434442163
+XGBoost,local_case_history,2020-09-27,0.010510144659723997
+XGBoost,local_case_history,2020-09-28,0.008920074735059624
+XGBoost,local_case_history,2020-09-29,0.01788120806811544
+XGBoost,local_case_history,2020-09-30,0.010046178759991142
+XGBoost,local_case_history,2020-10-01,0.010470800557335624
+XGBoost,local_case_history,2020-10-02,0.013457542353248697
+XGBoost,local_case_history,2020-10-03,0.01777458732192838
+XGBoost,local_case_history,2020-10-04,0.022011234771269206
+XGBoost,local_case_history,2020-10-05,0.03418402905467144
+XGBoost,local_case_history,2020-10-06,0.031177824731396186
+XGBoost,local_case_history,2020-10-07,0.02933309856653632
+XGBoost,local_case_history,2020-10-08,0.023873986662537927
+XGBoost,local_case_history,2020-10-09,0.03330708710513908
+XGBoost,local_case_history,2020-10-10,0.045888079861988285
+XGBoost,local_case_history,2020-10-11,0.054317317881284466
+XGBoost,local_case_history,2020-10-12,0.09553166358085607
+XGBoost,local_case_history,2020-10-13,0.09631929286029939
+XGBoost,local_case_history,2020-10-14,0.0581390547815529
+XGBoost,local_case_history,2020-10-15,0.04681687336640594
+XGBoost,local_case_history,2020-10-16,0.06605446701776496
+XGBoost,local_case_history,2020-10-17,0.07700165849238061
+XGBoost,local_case_history,2020-10-18,0.09152353523150503
+XGBoost,local_case_history,2020-10-19,0.09971229672349691
+XGBoost,local_case_history,2020-10-20,0.07958061241550085
+XGBoost,local_case_history,2020-10-21,0.05311426875570213
+XGBoost,local_case_history,2020-10-22,0.06626719411743132
+XGBoost,local_case_history,2020-10-23,0.06702194704927578
+XGBoost,local_case_history,2020-10-24,0.042158580069998064
+XGBoost,local_case_history,2020-10-25,0.061770368308794676
+XGBoost,local_case_history,2020-10-26,0.06270463038368568
+XGBoost,local_case_history,2020-10-27,0.09232517387930239
+XGBoost,local_case_history,2020-10-28,0.05281789825056438
+XGBoost,local_case_history,2020-10-29,0.029433688256051083
+XGBoost,local_case_history,2020-10-30,0.003809876146426472
+XGBoost,local_case_history,2020-10-31,-0.006392712302590864
+XGBoost,local_case_history,2020-11-01,0.02981373570816981
+XGBoost,local_case_history,2020-11-02,0.06839810697377757
+XGBoost,local_case_history,2020-11-03,0.11847847315464222
+XGBoost,local_case_history,2020-11-04,0.027425677908791357
+XGBoost,local_case_history,2020-11-05,0.03667882934340039
+XGBoost,local_case_history,2020-11-06,0.10662339313162694
+XGBoost,local_case_history,2020-11-07,0.14005391987470484
+XGBoost,local_case_history,2020-11-08,0.20525957802761674
+XGBoost,local_case_history,2020-11-09,0.0929562709949634
+XGBoost,local_case_history,2020-11-10,0.07852336063853693
+XGBoost,local_case_history,2020-11-11,-0.01732758323096828
+XGBoost,local_case_history,2020-11-12,-0.015632861314017754
+XGBoost,local_case_history,2020-11-13,0.029227313242237152
+XGBoost,local_case_history,2020-11-14,0.043974043094576976
+XGBoost,local_case_history,2020-11-15,0.04403634576546156
+XGBoost,local_case_history,2020-11-16,0.028168933017131526
+XGBoost,local_case_history,2020-11-17,0.03876336412000181
+XGBoost,local_case_history,2020-11-18,-0.001901108412690089
+XGBoost,local_case_history,2020-11-19,0.005636240646343937
+XGBoost,local_case_history,2020-11-20,0.019773414430269698
+XGBoost,local_case_history,2020-11-21,0.005107278845397634
+XGBoost,local_case_history,2020-11-22,0.042085213320027126
+XGBoost,local_case_history,2020-11-23,0.04382899027248777
+XGBoost,local_case_history,2020-11-24,0.04916185448556454
+XGBoost,local_case_history,2020-11-25,0.018912577140609343
+XGBoost,local_case_history,2020-11-26,0.022795517692087763
+XGBoost,local_case_history,2020-11-27,0.035245166740717204
+XGBoost,local_case_history,2020-11-28,0.06019508997986667
+XGBoost,local_case_history,2020-11-29,0.08966423363910403
+XGBoost,local_case_history,2020-11-30,0.09490979634387209
+XGBoost,local_case_history,2020-12-01,0.07055672510912481
+XGBoost,local_case_history,2020-12-02,0.029128349707209678
+XGBoost,local_case_history,2020-12-03,0.01953043276006272
+XGBoost,local_case_history,2020-12-04,0.02703553578495299
+XGBoost,local_case_history,2020-12-05,0.03843320120773419
+XGBoost,local_case_history,2020-12-06,0.02845113707435698
+XGBoost,local_case_history,2020-12-07,0.04858478639418107
+XGBoost,local_case_history,2020-12-08,0.06539945495805766
+XGBoost,local_case_history,2020-12-09,0.0021744487918595734
+XGBoost,local_case_history,2020-12-10,0.02199957233739558
+XGBoost,local_case_history,2020-12-11,0.018941343682114864
+XGBoost,local_case_history,2020-12-12,0.04620372999706279
+XGBoost,local_case_history,2020-12-13,0.05483737663867383
+XGBoost,local_case_history,2020-12-14,0.06431539973331613
+XGBoost,local_case_history,2020-12-15,0.08143172075327199
+XGBoost,local_case_history,2020-12-16,0.049811649722102835
+XGBoost,local_case_history,2020-12-17,0.05460666849323026
+XGBoost,local_case_history,2020-12-18,0.05389903104861404
+XGBoost,local_case_history,2020-12-19,0.05291552401235333
+XGBoost,local_case_history,2020-12-20,0.05194632083262474
+XGBoost,local_case_history,2020-12-21,0.055947770233971905
+XGBoost,local_case_history,2020-12-22,0.07323563325980365
+XGBoost,local_case_history,2020-12-23,0.02737783982360109
+XGBoost,local_case_history,2020-12-24,0.041519891790016805
+XGBoost,local_case_history,2020-12-25,0.01700198764029226
+XGBoost,local_case_history,2020-12-26,0.04318457382566643
+XGBoost,local_case_history,2020-12-27,0.04853653670699898
+XGBoost,local_case_history,2020-12-28,0.07261362172599539
+XGBoost,commuting_pressure,2020-04-30,0.03070676350499102
+XGBoost,commuting_pressure,2020-05-01,0.04174780693114799
+XGBoost,commuting_pressure,2020-05-02,0.047317874024322304
+XGBoost,commuting_pressure,2020-05-03,0.05067585031488675
+XGBoost,commuting_pressure,2020-05-04,0.03676857335063122
+XGBoost,commuting_pressure,2020-05-05,0.043430877943918755
+XGBoost,commuting_pressure,2020-05-06,-0.0027473317497201943
+XGBoost,commuting_pressure,2020-05-07,-0.007530057911052768
+XGBoost,commuting_pressure,2020-05-08,-0.005450860198893626
+XGBoost,commuting_pressure,2020-05-09,-0.0030794300991502377
+XGBoost,commuting_pressure,2020-05-10,0.0003874596056430146
+XGBoost,commuting_pressure,2020-05-11,0.012521791695404794
+XGBoost,commuting_pressure,2020-05-12,0.004564248142960414
+XGBoost,commuting_pressure,2020-05-13,0.0046333110659944055
+XGBoost,commuting_pressure,2020-05-14,-0.0025780734147556883
+XGBoost,commuting_pressure,2020-05-15,-0.0033844236090634916
+XGBoost,commuting_pressure,2020-05-16,-0.005507859433725892
+XGBoost,commuting_pressure,2020-05-17,-0.004423464797526755
+XGBoost,commuting_pressure,2020-05-18,-0.011294318110455892
+XGBoost,commuting_pressure,2020-05-19,-0.0043337205191245065
+XGBoost,commuting_pressure,2020-05-20,-0.008053609015462482
+XGBoost,commuting_pressure,2020-05-21,0.0073955181936011805
+XGBoost,commuting_pressure,2020-05-22,-0.0031265284369588198
+XGBoost,commuting_pressure,2020-05-23,0.005406815732134085
+XGBoost,commuting_pressure,2020-05-24,0.001705094216593095
+XGBoost,commuting_pressure,2020-05-25,-0.003128673728061915
+XGBoost,commuting_pressure,2020-05-26,-0.0009134641587150716
+XGBoost,commuting_pressure,2020-05-27,0.006105271817723634
+XGBoost,commuting_pressure,2020-05-28,0.0022163135441602977
+XGBoost,commuting_pressure,2020-05-29,0.0013867942414026446
+XGBoost,commuting_pressure,2020-05-30,-0.0014605546297182248
+XGBoost,commuting_pressure,2020-05-31,0.00010668089128423874
+XGBoost,commuting_pressure,2020-06-01,0.0007754664616380635
+XGBoost,commuting_pressure,2020-06-02,-0.0010767126910951053
+XGBoost,commuting_pressure,2020-06-03,0.01652287289555293
+XGBoost,commuting_pressure,2020-06-04,0.018936002750096936
+XGBoost,commuting_pressure,2020-06-05,0.01122802105087417
+XGBoost,commuting_pressure,2020-06-06,0.008912040176104863
+XGBoost,commuting_pressure,2020-06-07,0.012767166437573196
+XGBoost,commuting_pressure,2020-06-08,0.012601490806790905
+XGBoost,commuting_pressure,2020-06-09,0.01390996699220104
+XGBoost,commuting_pressure,2020-06-10,0.013406355772208889
+XGBoost,commuting_pressure,2020-06-11,0.013079561666707207
+XGBoost,commuting_pressure,2020-06-12,0.009948631734361724
+XGBoost,commuting_pressure,2020-06-13,0.009273907711578155
+XGBoost,commuting_pressure,2020-06-14,0.008889599427570227
+XGBoost,commuting_pressure,2020-06-15,0.009899351989420546
+XGBoost,commuting_pressure,2020-06-16,0.00865285087674006
+XGBoost,commuting_pressure,2020-06-17,0.008356918207049036
+XGBoost,commuting_pressure,2020-06-18,0.004301110097569283
+XGBoost,commuting_pressure,2020-06-19,0.0021959076919115805
+XGBoost,commuting_pressure,2020-06-20,0.0016886691232159134
+XGBoost,commuting_pressure,2020-06-21,0.0039753057899754585
+XGBoost,commuting_pressure,2020-06-22,0.0035788081107432923
+XGBoost,commuting_pressure,2020-06-23,0.004099759601847275
+XGBoost,commuting_pressure,2020-06-24,0.004918513974331407
+XGBoost,commuting_pressure,2020-06-25,0.0024369518982347294
+XGBoost,commuting_pressure,2020-06-26,0.000525703656313381
+XGBoost,commuting_pressure,2020-06-27,0.0010502574857234048
+XGBoost,commuting_pressure,2020-06-28,0.0002441716330667254
+XGBoost,commuting_pressure,2020-06-29,-0.0011035384665352144
+XGBoost,commuting_pressure,2020-06-30,-0.0026578843033079336
+XGBoost,commuting_pressure,2020-07-01,-0.0020754508674144523
+XGBoost,commuting_pressure,2020-07-02,-0.0010504366198496595
+XGBoost,commuting_pressure,2020-07-03,-6.5818811074702666e-06
+XGBoost,commuting_pressure,2020-07-04,0.0011740794400034726
+XGBoost,commuting_pressure,2020-07-05,0.0018954002025121097
+XGBoost,commuting_pressure,2020-07-06,-0.0006807447583587201
+XGBoost,commuting_pressure,2020-07-07,0.00014341552542823655
+XGBoost,commuting_pressure,2020-07-08,-0.0009814711324764303
+XGBoost,commuting_pressure,2020-07-09,-0.0026490782729835516
+XGBoost,commuting_pressure,2020-07-10,-0.002862256858763179
+XGBoost,commuting_pressure,2020-07-11,-0.007218159410433855
+XGBoost,commuting_pressure,2020-07-12,-0.00368562943363121
+XGBoost,commuting_pressure,2020-07-13,-0.0032364350098829653
+XGBoost,commuting_pressure,2020-07-14,0.0007896967699215218
+XGBoost,commuting_pressure,2020-07-15,0.002621869528480425
+XGBoost,commuting_pressure,2020-07-16,0.006484625090518559
+XGBoost,commuting_pressure,2020-07-17,0.01058481717694476
+XGBoost,commuting_pressure,2020-07-18,0.016494239498184515
+XGBoost,commuting_pressure,2020-07-19,0.01528584523009735
+XGBoost,commuting_pressure,2020-07-20,0.01684156423965283
+XGBoost,commuting_pressure,2020-07-21,0.01936450604949025
+XGBoost,commuting_pressure,2020-07-22,0.006495875091241554
+XGBoost,commuting_pressure,2020-07-23,0.008361931892637231
+XGBoost,commuting_pressure,2020-07-24,0.008550778956171068
+XGBoost,commuting_pressure,2020-07-25,0.005746353113296743
+XGBoost,commuting_pressure,2020-07-26,0.0077578812344079595
+XGBoost,commuting_pressure,2020-07-27,0.004898099216269047
+XGBoost,commuting_pressure,2020-07-28,0.003808065102650582
+XGBoost,commuting_pressure,2020-07-29,0.004527970032761175
+XGBoost,commuting_pressure,2020-07-30,0.0035165134416707544
+XGBoost,commuting_pressure,2020-07-31,0.00404799263446759
+XGBoost,commuting_pressure,2020-08-01,0.0018858085261748148
+XGBoost,commuting_pressure,2020-08-02,0.004254131111451731
+XGBoost,commuting_pressure,2020-08-03,0.002694541633001757
+XGBoost,commuting_pressure,2020-08-04,0.004185562054931757
+XGBoost,commuting_pressure,2020-08-05,0.002419825829034883
+XGBoost,commuting_pressure,2020-08-06,0.0046315467889232464
+XGBoost,commuting_pressure,2020-08-07,0.004976391021767224
+XGBoost,commuting_pressure,2020-08-08,0.005187763143171598
+XGBoost,commuting_pressure,2020-08-09,0.003207885216061912
+XGBoost,commuting_pressure,2020-08-10,0.0025805537188239858
+XGBoost,commuting_pressure,2020-08-11,0.0036458351025808744
+XGBoost,commuting_pressure,2020-08-12,0.003488817103366293
+XGBoost,commuting_pressure,2020-08-13,0.0030895614757752154
+XGBoost,commuting_pressure,2020-08-14,0.004502141317007768
+XGBoost,commuting_pressure,2020-08-15,0.004650729671226761
+XGBoost,commuting_pressure,2020-08-16,0.0036095274702520608
+XGBoost,commuting_pressure,2020-08-17,0.004503130387949972
+XGBoost,commuting_pressure,2020-08-18,0.004128583484034776
+XGBoost,commuting_pressure,2020-08-19,0.003462166841171066
+XGBoost,commuting_pressure,2020-08-20,0.002926259585775637
+XGBoost,commuting_pressure,2020-08-21,0.003318343609783725
+XGBoost,commuting_pressure,2020-08-22,0.0006114589229512801
+XGBoost,commuting_pressure,2020-08-23,0.003385143012784808
+XGBoost,commuting_pressure,2020-08-24,0.0035523989251111665
+XGBoost,commuting_pressure,2020-08-25,0.002356145765494422
+XGBoost,commuting_pressure,2020-08-26,0.0014337663265460154
+XGBoost,commuting_pressure,2020-08-27,0.0030102589934469792
+XGBoost,commuting_pressure,2020-08-28,-0.0008323415869745943
+XGBoost,commuting_pressure,2020-08-29,-1.7779601732548223e-05
+XGBoost,commuting_pressure,2020-08-30,-0.00015141835855453367
+XGBoost,commuting_pressure,2020-08-31,-0.00019543284279666118
+XGBoost,commuting_pressure,2020-09-01,0.00011924784736672134
+XGBoost,commuting_pressure,2020-09-02,0.000858047096180814
+XGBoost,commuting_pressure,2020-09-03,-0.0009700432589591079
+XGBoost,commuting_pressure,2020-09-04,0.000148814306342393
+XGBoost,commuting_pressure,2020-09-05,-0.000715451165396952
+XGBoost,commuting_pressure,2020-09-06,-0.0005543740853624635
+XGBoost,commuting_pressure,2020-09-07,-0.0003723173633090604
+XGBoost,commuting_pressure,2020-09-08,-0.00025798387591990934
+XGBoost,commuting_pressure,2020-09-09,0.0007894194607975802
+XGBoost,commuting_pressure,2020-09-10,-0.0018683963065218578
+XGBoost,commuting_pressure,2020-09-11,-0.001247897393937769
+XGBoost,commuting_pressure,2020-09-12,-0.0009000041471672326
+XGBoost,commuting_pressure,2020-09-13,-0.0019180065917748235
+XGBoost,commuting_pressure,2020-09-14,-0.0012049190233066054
+XGBoost,commuting_pressure,2020-09-15,-0.0019828561969377767
+XGBoost,commuting_pressure,2020-09-16,0.0016963648845964574
+XGBoost,commuting_pressure,2020-09-17,0.0003527422379861478
+XGBoost,commuting_pressure,2020-09-18,0.0003384981914675844
+XGBoost,commuting_pressure,2020-09-19,0.001165748764614838
+XGBoost,commuting_pressure,2020-09-20,0.0005509145223560052
+XGBoost,commuting_pressure,2020-09-21,-0.0002776989108349559
+XGBoost,commuting_pressure,2020-09-22,-0.0024636968009790206
+XGBoost,commuting_pressure,2020-09-23,-0.0010345128240153434
+XGBoost,commuting_pressure,2020-09-24,0.002142698311398128
+XGBoost,commuting_pressure,2020-09-25,-0.0020137537769612246
+XGBoost,commuting_pressure,2020-09-26,0.002356410797080488
+XGBoost,commuting_pressure,2020-09-27,0.0005164607828668233
+XGBoost,commuting_pressure,2020-09-28,3.6709112489319295e-05
+XGBoost,commuting_pressure,2020-09-29,0.001410070284564302
+XGBoost,commuting_pressure,2020-09-30,-0.01030749685192034
+XGBoost,commuting_pressure,2020-10-01,-0.00855979575136101
+XGBoost,commuting_pressure,2020-10-02,-0.002495865125814012
+XGBoost,commuting_pressure,2020-10-03,0.0016032676379650335
+XGBoost,commuting_pressure,2020-10-04,-0.0030555407736885254
+XGBoost,commuting_pressure,2020-10-05,-0.0044755588038865035
+XGBoost,commuting_pressure,2020-10-06,-0.004089878737247199
+XGBoost,commuting_pressure,2020-10-07,-0.0036893626839517024
+XGBoost,commuting_pressure,2020-10-08,0.0012009131602751522
+XGBoost,commuting_pressure,2020-10-09,0.0031454940700633705
+XGBoost,commuting_pressure,2020-10-10,0.0014886581755516604
+XGBoost,commuting_pressure,2020-10-11,0.004963456322452209
+XGBoost,commuting_pressure,2020-10-12,0.0011105696689285294
+XGBoost,commuting_pressure,2020-10-13,0.0048067163617649955
+XGBoost,commuting_pressure,2020-10-14,-0.00256479737372739
+XGBoost,commuting_pressure,2020-10-15,-0.003806655173139495
+XGBoost,commuting_pressure,2020-10-16,-0.004888659688057739
+XGBoost,commuting_pressure,2020-10-17,-0.003197440904090243
+XGBoost,commuting_pressure,2020-10-18,0.0029574058607998444
+XGBoost,commuting_pressure,2020-10-19,0.0044664198912128805
+XGBoost,commuting_pressure,2020-10-20,-0.001673539203095542
+XGBoost,commuting_pressure,2020-10-21,-0.011470014796103989
+XGBoost,commuting_pressure,2020-10-22,-0.01426095774259939
+XGBoost,commuting_pressure,2020-10-23,-0.0032847104233256763
+XGBoost,commuting_pressure,2020-10-24,-0.00018317247654697777
+XGBoost,commuting_pressure,2020-10-25,0.01102884223000089
+XGBoost,commuting_pressure,2020-10-26,-0.0040867122309415915
+XGBoost,commuting_pressure,2020-10-27,-0.0015239856946162034
+XGBoost,commuting_pressure,2020-10-28,-0.037500231392002314
+XGBoost,commuting_pressure,2020-10-29,-0.016778081605619555
+XGBoost,commuting_pressure,2020-10-30,0.028186702680511155
+XGBoost,commuting_pressure,2020-10-31,0.0490944794132413
+XGBoost,commuting_pressure,2020-11-01,0.042814832065052766
+XGBoost,commuting_pressure,2020-11-02,0.029340425466964692
+XGBoost,commuting_pressure,2020-11-03,0.016878111497034887
+XGBoost,commuting_pressure,2020-11-04,-0.010635305979312948
+XGBoost,commuting_pressure,2020-11-05,-0.01657982365867694
+XGBoost,commuting_pressure,2020-11-06,-0.020380614532364838
+XGBoost,commuting_pressure,2020-11-07,-0.005884353481127036
+XGBoost,commuting_pressure,2020-11-08,-0.01282138203793437
+XGBoost,commuting_pressure,2020-11-09,-0.02154635404080074
+XGBoost,commuting_pressure,2020-11-10,-0.01910605042578495
+XGBoost,commuting_pressure,2020-11-11,-0.011762891786220697
+XGBoost,commuting_pressure,2020-11-12,-0.023186613777997467
+XGBoost,commuting_pressure,2020-11-13,-0.018491352877003653
+XGBoost,commuting_pressure,2020-11-14,-0.02220492714278377
+XGBoost,commuting_pressure,2020-11-15,-0.015787836189708138
+XGBoost,commuting_pressure,2020-11-16,-0.01867553387102583
+XGBoost,commuting_pressure,2020-11-17,-0.022527077938416795
+XGBoost,commuting_pressure,2020-11-18,-0.0007066843090524078
+XGBoost,commuting_pressure,2020-11-19,-0.003752647419234645
+XGBoost,commuting_pressure,2020-11-20,-0.0004156660377458987
+XGBoost,commuting_pressure,2020-11-21,-0.0033825380788674586
+XGBoost,commuting_pressure,2020-11-22,-0.0009961484684648525
+XGBoost,commuting_pressure,2020-11-23,-0.0008295931182058514
+XGBoost,commuting_pressure,2020-11-24,0.0010999679422147857
+XGBoost,commuting_pressure,2020-11-25,0.001829173567670317
+XGBoost,commuting_pressure,2020-11-26,-0.0005510742202310404
+XGBoost,commuting_pressure,2020-11-27,0.0008913859771100263
+XGBoost,commuting_pressure,2020-11-28,-0.0014989699332568218
+XGBoost,commuting_pressure,2020-11-29,-0.0038960853787908256
+XGBoost,commuting_pressure,2020-11-30,0.0008091899509306
+XGBoost,commuting_pressure,2020-12-01,0.0003545857813711528
+XGBoost,commuting_pressure,2020-12-02,0.002751373005845048
+XGBoost,commuting_pressure,2020-12-03,0.003245378924968678
+XGBoost,commuting_pressure,2020-12-04,0.001953794204356596
+XGBoost,commuting_pressure,2020-12-05,0.004328611541136063
+XGBoost,commuting_pressure,2020-12-06,-0.0013301298306176434
+XGBoost,commuting_pressure,2020-12-07,-0.004945354172137373
+XGBoost,commuting_pressure,2020-12-08,0.005491943618659567
+XGBoost,commuting_pressure,2020-12-09,0.0024612126351888364
+XGBoost,commuting_pressure,2020-12-10,0.0005363416878580995
+XGBoost,commuting_pressure,2020-12-11,-0.003927792972511002
+XGBoost,commuting_pressure,2020-12-12,0.0018097998829760265
+XGBoost,commuting_pressure,2020-12-13,-0.0003086740025015633
+XGBoost,commuting_pressure,2020-12-14,-0.0035168876031685947
+XGBoost,commuting_pressure,2020-12-15,-0.005032732680790186
+XGBoost,commuting_pressure,2020-12-16,0.002145455877079039
+XGBoost,commuting_pressure,2020-12-17,-0.0005960239961138036
+XGBoost,commuting_pressure,2020-12-18,0.004197225548815187
+XGBoost,commuting_pressure,2020-12-19,-0.0002429525214022732
+XGBoost,commuting_pressure,2020-12-20,0.004517691771624532
+XGBoost,commuting_pressure,2020-12-21,0.008148554918035122
+XGBoost,commuting_pressure,2020-12-22,0.004478876850437796
+XGBoost,commuting_pressure,2020-12-23,0.007134081774452294
+XGBoost,commuting_pressure,2020-12-24,0.0016611689067029811
+XGBoost,commuting_pressure,2020-12-25,-0.00835286886630282
+XGBoost,commuting_pressure,2020-12-26,-0.0013712594834847103
+XGBoost,commuting_pressure,2020-12-27,-0.004760994537974961
+XGBoost,commuting_pressure,2020-12-28,0.0006051862995111179
+XGBoost,calendar,2020-04-30,0.10922022300010858
+XGBoost,calendar,2020-05-01,0.11802143497708284
+XGBoost,calendar,2020-05-02,0.10725390468790397
+XGBoost,calendar,2020-05-03,0.004952457222418882
+XGBoost,calendar,2020-05-04,0.0008945174430340375
+XGBoost,calendar,2020-05-05,0.00844388437534338
+XGBoost,calendar,2020-05-06,0.04714409483810933
+XGBoost,calendar,2020-05-07,0.07767272931341196
+XGBoost,calendar,2020-05-08,0.07009204504397859
+XGBoost,calendar,2020-05-09,0.05386669726714299
+XGBoost,calendar,2020-05-10,0.020024627376781567
+XGBoost,calendar,2020-05-11,0.017490475500722802
+XGBoost,calendar,2020-05-12,0.01596992525638241
+XGBoost,calendar,2020-05-13,0.01904602218520468
+XGBoost,calendar,2020-05-14,0.05537527021786137
+XGBoost,calendar,2020-05-15,0.04422386871149003
+XGBoost,calendar,2020-05-16,0.022684526575302733
+XGBoost,calendar,2020-05-17,-0.007574998159502133
+XGBoost,calendar,2020-05-18,-0.006865012185217623
+XGBoost,calendar,2020-05-19,-0.006901031510457956
+XGBoost,calendar,2020-05-20,0.0020004257852970775
+XGBoost,calendar,2020-05-21,0.036100094659722304
+XGBoost,calendar,2020-05-22,0.02979401516445518
+XGBoost,calendar,2020-05-23,0.017679474254051197
+XGBoost,calendar,2020-05-24,-0.009832538249491152
+XGBoost,calendar,2020-05-25,-0.010740752154271394
+XGBoost,calendar,2020-05-26,-0.020735583107976907
+XGBoost,calendar,2020-05-27,0.005520038672675087
+XGBoost,calendar,2020-05-28,0.028239043021269117
+XGBoost,calendar,2020-05-29,0.027786512722949797
+XGBoost,calendar,2020-05-30,0.009715960658038592
+XGBoost,calendar,2020-05-31,-0.013347728961867755
+XGBoost,calendar,2020-06-01,-0.008778832302703377
+XGBoost,calendar,2020-06-02,-0.01880890182697048
+XGBoost,calendar,2020-06-03,-0.0013561783557455298
+XGBoost,calendar,2020-06-04,0.01588189728850592
+XGBoost,calendar,2020-06-05,0.010604163528262656
+XGBoost,calendar,2020-06-06,0.0010400890126264217
+XGBoost,calendar,2020-06-07,-0.009350090852721038
+XGBoost,calendar,2020-06-08,-0.009832971334985396
+XGBoost,calendar,2020-06-09,-0.013547792304386852
+XGBoost,calendar,2020-06-10,-0.00018807359571609839
+XGBoost,calendar,2020-06-11,0.008771016142557264
+XGBoost,calendar,2020-06-12,0.008570019629229375
+XGBoost,calendar,2020-06-13,0.0016316210120078112
+XGBoost,calendar,2020-06-14,-0.0072223861196988315
+XGBoost,calendar,2020-06-15,-0.006919925546530981
+XGBoost,calendar,2020-06-16,-0.006629245672202466
+XGBoost,calendar,2020-06-17,0.0043825712275941675
+XGBoost,calendar,2020-06-18,0.003976251769305439
+XGBoost,calendar,2020-06-19,0.005114148500039828
+XGBoost,calendar,2020-06-20,0.001824364263134537
+XGBoost,calendar,2020-06-21,-0.0018488460099669868
+XGBoost,calendar,2020-06-22,-0.0017379805823772299
+XGBoost,calendar,2020-06-23,-0.002147765487612918
+XGBoost,calendar,2020-06-24,0.002997003738208548
+XGBoost,calendar,2020-06-25,0.0003924830723819328
+XGBoost,calendar,2020-06-26,-0.0007599620397953366
+XGBoost,calendar,2020-06-27,-0.003353054153645396
+XGBoost,calendar,2020-06-28,-0.0021605240849730256
+XGBoost,calendar,2020-06-29,-0.002614493765191628
+XGBoost,calendar,2020-06-30,-0.00123120678477312
+XGBoost,calendar,2020-07-01,-0.021439100701117764
+XGBoost,calendar,2020-07-02,-0.0208756423945356
+XGBoost,calendar,2020-07-03,-0.017504611541318105
+XGBoost,calendar,2020-07-04,-0.019842771607374243
+XGBoost,calendar,2020-07-05,-0.01910176415293563
+XGBoost,calendar,2020-07-06,-0.02387680535302883
+XGBoost,calendar,2020-07-07,-0.024481160989683948
+XGBoost,calendar,2020-07-08,-0.005725533350177114
+XGBoost,calendar,2020-07-09,-0.010080058826531624
+XGBoost,calendar,2020-07-10,-0.013321494487276098
+XGBoost,calendar,2020-07-11,-0.013568645467891494
+XGBoost,calendar,2020-07-12,-0.01945378943598508
+XGBoost,calendar,2020-07-13,-0.018085624012788293
+XGBoost,calendar,2020-07-14,-0.01727008024639215
+XGBoost,calendar,2020-07-15,0.005042752185226151
+XGBoost,calendar,2020-07-16,-0.00028708195552612503
+XGBoost,calendar,2020-07-17,-0.006300941428854179
+XGBoost,calendar,2020-07-18,-0.005553069756634332
+XGBoost,calendar,2020-07-19,-0.006488664030360136
+XGBoost,calendar,2020-07-20,-0.003906791486334271
+XGBoost,calendar,2020-07-21,0.00039835636427043575
+XGBoost,calendar,2020-07-22,0.006037421861233627
+XGBoost,calendar,2020-07-23,0.0013282507894151752
+XGBoost,calendar,2020-07-24,-0.0017901953059034081
+XGBoost,calendar,2020-07-25,-0.0020090106363936377
+XGBoost,calendar,2020-07-26,-0.0031445406971663536
+XGBoost,calendar,2020-07-27,0.0027422712258782234
+XGBoost,calendar,2020-07-28,0.008422907880717034
+XGBoost,calendar,2020-07-29,0.00929260462939746
+XGBoost,calendar,2020-07-30,0.005613918016642128
+XGBoost,calendar,2020-07-31,-5.629715652993861e-05
+XGBoost,calendar,2020-08-01,-0.00015358555945232943
+XGBoost,calendar,2020-08-02,-0.0010055949224259675
+XGBoost,calendar,2020-08-03,0.002751830961831181
+XGBoost,calendar,2020-08-04,0.010493796514851328
+XGBoost,calendar,2020-08-05,0.012394927456932547
+XGBoost,calendar,2020-08-06,0.009405360241590388
+XGBoost,calendar,2020-08-07,0.002197333624814668
+XGBoost,calendar,2020-08-08,0.004152496944465511
+XGBoost,calendar,2020-08-09,0.002855818822682765
+XGBoost,calendar,2020-08-10,0.005169588539675085
+XGBoost,calendar,2020-08-11,0.012685284882444248
+XGBoost,calendar,2020-08-12,0.005287253697989158
+XGBoost,calendar,2020-08-13,0.00325796473877471
+XGBoost,calendar,2020-08-14,-0.00044413275241933503
+XGBoost,calendar,2020-08-15,-0.0014270980436450476
+XGBoost,calendar,2020-08-16,-0.0043775240861495535
+XGBoost,calendar,2020-08-17,-0.00036382601938694803
+XGBoost,calendar,2020-08-18,0.004617428385846278
+XGBoost,calendar,2020-08-19,0.0021707320946701136
+XGBoost,calendar,2020-08-20,0.003942629604459735
+XGBoost,calendar,2020-08-21,0.0009975724357400573
+XGBoost,calendar,2020-08-22,0.00209404697450688
+XGBoost,calendar,2020-08-23,-0.0042940129210212175
+XGBoost,calendar,2020-08-24,-0.0023255499828065407
+XGBoost,calendar,2020-08-25,0.0008944244429129333
+XGBoost,calendar,2020-08-26,0.0014085383921267347
+XGBoost,calendar,2020-08-27,0.003342228598277097
+XGBoost,calendar,2020-08-28,0.0012663932023649904
+XGBoost,calendar,2020-08-29,0.0012519013253372568
+XGBoost,calendar,2020-08-30,-0.0006107779761028165
+XGBoost,calendar,2020-08-31,-0.0005386132025226309
+XGBoost,calendar,2020-09-01,-9.397562126234327e-05
+XGBoost,calendar,2020-09-02,-0.015347081663729112
+XGBoost,calendar,2020-09-03,-0.0158441041036379
+XGBoost,calendar,2020-09-04,-0.01869937276993039
+XGBoost,calendar,2020-09-05,-0.013935472188979114
+XGBoost,calendar,2020-09-06,-0.011814815566962622
+XGBoost,calendar,2020-09-07,-0.009230541776430568
+XGBoost,calendar,2020-09-08,-0.00942878716245843
+XGBoost,calendar,2020-09-09,-0.005083289120526746
+XGBoost,calendar,2020-09-10,-0.006270312786399446
+XGBoost,calendar,2020-09-11,-0.0063694248087385885
+XGBoost,calendar,2020-09-12,-0.006245141339480342
+XGBoost,calendar,2020-09-13,-0.00941377370551949
+XGBoost,calendar,2020-09-14,-0.008664567137078694
+XGBoost,calendar,2020-09-15,-0.007683768383415668
+XGBoost,calendar,2020-09-16,-0.0036405301241581034
+XGBoost,calendar,2020-09-17,-0.0021626964450264796
+XGBoost,calendar,2020-09-18,-0.002481030360225067
+XGBoost,calendar,2020-09-19,-0.002507984467073676
+XGBoost,calendar,2020-09-20,-0.0038220550780028173
+XGBoost,calendar,2020-09-21,-0.003882679008902601
+XGBoost,calendar,2020-09-22,-0.006308485723586221
+XGBoost,calendar,2020-09-23,-0.0038272503434422234
+XGBoost,calendar,2020-09-24,-0.0037822779650107385
+XGBoost,calendar,2020-09-25,-0.0030326862121664577
+XGBoost,calendar,2020-09-26,-0.0007185056168808046
+XGBoost,calendar,2020-09-27,-0.000819938488707983
+XGBoost,calendar,2020-09-28,-0.0015831156493167908
+XGBoost,calendar,2020-09-29,-0.00046477044940507195
+XGBoost,calendar,2020-09-30,-0.0018204890690383113
+XGBoost,calendar,2020-10-01,-0.0010587604042471277
+XGBoost,calendar,2020-10-02,0.0014048270032106513
+XGBoost,calendar,2020-10-03,0.00010907858440345475
+XGBoost,calendar,2020-10-04,-0.0016733876628498567
+XGBoost,calendar,2020-10-05,7.425933290916564e-05
+XGBoost,calendar,2020-10-06,-0.0017958699521261057
+XGBoost,calendar,2020-10-07,-0.0020480550008367127
+XGBoost,calendar,2020-10-08,0.00035736496822957875
+XGBoost,calendar,2020-10-09,-0.0006726481529891748
+XGBoost,calendar,2020-10-10,-0.004392672863462566
+XGBoost,calendar,2020-10-11,-0.0013648370784996589
+XGBoost,calendar,2020-10-12,-0.00300686417871876
+XGBoost,calendar,2020-10-13,0.001902934264635836
+XGBoost,calendar,2020-10-14,0.005581509455258371
+XGBoost,calendar,2020-10-15,0.002309010344082596
+XGBoost,calendar,2020-10-16,0.006567616238685958
+XGBoost,calendar,2020-10-17,-0.000794368305049864
+XGBoost,calendar,2020-10-18,0.0009018481845710635
+XGBoost,calendar,2020-10-19,0.001555101830443384
+XGBoost,calendar,2020-10-20,0.0057121254706706814
+XGBoost,calendar,2020-10-21,0.001887740060405818
+XGBoost,calendar,2020-10-22,0.0057624299484145824
+XGBoost,calendar,2020-10-23,0.008557336968953555
+XGBoost,calendar,2020-10-24,0.0036310817331255407
+XGBoost,calendar,2020-10-25,0.0024005977190137973
+XGBoost,calendar,2020-10-26,0.0014777368228110488
+XGBoost,calendar,2020-10-27,0.00346464142750591
+XGBoost,calendar,2020-10-28,0.001926512739745756
+XGBoost,calendar,2020-10-29,0.0024851015829971956
+XGBoost,calendar,2020-10-30,-0.0009381124256260254
+XGBoost,calendar,2020-10-31,0.003277490366558
+XGBoost,calendar,2020-11-01,-0.00042818818039691564
+XGBoost,calendar,2020-11-02,-0.0029950799924609584
+XGBoost,calendar,2020-11-03,-0.0023887272902958223
+XGBoost,calendar,2020-11-04,-0.006643377278435336
+XGBoost,calendar,2020-11-05,-0.004853115589530388
+XGBoost,calendar,2020-11-06,0.0229572242311602
+XGBoost,calendar,2020-11-07,0.03257440377419485
+XGBoost,calendar,2020-11-08,0.012228385047016177
+XGBoost,calendar,2020-11-09,-0.023532392369036703
+XGBoost,calendar,2020-11-10,-0.03400246492478254
+XGBoost,calendar,2020-11-11,0.02959276446674619
+XGBoost,calendar,2020-11-12,0.04412975993134771
+XGBoost,calendar,2020-11-13,0.045409751237712515
+XGBoost,calendar,2020-11-14,0.031376944554497355
+XGBoost,calendar,2020-11-15,0.015371159408931412
+XGBoost,calendar,2020-11-16,0.019100297775193953
+XGBoost,calendar,2020-11-17,0.025850340424694584
+XGBoost,calendar,2020-11-18,0.0031404803481904775
+XGBoost,calendar,2020-11-19,0.017331512724752418
+XGBoost,calendar,2020-11-20,0.020234859846214093
+XGBoost,calendar,2020-11-21,0.0029923082838774206
+XGBoost,calendar,2020-11-22,-0.006533106907331998
+XGBoost,calendar,2020-11-23,-0.004788707756302024
+XGBoost,calendar,2020-11-24,0.0039032500417652827
+XGBoost,calendar,2020-11-25,0.009677969237412709
+XGBoost,calendar,2020-11-26,-0.004219979816846076
+XGBoost,calendar,2020-11-27,-0.002710414276142492
+XGBoost,calendar,2020-11-28,0.01995206410755168
+XGBoost,calendar,2020-11-29,0.022143574102258867
+XGBoost,calendar,2020-11-30,0.009875123502230299
+XGBoost,calendar,2020-12-01,-0.0010989651045141269
+XGBoost,calendar,2020-12-02,-0.033673215508355
+XGBoost,calendar,2020-12-03,-0.03352786992262646
+XGBoost,calendar,2020-12-04,-0.017097125883795306
+XGBoost,calendar,2020-12-05,-0.040578732799813055
+XGBoost,calendar,2020-12-06,-0.08111155845033813
+XGBoost,calendar,2020-12-07,-0.06781969103362528
+XGBoost,calendar,2020-12-08,-0.07064897598926922
+XGBoost,calendar,2020-12-09,0.02050681580335678
+XGBoost,calendar,2020-12-10,0.027706580024817518
+XGBoost,calendar,2020-12-11,0.022684168263717774
+XGBoost,calendar,2020-12-12,0.0051746254833282546
+XGBoost,calendar,2020-12-13,-0.028142122716040552
+XGBoost,calendar,2020-12-14,0.00016537753379552989
+XGBoost,calendar,2020-12-15,0.0060906107931471
+XGBoost,calendar,2020-12-16,0.030803327059155672
+XGBoost,calendar,2020-12-17,0.02859811966660364
+XGBoost,calendar,2020-12-18,0.029720610900227484
+XGBoost,calendar,2020-12-19,-0.0053188468284501855
+XGBoost,calendar,2020-12-20,-0.02303289713502532
+XGBoost,calendar,2020-12-21,-0.0060352095197142575
+XGBoost,calendar,2020-12-22,-0.002163860932034911
+XGBoost,calendar,2020-12-23,0.0005893386379043353
+XGBoost,calendar,2020-12-24,-0.01946136308308266
+XGBoost,calendar,2020-12-25,-0.012820279129390766
+XGBoost,calendar,2020-12-26,-0.0012428297888105178
+XGBoost,calendar,2020-12-27,0.018616575585211237
+XGBoost,calendar,2020-12-28,0.0025527405880254594
+Random Forest,local_case_history,2020-04-30,0.38250004091363476
+Random Forest,local_case_history,2020-05-01,0.23799778638425484
+Random Forest,local_case_history,2020-05-02,0.27766008322673774
+Random Forest,local_case_history,2020-05-03,0.36129419943208774
+Random Forest,local_case_history,2020-05-04,0.2300091787492493
+Random Forest,local_case_history,2020-05-05,0.15498762425817048
+Random Forest,local_case_history,2020-05-06,0.2237967258739363
+Random Forest,local_case_history,2020-05-07,0.16350611365944223
+Random Forest,local_case_history,2020-05-08,0.13100128144709122
+Random Forest,local_case_history,2020-05-09,0.16100784340688823
+Random Forest,local_case_history,2020-05-10,0.17619042985986644
+Random Forest,local_case_history,2020-05-11,0.16942090696366996
+Random Forest,local_case_history,2020-05-12,0.1654905626566121
+Random Forest,local_case_history,2020-05-13,0.1933590238586408
+Random Forest,local_case_history,2020-05-14,0.13221335083145375
+Random Forest,local_case_history,2020-05-15,0.11675250237157137
+Random Forest,local_case_history,2020-05-16,0.13418486276641411
+Random Forest,local_case_history,2020-05-17,0.14551943330498196
+Random Forest,local_case_history,2020-05-18,0.13750099072870797
+Random Forest,local_case_history,2020-05-19,0.10198955014009858
+Random Forest,local_case_history,2020-05-20,0.13668236789474497
+Random Forest,local_case_history,2020-05-21,0.08862162758107994
+Random Forest,local_case_history,2020-05-22,0.09543175245064878
+Random Forest,local_case_history,2020-05-23,0.10240985012694237
+Random Forest,local_case_history,2020-05-24,0.12009646592192236
+Random Forest,local_case_history,2020-05-25,0.1060131765635225
+Random Forest,local_case_history,2020-05-26,0.09735613920614061
+Random Forest,local_case_history,2020-05-27,0.07890698104545496
+Random Forest,local_case_history,2020-05-28,0.050955392788972986
+Random Forest,local_case_history,2020-05-29,0.04882247582802807
+Random Forest,local_case_history,2020-05-30,0.0578848249598089
+Random Forest,local_case_history,2020-05-31,0.06085747333200853
+Random Forest,local_case_history,2020-06-01,0.0412882168412092
+Random Forest,local_case_history,2020-06-02,0.02564996940030878
+Random Forest,local_case_history,2020-06-03,0.08516422655662975
+Random Forest,local_case_history,2020-06-04,0.07682765485991899
+Random Forest,local_case_history,2020-06-05,0.07148839763768666
+Random Forest,local_case_history,2020-06-06,0.06574986200132071
+Random Forest,local_case_history,2020-06-07,0.0686660420315327
+Random Forest,local_case_history,2020-06-08,0.0495043426837134
+Random Forest,local_case_history,2020-06-09,0.04315524985558428
+Random Forest,local_case_history,2020-06-10,0.04873996312699985
+Random Forest,local_case_history,2020-06-11,0.04068929713294703
+Random Forest,local_case_history,2020-06-12,0.049775075360233206
+Random Forest,local_case_history,2020-06-13,0.044380338856266244
+Random Forest,local_case_history,2020-06-14,0.04780229102882172
+Random Forest,local_case_history,2020-06-15,0.04760451690810258
+Random Forest,local_case_history,2020-06-16,0.051752849692060954
+Random Forest,local_case_history,2020-06-17,0.0556937789661984
+Random Forest,local_case_history,2020-06-18,0.05189081425822584
+Random Forest,local_case_history,2020-06-19,0.06163417850499747
+Random Forest,local_case_history,2020-06-20,0.07772932039282454
+Random Forest,local_case_history,2020-06-21,0.08677046186289211
+Random Forest,local_case_history,2020-06-22,0.09267777847463315
+Random Forest,local_case_history,2020-06-23,0.09548954431836465
+Random Forest,local_case_history,2020-06-24,0.15936763036351625
+Random Forest,local_case_history,2020-06-25,0.17575892945824756
+Random Forest,local_case_history,2020-06-26,0.1919280461832606
+Random Forest,local_case_history,2020-06-27,0.18757466958573715
+Random Forest,local_case_history,2020-06-28,0.17123483495049974
+Random Forest,local_case_history,2020-06-29,0.16027900614365442
+Random Forest,local_case_history,2020-06-30,0.14778927162833155
+Random Forest,local_case_history,2020-07-01,0.1309966523870526
+Random Forest,local_case_history,2020-07-02,0.1519883107860212
+Random Forest,local_case_history,2020-07-03,0.1667143731782349
+Random Forest,local_case_history,2020-07-04,0.15165047769393936
+Random Forest,local_case_history,2020-07-05,0.1585649429139524
+Random Forest,local_case_history,2020-07-06,0.15000686715831912
+Random Forest,local_case_history,2020-07-07,0.13368012739112622
+Random Forest,local_case_history,2020-07-08,0.1235922092231117
+Random Forest,local_case_history,2020-07-09,0.1270200395667005
+Random Forest,local_case_history,2020-07-10,0.13834012485738817
+Random Forest,local_case_history,2020-07-11,0.12434923745381216
+Random Forest,local_case_history,2020-07-12,0.12078753861857888
+Random Forest,local_case_history,2020-07-13,0.10355424639535904
+Random Forest,local_case_history,2020-07-14,0.0850820853419968
+Random Forest,local_case_history,2020-07-15,0.06103872362767837
+Random Forest,local_case_history,2020-07-16,0.04308221381868366
+Random Forest,local_case_history,2020-07-17,0.047699565402716415
+Random Forest,local_case_history,2020-07-18,0.038882307594394205
+Random Forest,local_case_history,2020-07-19,0.05803158424603233
+Random Forest,local_case_history,2020-07-20,0.04517290100276322
+Random Forest,local_case_history,2020-07-21,0.0402230777056658
+Random Forest,local_case_history,2020-07-22,0.03590060174089016
+Random Forest,local_case_history,2020-07-23,0.033325256478688
+Random Forest,local_case_history,2020-07-24,0.0488752320668665
+Random Forest,local_case_history,2020-07-25,0.06059788859874399
+Random Forest,local_case_history,2020-07-26,0.07199157772871267
+Random Forest,local_case_history,2020-07-27,0.07365212485844114
+Random Forest,local_case_history,2020-07-28,0.05842261919105041
+Random Forest,local_case_history,2020-07-29,0.09107687955533889
+Random Forest,local_case_history,2020-07-30,0.08963208359945357
+Random Forest,local_case_history,2020-07-31,0.10889706195082316
+Random Forest,local_case_history,2020-08-01,0.1080679821198568
+Random Forest,local_case_history,2020-08-02,0.11626871824273921
+Random Forest,local_case_history,2020-08-03,0.11331290120668142
+Random Forest,local_case_history,2020-08-04,0.11108310717419634
+Random Forest,local_case_history,2020-08-05,0.1193561352961951
+Random Forest,local_case_history,2020-08-06,0.11085105641026999
+Random Forest,local_case_history,2020-08-07,0.10662016983057293
+Random Forest,local_case_history,2020-08-08,0.10253486649192817
+Random Forest,local_case_history,2020-08-09,0.10532076300937715
+Random Forest,local_case_history,2020-08-10,0.09674235084968913
+Random Forest,local_case_history,2020-08-11,0.08940126270558058
+Random Forest,local_case_history,2020-08-12,0.0722692232417117
+Random Forest,local_case_history,2020-08-13,0.0761172068391961
+Random Forest,local_case_history,2020-08-14,0.08127338800606154
+Random Forest,local_case_history,2020-08-15,0.07239670525143022
+Random Forest,local_case_history,2020-08-16,0.07076504230805952
+Random Forest,local_case_history,2020-08-17,0.063393185038916
+Random Forest,local_case_history,2020-08-18,0.07092566611611228
+Random Forest,local_case_history,2020-08-19,0.06462509008925199
+Random Forest,local_case_history,2020-08-20,0.06328511929348557
+Random Forest,local_case_history,2020-08-21,0.06172003867674486
+Random Forest,local_case_history,2020-08-22,0.0629824655942306
+Random Forest,local_case_history,2020-08-23,0.06411103820225561
+Random Forest,local_case_history,2020-08-24,0.06474214425290492
+Random Forest,local_case_history,2020-08-25,0.060249549436831695
+Random Forest,local_case_history,2020-08-26,0.05904112575609899
+Random Forest,local_case_history,2020-08-27,0.058476496869251327
+Random Forest,local_case_history,2020-08-28,0.07017104647291883
+Random Forest,local_case_history,2020-08-29,0.0776171464862212
+Random Forest,local_case_history,2020-08-30,0.08192417146238729
+Random Forest,local_case_history,2020-08-31,0.08555315660527874
+Random Forest,local_case_history,2020-09-01,0.08620946140091568
+Random Forest,local_case_history,2020-09-02,0.08770834606447953
+Random Forest,local_case_history,2020-09-03,0.08755142916021713
+Random Forest,local_case_history,2020-09-04,0.08323233809806907
+Random Forest,local_case_history,2020-09-05,0.09595836507369998
+Random Forest,local_case_history,2020-09-06,0.10644874113066222
+Random Forest,local_case_history,2020-09-07,0.11174903179662937
+Random Forest,local_case_history,2020-09-08,0.11314386590296427
+Random Forest,local_case_history,2020-09-09,0.10677532682789276
+Random Forest,local_case_history,2020-09-10,0.10641937801488516
+Random Forest,local_case_history,2020-09-11,0.11684799540708529
+Random Forest,local_case_history,2020-09-12,0.1288551400590311
+Random Forest,local_case_history,2020-09-13,0.1310198013164836
+Random Forest,local_case_history,2020-09-14,0.11366228922605764
+Random Forest,local_case_history,2020-09-15,0.11547949424524623
+Random Forest,local_case_history,2020-09-16,0.10402627010439591
+Random Forest,local_case_history,2020-09-17,0.09968921766328931
+Random Forest,local_case_history,2020-09-18,0.1154456224828373
+Random Forest,local_case_history,2020-09-19,0.15332916399666896
+Random Forest,local_case_history,2020-09-20,0.15624163968813054
+Random Forest,local_case_history,2020-09-21,0.15691431802515932
+Random Forest,local_case_history,2020-09-22,0.14708276037126522
+Random Forest,local_case_history,2020-09-23,0.12952407665161025
+Random Forest,local_case_history,2020-09-24,0.13445089596419058
+Random Forest,local_case_history,2020-09-25,0.14509237644807083
+Random Forest,local_case_history,2020-09-26,0.16256915437107722
+Random Forest,local_case_history,2020-09-27,0.1662054582306588
+Random Forest,local_case_history,2020-09-28,0.17467129535260517
+Random Forest,local_case_history,2020-09-29,0.21562397121271326
+Random Forest,local_case_history,2020-09-30,0.21576772684309065
+Random Forest,local_case_history,2020-10-01,0.19568198466273912
+Random Forest,local_case_history,2020-10-02,0.20929929290811866
+Random Forest,local_case_history,2020-10-03,0.21616503463401648
+Random Forest,local_case_history,2020-10-04,0.23901268352634875
+Random Forest,local_case_history,2020-10-05,0.19935310758912983
+Random Forest,local_case_history,2020-10-06,0.20929629273581596
+Random Forest,local_case_history,2020-10-07,0.3122377875236495
+Random Forest,local_case_history,2020-10-08,0.3056038130477904
+Random Forest,local_case_history,2020-10-09,0.33101220868126013
+Random Forest,local_case_history,2020-10-10,0.3675738356612478
+Random Forest,local_case_history,2020-10-11,0.38760360420612905
+Random Forest,local_case_history,2020-10-12,0.40774703658475353
+Random Forest,local_case_history,2020-10-13,0.4099908981770878
+Random Forest,local_case_history,2020-10-14,0.4797584771073704
+Random Forest,local_case_history,2020-10-15,0.47624628726713814
+Random Forest,local_case_history,2020-10-16,0.5180849740706611
+Random Forest,local_case_history,2020-10-17,0.5812477665174753
+Random Forest,local_case_history,2020-10-18,0.6302024169199105
+Random Forest,local_case_history,2020-10-19,0.6211817111427143
+Random Forest,local_case_history,2020-10-20,0.6007175407806841
+Random Forest,local_case_history,2020-10-21,0.7700198652199386
+Random Forest,local_case_history,2020-10-22,0.8241731452040192
+Random Forest,local_case_history,2020-10-23,0.8795472665955916
+Random Forest,local_case_history,2020-10-24,1.005649436621942
+Random Forest,local_case_history,2020-10-25,1.177447954699456
+Random Forest,local_case_history,2020-10-26,1.2045049404100114
+Random Forest,local_case_history,2020-10-27,1.119215378389915
+Random Forest,local_case_history,2020-10-28,1.1199846290705717
+Random Forest,local_case_history,2020-10-29,1.1478921324853222
+Random Forest,local_case_history,2020-10-30,1.255058192584077
+Random Forest,local_case_history,2020-10-31,1.3323232241371519
+Random Forest,local_case_history,2020-11-01,1.5881004574320574
+Random Forest,local_case_history,2020-11-02,1.994546687121167
+Random Forest,local_case_history,2020-11-03,2.3433834586295887
+Random Forest,local_case_history,2020-11-04,1.8982499338061785
+Random Forest,local_case_history,2020-11-05,2.194143836547542
+Random Forest,local_case_history,2020-11-06,2.619028215810466
+Random Forest,local_case_history,2020-11-07,2.862910400027386
+Random Forest,local_case_history,2020-11-08,3.169337792700005
+Random Forest,local_case_history,2020-11-09,3.379705116618391
+Random Forest,local_case_history,2020-11-10,3.55581510671339
+Random Forest,local_case_history,2020-11-11,3.292463677545945
+Random Forest,local_case_history,2020-11-12,3.8362297062805917
+Random Forest,local_case_history,2020-11-13,4.204959179369556
+Random Forest,local_case_history,2020-11-14,4.411455096423226
+Random Forest,local_case_history,2020-11-15,4.258955300977362
+Random Forest,local_case_history,2020-11-16,4.239636524980795
+Random Forest,local_case_history,2020-11-17,4.496202639335644
+Random Forest,local_case_history,2020-11-18,1.5694881814562813
+Random Forest,local_case_history,2020-11-19,1.6096440518655921
+Random Forest,local_case_history,2020-11-20,1.7601163182896382
+Random Forest,local_case_history,2020-11-21,1.8014092758112437
+Random Forest,local_case_history,2020-11-22,1.8960182342311465
+Random Forest,local_case_history,2020-11-23,1.830467391847133
+Random Forest,local_case_history,2020-11-24,1.857354827162889
+Random Forest,local_case_history,2020-11-25,1.607578500773795
+Random Forest,local_case_history,2020-11-26,1.6426483267570857
+Random Forest,local_case_history,2020-11-27,1.8165133371116235
+Random Forest,local_case_history,2020-11-28,2.0120531881672283
+Random Forest,local_case_history,2020-11-29,2.27485500437608
+Random Forest,local_case_history,2020-11-30,2.3403229044696827
+Random Forest,local_case_history,2020-12-01,2.41182074884241
+Random Forest,local_case_history,2020-12-02,1.8492019868044938
+Random Forest,local_case_history,2020-12-03,1.7649829819131764
+Random Forest,local_case_history,2020-12-04,1.8705555189660787
+Random Forest,local_case_history,2020-12-05,2.0571758919927277
+Random Forest,local_case_history,2020-12-06,2.212153666902303
+Random Forest,local_case_history,2020-12-07,2.1822787068990213
+Random Forest,local_case_history,2020-12-08,2.1715739088709736
+Random Forest,local_case_history,2020-12-09,1.659259409898504
+Random Forest,local_case_history,2020-12-10,1.582307082030746
+Random Forest,local_case_history,2020-12-11,1.6135380282584642
+Random Forest,local_case_history,2020-12-12,1.6150515192580663
+Random Forest,local_case_history,2020-12-13,1.65321396731154
+Random Forest,local_case_history,2020-12-14,1.4732490205339122
+Random Forest,local_case_history,2020-12-15,1.4481734480565034
+Random Forest,local_case_history,2020-12-16,1.2910895550813326
+Random Forest,local_case_history,2020-12-17,1.392880568801784
+Random Forest,local_case_history,2020-12-18,1.3862616865362418
+Random Forest,local_case_history,2020-12-19,1.3991736160710417
+Random Forest,local_case_history,2020-12-20,1.383587077673009
+Random Forest,local_case_history,2020-12-21,1.4062318207474154
+Random Forest,local_case_history,2020-12-22,1.4923442017815636
+Random Forest,local_case_history,2020-12-23,1.4342929786523313
+Random Forest,local_case_history,2020-12-24,1.5166012544312368
+Random Forest,local_case_history,2020-12-25,1.5788739698060452
+Random Forest,local_case_history,2020-12-26,1.5817391239123437
+Random Forest,local_case_history,2020-12-27,1.5617522059187403
+Random Forest,local_case_history,2020-12-28,1.5492675930589468
+Random Forest,commuting_pressure,2020-04-30,-0.0019954682504039756
+Random Forest,commuting_pressure,2020-05-01,-0.0021666129409285695
+Random Forest,commuting_pressure,2020-05-02,-0.024348118230556492
+Random Forest,commuting_pressure,2020-05-03,-0.024201799539729785
+Random Forest,commuting_pressure,2020-05-04,-0.04511228713153381
+Random Forest,commuting_pressure,2020-05-05,-0.05221909689038795
+Random Forest,commuting_pressure,2020-05-06,0.0042585782749720025
+Random Forest,commuting_pressure,2020-05-07,0.005002931406397515
+Random Forest,commuting_pressure,2020-05-08,0.0036901357017122827
+Random Forest,commuting_pressure,2020-05-09,0.0012100713651554962
+Random Forest,commuting_pressure,2020-05-10,-0.0007548791167025781
+Random Forest,commuting_pressure,2020-05-11,-0.0007496189949274257
+Random Forest,commuting_pressure,2020-05-12,-0.002006035444949039
+Random Forest,commuting_pressure,2020-05-13,0.008438084991852057
+Random Forest,commuting_pressure,2020-05-14,0.011336510561794022
+Random Forest,commuting_pressure,2020-05-15,0.012265916485071304
+Random Forest,commuting_pressure,2020-05-16,0.01011184525214609
+Random Forest,commuting_pressure,2020-05-17,0.008073800310358203
+Random Forest,commuting_pressure,2020-05-18,0.008496570083382171
+Random Forest,commuting_pressure,2020-05-19,0.01401533612737954
+Random Forest,commuting_pressure,2020-05-20,0.011009885515397333
+Random Forest,commuting_pressure,2020-05-21,0.013243728183129688
+Random Forest,commuting_pressure,2020-05-22,0.009247092766660359
+Random Forest,commuting_pressure,2020-05-23,0.00891222976947631
+Random Forest,commuting_pressure,2020-05-24,0.007687743315577034
+Random Forest,commuting_pressure,2020-05-25,0.007988190077404311
+Random Forest,commuting_pressure,2020-05-26,0.007018478407713136
+Random Forest,commuting_pressure,2020-05-27,0.009732706125745949
+Random Forest,commuting_pressure,2020-05-28,0.009734201324607061
+Random Forest,commuting_pressure,2020-05-29,0.008637847142059285
+Random Forest,commuting_pressure,2020-05-30,0.007846990314063496
+Random Forest,commuting_pressure,2020-05-31,0.00991201038635281
+Random Forest,commuting_pressure,2020-06-01,0.011709109877917845
+Random Forest,commuting_pressure,2020-06-02,0.012962785219346962
+Random Forest,commuting_pressure,2020-06-03,0.008674854472771831
+Random Forest,commuting_pressure,2020-06-04,0.008502664987811659
+Random Forest,commuting_pressure,2020-06-05,0.006632753538145353
+Random Forest,commuting_pressure,2020-06-06,0.006712833107924088
+Random Forest,commuting_pressure,2020-06-07,0.006460477772113282
+Random Forest,commuting_pressure,2020-06-08,0.00741086770241417
+Random Forest,commuting_pressure,2020-06-09,0.008600217414559796
+Random Forest,commuting_pressure,2020-06-10,0.005588637596829454
+Random Forest,commuting_pressure,2020-06-11,0.00633729134798694
+Random Forest,commuting_pressure,2020-06-12,0.004755178311470543
+Random Forest,commuting_pressure,2020-06-13,0.004733569948694449
+Random Forest,commuting_pressure,2020-06-14,0.004436749851765065
+Random Forest,commuting_pressure,2020-06-15,0.004456260454071714
+Random Forest,commuting_pressure,2020-06-16,0.0037281739865116514
+Random Forest,commuting_pressure,2020-06-17,0.0024406684690088387
+Random Forest,commuting_pressure,2020-06-18,0.0027687213691584
+Random Forest,commuting_pressure,2020-06-19,0.000774162285434199
+Random Forest,commuting_pressure,2020-06-20,0.0009291157930593208
+Random Forest,commuting_pressure,2020-06-21,0.0006819003985841232
+Random Forest,commuting_pressure,2020-06-22,0.00047966667923327044
+Random Forest,commuting_pressure,2020-06-23,0.0020999993810754125
+Random Forest,commuting_pressure,2020-06-24,-0.0026259079829035747
+Random Forest,commuting_pressure,2020-06-25,-0.002371797478832538
+Random Forest,commuting_pressure,2020-06-26,-0.0018763534237726254
+Random Forest,commuting_pressure,2020-06-27,-0.00031261626199236003
+Random Forest,commuting_pressure,2020-06-28,-0.0026731211797694776
+Random Forest,commuting_pressure,2020-06-29,-0.004177743003609569
+Random Forest,commuting_pressure,2020-06-30,-0.006352992575136551
+Random Forest,commuting_pressure,2020-07-01,-0.010314287809698564
+Random Forest,commuting_pressure,2020-07-02,-0.006458764015205953
+Random Forest,commuting_pressure,2020-07-03,0.00039379324631283463
+Random Forest,commuting_pressure,2020-07-04,0.0034953667406393274
+Random Forest,commuting_pressure,2020-07-05,0.004238699156041137
+Random Forest,commuting_pressure,2020-07-06,0.0013673472205442128
+Random Forest,commuting_pressure,2020-07-07,-0.0007157442204733244
+Random Forest,commuting_pressure,2020-07-08,-0.004581662826807498
+Random Forest,commuting_pressure,2020-07-09,-0.003924847166902279
+Random Forest,commuting_pressure,2020-07-10,-0.004612536121378408
+Random Forest,commuting_pressure,2020-07-11,-0.004931649028095342
+Random Forest,commuting_pressure,2020-07-12,0.0020755969430512056
+Random Forest,commuting_pressure,2020-07-13,0.003656203080839582
+Random Forest,commuting_pressure,2020-07-14,0.006470108383998252
+Random Forest,commuting_pressure,2020-07-15,-0.0019819249543263084
+Random Forest,commuting_pressure,2020-07-16,0.003506679739725904
+Random Forest,commuting_pressure,2020-07-17,0.002380292551573071
+Random Forest,commuting_pressure,2020-07-18,0.0058546018975519365
+Random Forest,commuting_pressure,2020-07-19,0.004987672082497785
+Random Forest,commuting_pressure,2020-07-20,0.006589019231985682
+Random Forest,commuting_pressure,2020-07-21,0.0072120844552182595
+Random Forest,commuting_pressure,2020-07-22,0.006502673405973158
+Random Forest,commuting_pressure,2020-07-23,0.0053469240634743675
+Random Forest,commuting_pressure,2020-07-24,0.006318501918035235
+Random Forest,commuting_pressure,2020-07-25,0.004085350256980924
+Random Forest,commuting_pressure,2020-07-26,0.00469094157876182
+Random Forest,commuting_pressure,2020-07-27,0.004035342075597026
+Random Forest,commuting_pressure,2020-07-28,0.00161745067052943
+Random Forest,commuting_pressure,2020-07-29,0.0032138121522440888
+Random Forest,commuting_pressure,2020-07-30,0.002314857375661672
+Random Forest,commuting_pressure,2020-07-31,0.0005159785127842875
+Random Forest,commuting_pressure,2020-08-01,0.0020016043863923527
+Random Forest,commuting_pressure,2020-08-02,0.0015967227486645141
+Random Forest,commuting_pressure,2020-08-03,0.000721871984653788
+Random Forest,commuting_pressure,2020-08-04,-0.001994830319170804
+Random Forest,commuting_pressure,2020-08-05,0.002204579676813756
+Random Forest,commuting_pressure,2020-08-06,0.003197456134370169
+Random Forest,commuting_pressure,2020-08-07,0.005677083285731799
+Random Forest,commuting_pressure,2020-08-08,0.00639565999101821
+Random Forest,commuting_pressure,2020-08-09,0.007047015853511973
+Random Forest,commuting_pressure,2020-08-10,0.008759016167142586
+Random Forest,commuting_pressure,2020-08-11,0.008692136410842655
+Random Forest,commuting_pressure,2020-08-12,0.006807403779260424
+Random Forest,commuting_pressure,2020-08-13,0.007394703995109164
+Random Forest,commuting_pressure,2020-08-14,0.009594520229493364
+Random Forest,commuting_pressure,2020-08-15,0.010051731898284677
+Random Forest,commuting_pressure,2020-08-16,0.010303407395640951
+Random Forest,commuting_pressure,2020-08-17,0.010073945829994435
+Random Forest,commuting_pressure,2020-08-18,0.007728593825800545
+Random Forest,commuting_pressure,2020-08-19,0.00473773201043276
+Random Forest,commuting_pressure,2020-08-20,0.0035908783941520084
+Random Forest,commuting_pressure,2020-08-21,0.0035602979953178737
+Random Forest,commuting_pressure,2020-08-22,0.004220890817997869
+Random Forest,commuting_pressure,2020-08-23,0.0073957101904180145
+Random Forest,commuting_pressure,2020-08-24,0.008610637125865017
+Random Forest,commuting_pressure,2020-08-25,0.005938673089956936
+Random Forest,commuting_pressure,2020-08-26,0.005462477663008114
+Random Forest,commuting_pressure,2020-08-27,0.004673206080647918
+Random Forest,commuting_pressure,2020-08-28,0.004617919859349451
+Random Forest,commuting_pressure,2020-08-29,0.003426695969124649
+Random Forest,commuting_pressure,2020-08-30,0.004196639692064852
+Random Forest,commuting_pressure,2020-08-31,0.004951489161126643
+Random Forest,commuting_pressure,2020-09-01,0.001444984633212687
+Random Forest,commuting_pressure,2020-09-02,0.0022780155105340816
+Random Forest,commuting_pressure,2020-09-03,-0.0006730150906704147
+Random Forest,commuting_pressure,2020-09-04,0.0011204774355512148
+Random Forest,commuting_pressure,2020-09-05,-0.001095132490432471
+Random Forest,commuting_pressure,2020-09-06,0.0005923792858129606
+Random Forest,commuting_pressure,2020-09-07,0.00031914805842925276
+Random Forest,commuting_pressure,2020-09-08,-0.0026829609498114637
+Random Forest,commuting_pressure,2020-09-09,-0.0033714914327936385
+Random Forest,commuting_pressure,2020-09-10,-0.007605315183013384
+Random Forest,commuting_pressure,2020-09-11,-0.0061639997445410155
+Random Forest,commuting_pressure,2020-09-12,-0.007767215391929205
+Random Forest,commuting_pressure,2020-09-13,-0.00411357692128228
+Random Forest,commuting_pressure,2020-09-14,-0.010824098841454244
+Random Forest,commuting_pressure,2020-09-15,-0.006174767412244431
+Random Forest,commuting_pressure,2020-09-16,-0.006437335847693126
+Random Forest,commuting_pressure,2020-09-17,-0.008165608838695715
+Random Forest,commuting_pressure,2020-09-18,-0.007519635276510228
+Random Forest,commuting_pressure,2020-09-19,-0.005721454873979792
+Random Forest,commuting_pressure,2020-09-20,-0.0039021935968880372
+Random Forest,commuting_pressure,2020-09-21,-0.00705634457617732
+Random Forest,commuting_pressure,2020-09-22,-0.009104270716396745
+Random Forest,commuting_pressure,2020-09-23,-0.012020571334523389
+Random Forest,commuting_pressure,2020-09-24,-0.016587217035506363
+Random Forest,commuting_pressure,2020-09-25,-0.011990546758773757
+Random Forest,commuting_pressure,2020-09-26,-0.004131810384544687
+Random Forest,commuting_pressure,2020-09-27,-0.0010959811188777646
+Random Forest,commuting_pressure,2020-09-28,-0.006140009206568542
+Random Forest,commuting_pressure,2020-09-29,-0.010754999415946931
+Random Forest,commuting_pressure,2020-09-30,-0.021932850993351516
+Random Forest,commuting_pressure,2020-10-01,-0.023688960462199038
+Random Forest,commuting_pressure,2020-10-02,-0.020007133397933474
+Random Forest,commuting_pressure,2020-10-03,-0.010286189759921682
+Random Forest,commuting_pressure,2020-10-04,-0.01350543675517113
+Random Forest,commuting_pressure,2020-10-05,-0.024113731254319593
+Random Forest,commuting_pressure,2020-10-06,-0.03014506433333264
+Random Forest,commuting_pressure,2020-10-07,-0.022283353854934185
+Random Forest,commuting_pressure,2020-10-08,-0.01743867734227411
+Random Forest,commuting_pressure,2020-10-09,-0.01096267229889425
+Random Forest,commuting_pressure,2020-10-10,-0.010910344653647264
+Random Forest,commuting_pressure,2020-10-11,-0.007691117478982767
+Random Forest,commuting_pressure,2020-10-12,-0.013560600103120657
+Random Forest,commuting_pressure,2020-10-13,-0.013241560236881056
+Random Forest,commuting_pressure,2020-10-14,-0.012592040106950808
+Random Forest,commuting_pressure,2020-10-15,-0.012224922809698446
+Random Forest,commuting_pressure,2020-10-16,-0.012948654478845856
+Random Forest,commuting_pressure,2020-10-17,-0.005701523223461957
+Random Forest,commuting_pressure,2020-10-18,0.003893237962308227
+Random Forest,commuting_pressure,2020-10-19,-0.00012948257787248618
+Random Forest,commuting_pressure,2020-10-20,-0.00625191298295158
+Random Forest,commuting_pressure,2020-10-21,-0.02433525091965294
+Random Forest,commuting_pressure,2020-10-22,-0.028442722116412966
+Random Forest,commuting_pressure,2020-10-23,-0.015785483015651525
+Random Forest,commuting_pressure,2020-10-24,-0.013155045185220149
+Random Forest,commuting_pressure,2020-10-25,0.0016044203943528235
+Random Forest,commuting_pressure,2020-10-26,-0.026003090080455316
+Random Forest,commuting_pressure,2020-10-27,-0.02955876686479375
+Random Forest,commuting_pressure,2020-10-28,-0.04757812085773028
+Random Forest,commuting_pressure,2020-10-29,-0.01790794953615049
+Random Forest,commuting_pressure,2020-10-30,0.032150746292893606
+Random Forest,commuting_pressure,2020-10-31,0.05100510453257057
+Random Forest,commuting_pressure,2020-11-01,0.0571882720641983
+Random Forest,commuting_pressure,2020-11-02,0.03913481998241375
+Random Forest,commuting_pressure,2020-11-03,0.029977506641986507
+Random Forest,commuting_pressure,2020-11-04,-0.027794177038213963
+Random Forest,commuting_pressure,2020-11-05,-0.04486636229921337
+Random Forest,commuting_pressure,2020-11-06,-0.03890583663114566
+Random Forest,commuting_pressure,2020-11-07,-0.03612493002255679
+Random Forest,commuting_pressure,2020-11-08,-0.02534893585472542
+Random Forest,commuting_pressure,2020-11-09,-0.046718413001654246
+Random Forest,commuting_pressure,2020-11-10,-0.06401467883897083
+Random Forest,commuting_pressure,2020-11-11,-0.0300599333498901
+Random Forest,commuting_pressure,2020-11-12,-0.03682406797201421
+Random Forest,commuting_pressure,2020-11-13,-0.026027847600438303
+Random Forest,commuting_pressure,2020-11-14,-0.027076361844856622
+Random Forest,commuting_pressure,2020-11-15,-0.024481390684079285
+Random Forest,commuting_pressure,2020-11-16,-0.03783651300068325
+Random Forest,commuting_pressure,2020-11-17,-0.036345886967595664
+Random Forest,commuting_pressure,2020-11-18,0.018264529869429946
+Random Forest,commuting_pressure,2020-11-19,0.01442899162327449
+Random Forest,commuting_pressure,2020-11-20,0.010101548427979168
+Random Forest,commuting_pressure,2020-11-21,0.012875311967778469
+Random Forest,commuting_pressure,2020-11-22,0.014856817839873804
+Random Forest,commuting_pressure,2020-11-23,0.01148209790087873
+Random Forest,commuting_pressure,2020-11-24,0.004590889131945497
+Random Forest,commuting_pressure,2020-11-25,0.013151992819303127
+Random Forest,commuting_pressure,2020-11-26,0.009465530376762565
+Random Forest,commuting_pressure,2020-11-27,0.0010747384338192223
+Random Forest,commuting_pressure,2020-11-28,-0.015847906326641015
+Random Forest,commuting_pressure,2020-11-29,-0.01883693756312632
+Random Forest,commuting_pressure,2020-11-30,-0.003638195233208519
+Random Forest,commuting_pressure,2020-12-01,0.01506758736700009
+Random Forest,commuting_pressure,2020-12-02,-0.02416551589028826
+Random Forest,commuting_pressure,2020-12-03,-0.032113715471556725
+Random Forest,commuting_pressure,2020-12-04,-0.028881596670604637
+Random Forest,commuting_pressure,2020-12-05,-0.016262462415735257
+Random Forest,commuting_pressure,2020-12-06,-0.014169024152317133
+Random Forest,commuting_pressure,2020-12-07,-0.011766536801406824
+Random Forest,commuting_pressure,2020-12-08,-0.01294119519196646
+Random Forest,commuting_pressure,2020-12-09,0.0014888760759661501
+Random Forest,commuting_pressure,2020-12-10,-0.006047409402548443
+Random Forest,commuting_pressure,2020-12-11,0.00030658255535165324
+Random Forest,commuting_pressure,2020-12-12,-0.0038535618107660152
+Random Forest,commuting_pressure,2020-12-13,-0.003468943049874218
+Random Forest,commuting_pressure,2020-12-14,-0.0007892574779257977
+Random Forest,commuting_pressure,2020-12-15,0.00668634755975539
+Random Forest,commuting_pressure,2020-12-16,0.010726749525768797
+Random Forest,commuting_pressure,2020-12-17,0.0036323987046877892
+Random Forest,commuting_pressure,2020-12-18,0.008555670251524816
+Random Forest,commuting_pressure,2020-12-19,0.014726478764476525
+Random Forest,commuting_pressure,2020-12-20,0.01995186848614927
+Random Forest,commuting_pressure,2020-12-21,0.009453748025191722
+Random Forest,commuting_pressure,2020-12-22,0.0047919234191688975
+Random Forest,commuting_pressure,2020-12-23,-0.0023073599585972104
+Random Forest,commuting_pressure,2020-12-24,-0.0025520642266607663
+Random Forest,commuting_pressure,2020-12-25,-0.012354322854142508
+Random Forest,commuting_pressure,2020-12-26,0.0006788471607059865
+Random Forest,commuting_pressure,2020-12-27,-0.0013349593296736462
+Random Forest,commuting_pressure,2020-12-28,0.0007267886214268326
+Random Forest,calendar,2020-04-30,-0.11960866479872312
+Random Forest,calendar,2020-05-01,-0.10433171855432855
+Random Forest,calendar,2020-05-02,-0.08150552973834713
+Random Forest,calendar,2020-05-03,-0.08589319202133128
+Random Forest,calendar,2020-05-04,-0.061912234462068616
+Random Forest,calendar,2020-05-05,-0.05641229570935724
+Random Forest,calendar,2020-05-06,0.028746451291722153
+Random Forest,calendar,2020-05-07,0.03455397029740792
+Random Forest,calendar,2020-05-08,0.029835108364897334
+Random Forest,calendar,2020-05-09,0.028250246853922745
+Random Forest,calendar,2020-05-10,0.023972249558483427
+Random Forest,calendar,2020-05-11,0.025256318675003553
+Random Forest,calendar,2020-05-12,0.025605414055229758
+Random Forest,calendar,2020-05-13,0.00530960273392489
+Random Forest,calendar,2020-05-14,0.009299060897925593
+Random Forest,calendar,2020-05-15,0.008851831645179886
+Random Forest,calendar,2020-05-16,0.007879477183466488
+Random Forest,calendar,2020-05-17,0.0023210419120915926
+Random Forest,calendar,2020-05-18,0.0024928420016502306
+Random Forest,calendar,2020-05-19,0.003513550476179683
+Random Forest,calendar,2020-05-20,-0.0005780251024748995
+Random Forest,calendar,2020-05-21,0.0011650959272571648
+Random Forest,calendar,2020-05-22,0.0024563290990013975
+Random Forest,calendar,2020-05-23,0.0019475271058769783
+Random Forest,calendar,2020-05-24,-0.0002765424338505018
+Random Forest,calendar,2020-05-25,-7.815113829351406e-05
+Random Forest,calendar,2020-05-26,-0.004114292043424617
+Random Forest,calendar,2020-05-27,-0.0011272830160302116
+Random Forest,calendar,2020-05-28,0.00093058425667919
+Random Forest,calendar,2020-05-29,0.0011950523753563314
+Random Forest,calendar,2020-05-30,-0.002614877763177814
+Random Forest,calendar,2020-05-31,-0.003251662780881459
+Random Forest,calendar,2020-06-01,-0.005783173322961577
+Random Forest,calendar,2020-06-02,-0.007260485695724739
+Random Forest,calendar,2020-06-03,-0.005821380568928336
+Random Forest,calendar,2020-06-04,-0.0055009691542580175
+Random Forest,calendar,2020-06-05,-0.004420188518312718
+Random Forest,calendar,2020-06-06,-0.004842419345836513
+Random Forest,calendar,2020-06-07,-0.006171256647586998
+Random Forest,calendar,2020-06-08,-0.006900994573059649
+Random Forest,calendar,2020-06-09,-0.008781185289820026
+Random Forest,calendar,2020-06-10,-0.00111081546004832
+Random Forest,calendar,2020-06-11,-0.00041818822920364207
+Random Forest,calendar,2020-06-12,0.00037544310865370023
+Random Forest,calendar,2020-06-13,0.00016456278109816536
+Random Forest,calendar,2020-06-14,-0.0003653094130067758
+Random Forest,calendar,2020-06-15,-0.001404545721835293
+Random Forest,calendar,2020-06-16,-0.0016869945157096944
+Random Forest,calendar,2020-06-17,0.0001750873326699376
+Random Forest,calendar,2020-06-18,0.00023723877638476276
+Random Forest,calendar,2020-06-19,0.0007626063790912019
+Random Forest,calendar,2020-06-20,0.00014423404115404548
+Random Forest,calendar,2020-06-21,0.00040920382896292296
+Random Forest,calendar,2020-06-22,0.0004973920137611998
+Random Forest,calendar,2020-06-23,0.0003592560664333888
+Random Forest,calendar,2020-06-24,0.0010311641094958302
+Random Forest,calendar,2020-06-25,0.0005971430453058924
+Random Forest,calendar,2020-06-26,0.001428099020740592
+Random Forest,calendar,2020-06-27,0.0015327014855939236
+Random Forest,calendar,2020-06-28,-0.0003329936706403802
+Random Forest,calendar,2020-06-29,-0.0009900183842576626
+Random Forest,calendar,2020-06-30,0.0003693212072656271
+Random Forest,calendar,2020-07-01,-0.01823716795531477
+Random Forest,calendar,2020-07-02,-0.017740363373873247
+Random Forest,calendar,2020-07-03,-0.016273074911149932
+Random Forest,calendar,2020-07-04,-0.014299638084698363
+Random Forest,calendar,2020-07-05,-0.014146834700090483
+Random Forest,calendar,2020-07-06,-0.015521220157684312
+Random Forest,calendar,2020-07-07,-0.018136610407328224
+Random Forest,calendar,2020-07-08,-0.0020231376445253857
+Random Forest,calendar,2020-07-09,-0.004622710096275129
+Random Forest,calendar,2020-07-10,-0.006717788949975156
+Random Forest,calendar,2020-07-11,-0.006561978755448228
+Random Forest,calendar,2020-07-12,-0.0073459540235966125
+Random Forest,calendar,2020-07-13,-0.008964751438375607
+Random Forest,calendar,2020-07-14,-0.007939470942228521
+Random Forest,calendar,2020-07-15,0.0028222349653274637
+Random Forest,calendar,2020-07-16,-0.00011137015109008441
+Random Forest,calendar,2020-07-17,-0.00032197342562867437
+Random Forest,calendar,2020-07-18,-0.0006610235617806604
+Random Forest,calendar,2020-07-19,-0.001317864443217076
+Random Forest,calendar,2020-07-20,-0.0010707186390497836
+Random Forest,calendar,2020-07-21,7.1076985013796e-05
+Random Forest,calendar,2020-07-22,0.003948512263373727
+Random Forest,calendar,2020-07-23,0.0023456959852710124
+Random Forest,calendar,2020-07-24,0.0016311642515495217
+Random Forest,calendar,2020-07-25,0.0007160787125738977
+Random Forest,calendar,2020-07-26,0.0004260637837147363
+Random Forest,calendar,2020-07-27,0.001502503011758416
+Random Forest,calendar,2020-07-28,0.003139883178273517
+Random Forest,calendar,2020-07-29,0.002860037308123009
+Random Forest,calendar,2020-07-30,0.00024011525775557985
+Random Forest,calendar,2020-07-31,-0.0021781550029918995
+Random Forest,calendar,2020-08-01,-0.003115680890272199
+Random Forest,calendar,2020-08-02,-0.0038626091876997615
+Random Forest,calendar,2020-08-03,-0.005923038940016001
+Random Forest,calendar,2020-08-04,-0.0037233637556242094
+Random Forest,calendar,2020-08-05,0.0005040534645114336
+Random Forest,calendar,2020-08-06,-0.0005132159105137313
+Random Forest,calendar,2020-08-07,-0.0007967236865049632
+Random Forest,calendar,2020-08-08,-0.0003559542094068169
+Random Forest,calendar,2020-08-09,-0.0015315721162210694
+Random Forest,calendar,2020-08-10,-0.0017138594801812124
+Random Forest,calendar,2020-08-11,0.00016399457964488828
+Random Forest,calendar,2020-08-12,0.0005352645015991864
+Random Forest,calendar,2020-08-13,-6.510703944456742e-05
+Random Forest,calendar,2020-08-14,-0.0003259975308440022
+Random Forest,calendar,2020-08-15,-0.0017250244663555847
+Random Forest,calendar,2020-08-16,-0.0025226180184811375
+Random Forest,calendar,2020-08-17,-0.0015410150027593827
+Random Forest,calendar,2020-08-18,0.0001367379011098513
+Random Forest,calendar,2020-08-19,0.000507167557442123
+Random Forest,calendar,2020-08-20,0.0004523605145807519
+Random Forest,calendar,2020-08-21,0.001113904103932195
+Random Forest,calendar,2020-08-22,-0.0008496655969822964
+Random Forest,calendar,2020-08-23,-0.002627493932647329
+Random Forest,calendar,2020-08-24,-0.002660169755398345
+Random Forest,calendar,2020-08-25,0.0003390364615182828
+Random Forest,calendar,2020-08-26,0.0005392569123690572
+Random Forest,calendar,2020-08-27,0.00036645297235821106
+Random Forest,calendar,2020-08-28,0.0013167599771422012
+Random Forest,calendar,2020-08-29,-0.0002476369464570194
+Random Forest,calendar,2020-08-30,-0.002234236941003498
+Random Forest,calendar,2020-08-31,-0.0031149664404764854
+Random Forest,calendar,2020-09-01,-0.00044044077667321213
+Random Forest,calendar,2020-09-02,-0.008575348463108867
+Random Forest,calendar,2020-09-03,-0.010773790718549947
+Random Forest,calendar,2020-09-04,-0.010190685536958177
+Random Forest,calendar,2020-09-05,-0.006259862858382259
+Random Forest,calendar,2020-09-06,-0.006012600472838636
+Random Forest,calendar,2020-09-07,-0.0066947552441194436
+Random Forest,calendar,2020-09-08,-0.007314229427163033
+Random Forest,calendar,2020-09-09,-0.0026690956172638614
+Random Forest,calendar,2020-09-10,-0.002305459203829019
+Random Forest,calendar,2020-09-11,-0.0024995850555256105
+Random Forest,calendar,2020-09-12,-0.0034269831079355995
+Random Forest,calendar,2020-09-13,-0.00617092115770651
+Random Forest,calendar,2020-09-14,-0.006454399477733352
+Random Forest,calendar,2020-09-15,-0.004333557528792997
+Random Forest,calendar,2020-09-16,-0.0022837218869987685
+Random Forest,calendar,2020-09-17,-0.0014479808909646508
+Random Forest,calendar,2020-09-18,-0.001036505367560725
+Random Forest,calendar,2020-09-19,-0.001831524800988138
+Random Forest,calendar,2020-09-20,-0.0025521661781057192
+Random Forest,calendar,2020-09-21,-0.0029207742633420297
+Random Forest,calendar,2020-09-22,-0.001693489015304861
+Random Forest,calendar,2020-09-23,-0.0004332391539169089
+Random Forest,calendar,2020-09-24,0.00017829669820623728
+Random Forest,calendar,2020-09-25,0.00033549218169193207
+Random Forest,calendar,2020-09-26,-0.00020829975308356286
+Random Forest,calendar,2020-09-27,-0.000972639604116865
+Random Forest,calendar,2020-09-28,-0.0005958683326693359
+Random Forest,calendar,2020-09-29,0.00010068897907444807
+Random Forest,calendar,2020-09-30,0.0024836312137397343
+Random Forest,calendar,2020-10-01,0.0024289371138506155
+Random Forest,calendar,2020-10-02,0.001626758278057916
+Random Forest,calendar,2020-10-03,0.00032428132281270283
+Random Forest,calendar,2020-10-04,3.6892134333776916e-05
+Random Forest,calendar,2020-10-05,0.001550304709138306
+Random Forest,calendar,2020-10-06,0.002005060008272719
+Random Forest,calendar,2020-10-07,0.0003630096565172547
+Random Forest,calendar,2020-10-08,0.00031979073103538536
+Random Forest,calendar,2020-10-09,0.0010376007657579844
+Random Forest,calendar,2020-10-10,-0.00023170890566714952
+Random Forest,calendar,2020-10-11,-0.00023429643842121095
+Random Forest,calendar,2020-10-12,-0.0009284943627778652
+Random Forest,calendar,2020-10-13,0.00038359714738178674
+Random Forest,calendar,2020-10-14,0.0006255583855739877
+Random Forest,calendar,2020-10-15,0.0007851738518863671
+Random Forest,calendar,2020-10-16,0.0005595979221844072
+Random Forest,calendar,2020-10-17,-0.0008668917869383286
+Random Forest,calendar,2020-10-18,-0.0005231229490930689
+Random Forest,calendar,2020-10-19,-0.00017827956556093483
+Random Forest,calendar,2020-10-20,0.0005226470655358417
+Random Forest,calendar,2020-10-21,0.0017853405067926875
+Random Forest,calendar,2020-10-22,0.003050660619844714
+Random Forest,calendar,2020-10-23,0.0023967238573729954
+Random Forest,calendar,2020-10-24,2.4303836343997354e-05
+Random Forest,calendar,2020-10-25,-0.0004564855833339987
+Random Forest,calendar,2020-10-26,-0.00013648184658232587
+Random Forest,calendar,2020-10-27,0.002149967446387846
+Random Forest,calendar,2020-10-28,0.002063181660286406
+Random Forest,calendar,2020-10-29,-0.00018738216456637424
+Random Forest,calendar,2020-10-30,-0.0002044464199522089
+Random Forest,calendar,2020-10-31,-0.0011837980653015556
+Random Forest,calendar,2020-11-01,0.00022943693236121554
+Random Forest,calendar,2020-11-02,0.0002480284168355773
+Random Forest,calendar,2020-11-03,-0.0012236559368077327
+Random Forest,calendar,2020-11-04,-0.022557527591255067
+Random Forest,calendar,2020-11-05,-0.023914009515435097
+Random Forest,calendar,2020-11-06,-0.018768912423675843
+Random Forest,calendar,2020-11-07,-0.015110312439545304
+Random Forest,calendar,2020-11-08,-0.024691557657851915
+Random Forest,calendar,2020-11-09,-0.05457228754250609
+Random Forest,calendar,2020-11-10,-0.06708428834482305
+Random Forest,calendar,2020-11-11,-0.004009470471808774
+Random Forest,calendar,2020-11-12,0.005117268668990871
+Random Forest,calendar,2020-11-13,0.006002179480329772
+Random Forest,calendar,2020-11-14,-0.00552076052049566
+Random Forest,calendar,2020-11-15,-0.009494291111058484
+Random Forest,calendar,2020-11-16,-0.012808061142453475
+Random Forest,calendar,2020-11-17,-0.008788430578774875
+Random Forest,calendar,2020-11-18,0.006917360825022367
+Random Forest,calendar,2020-11-19,0.008495551541006563
+Random Forest,calendar,2020-11-20,0.01127244573125119
+Random Forest,calendar,2020-11-21,0.0013403552112514205
+Random Forest,calendar,2020-11-22,-0.005558565042193653
+Random Forest,calendar,2020-11-23,-0.0039197541880597875
+Random Forest,calendar,2020-11-24,0.0008211734466920806
+Random Forest,calendar,2020-11-25,0.002492379161941116
+Random Forest,calendar,2020-11-26,0.0030948801025598716
+Random Forest,calendar,2020-11-27,0.0011334952432846546
+Random Forest,calendar,2020-11-28,0.004477508818907738
+Random Forest,calendar,2020-11-29,0.005442060233278534
+Random Forest,calendar,2020-11-30,0.001949464138192969
+Random Forest,calendar,2020-12-01,0.0024074081847307305
+Random Forest,calendar,2020-12-02,0.004660096809153469
+Random Forest,calendar,2020-12-03,-0.004170256944652673
+Random Forest,calendar,2020-12-04,0.0038788309004456067
+Random Forest,calendar,2020-12-05,0.00014462258020619956
+Random Forest,calendar,2020-12-06,-0.013876531757681443
+Random Forest,calendar,2020-12-07,-0.004300840054892063
+Random Forest,calendar,2020-12-08,-0.0038117166595863505
+Random Forest,calendar,2020-12-09,0.010609892094008533
+Random Forest,calendar,2020-12-10,0.0116700015458171
+Random Forest,calendar,2020-12-11,0.01239743963911022
+Random Forest,calendar,2020-12-12,0.011361852441815756
+Random Forest,calendar,2020-12-13,0.0007192067569341543
+Random Forest,calendar,2020-12-14,0.006345855630225827
+Random Forest,calendar,2020-12-15,0.010818797834143412
+Random Forest,calendar,2020-12-16,0.012475934238077802
+Random Forest,calendar,2020-12-17,0.011119192180279347
+Random Forest,calendar,2020-12-18,0.010425436380780084
+Random Forest,calendar,2020-12-19,0.0056856491812633525
+Random Forest,calendar,2020-12-20,-0.00033366538218548847
+Random Forest,calendar,2020-12-21,0.004090313041592353
+Random Forest,calendar,2020-12-22,0.005776582116695961
+Random Forest,calendar,2020-12-23,-0.0012300335132096052
+Random Forest,calendar,2020-12-24,-0.006064655381426753
+Random Forest,calendar,2020-12-25,-0.01992234241387658
+Random Forest,calendar,2020-12-26,-0.016415795596608662
+Random Forest,calendar,2020-12-27,-0.008900215630107677
+Random Forest,calendar,2020-12-28,0.0026977987345144783

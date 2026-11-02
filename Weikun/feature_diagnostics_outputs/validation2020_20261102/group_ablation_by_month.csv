@@ -1,0 +1,82 @@
+model,drop_group,month,delta_MAE_DROP_minus_FULL,dates
+Dynamic Panel FE,local_case_history,2020-04,0.37903373479471036,1
+Dynamic Panel FE,local_case_history,2020-05,0.30479715741156876,31
+Dynamic Panel FE,local_case_history,2020-06,0.04699331683380132,30
+Dynamic Panel FE,local_case_history,2020-07,0.01667567497063221,31
+Dynamic Panel FE,local_case_history,2020-08,0.0003321952449192401,31
+Dynamic Panel FE,local_case_history,2020-09,0.050612357663796875,30
+Dynamic Panel FE,local_case_history,2020-10,0.21407618495055497,31
+Dynamic Panel FE,local_case_history,2020-11,0.6495827453629517,30
+Dynamic Panel FE,local_case_history,2020-12,0.17531659181968914,28
+Dynamic Panel FE,commuting_pressure,2020-04,0.10752767596036517,1
+Dynamic Panel FE,commuting_pressure,2020-05,0.030043211775420044,31
+Dynamic Panel FE,commuting_pressure,2020-06,-0.006148255110108151,30
+Dynamic Panel FE,commuting_pressure,2020-07,0.022132437172937856,31
+Dynamic Panel FE,commuting_pressure,2020-08,0.002446852890385942,31
+Dynamic Panel FE,commuting_pressure,2020-09,-0.011189249226571746,30
+Dynamic Panel FE,commuting_pressure,2020-10,-0.04300878921143423,31
+Dynamic Panel FE,commuting_pressure,2020-11,-0.0633278712906024,30
+Dynamic Panel FE,commuting_pressure,2020-12,0.007011366932649405,28
+Dynamic Panel FE,calendar,2020-04,0.06457916416172416,1
+Dynamic Panel FE,calendar,2020-05,-0.009637380590550255,31
+Dynamic Panel FE,calendar,2020-06,0.005812570270453853,30
+Dynamic Panel FE,calendar,2020-07,-0.00807967532456434,31
+Dynamic Panel FE,calendar,2020-08,0.013940287303886136,31
+Dynamic Panel FE,calendar,2020-09,-0.013575309283658457,30
+Dynamic Panel FE,calendar,2020-10,0.006522888401695252,31
+Dynamic Panel FE,calendar,2020-11,0.04059893867070572,30
+Dynamic Panel FE,calendar,2020-12,-0.0025395302565530053,28
+XGBoost,local_case_history,2020-04,0.06431089447898464,1
+XGBoost,local_case_history,2020-05,0.0428584367126054,31
+XGBoost,local_case_history,2020-06,0.007302818673044272,30
+XGBoost,local_case_history,2020-07,0.0036116568190695405,31
+XGBoost,local_case_history,2020-08,-0.0008994656685141676,31
+XGBoost,local_case_history,2020-09,0.009771085194367757,30
+XGBoost,local_case_history,2020-10,0.050048579233927075,31
+XGBoost,local_case_history,2020-11,0.051361172185810364,30
+XGBoost,local_case_history,2020-12,0.04498643800159452,28
+XGBoost,commuting_pressure,2020-04,0.03070676350499102,1
+XGBoost,commuting_pressure,2020-05,0.006430900383852363,31
+XGBoost,commuting_pressure,2020-06,0.006711240951948738,30
+XGBoost,commuting_pressure,2020-07,0.00403049274909375,31
+XGBoost,commuting_pressure,2020-08,0.002919396924146561,31
+XGBoost,commuting_pressure,2020-09,-0.000520242065773228,30
+XGBoost,commuting_pressure,2020-10,-0.0005655495195821948,31
+XGBoost,commuting_pressure,2020-11,-0.0053985479412009965,30
+XGBoost,commuting_pressure,2020-12,0.0007655575915004717,28
+XGBoost,calendar,2020-04,0.10922022300010858,1
+XGBoost,calendar,2020-05,0.02464498069683371,31
+XGBoost,calendar,2020-06,-0.0011100867212047597,30
+XGBoost,calendar,2020-07,-0.007589844905418004,31
+XGBoost,calendar,2020-08,0.0024869947231084284,31
+XGBoost,calendar,2020-09,-0.006165964104516427,30
+XGBoost,calendar,2020-10,0.0014064764200718094,31
+XGBoost,calendar,2020-11,0.009824887288806232,30
+XGBoost,calendar,2020-12,-0.008948737624485534,28
+Random Forest,local_case_history,2020-04,0.38250004091363476,1
+Random Forest,local_case_history,2020-05,0.1438039025038435,31
+Random Forest,local_case_history,2020-06,0.08580188530215732,30
+Random Forest,local_case_history,2020-07,0.09267190103653339,31
+Random Forest,local_case_history,2020-08,0.08261930062375598,31
+Random Forest,local_case_history,2020-09,0.1289231650376694,30
+Random Forest,local_case_history,2020-10,0.6301236425536141,31
+Random Forest,local_case_history,2020-11,2.612119755754624,30
+Random Forest,local_case_history,2020-12,1.6620939835361057,28
+Random Forest,commuting_pressure,2020-04,-0.0019954682504039756,1
+Random Forest,commuting_pressure,2020-05,0.001493949535441671,31
+Random Forest,commuting_pressure,2020-06,0.0033828709353290556,30
+Random Forest,commuting_pressure,2020-07,0.0017208993741010814,31
+Random Forest,commuting_pressure,2020-08,0.0055366410104198925,31
+Random Forest,commuting_pressure,2020-09,-0.005909246616968875,30
+Random Forest,commuting_pressure,2020-10,-0.012316009596946296,31
+Random Forest,commuting_pressure,2020-11,-0.010138510904979,30
+Random Forest,commuting_pressure,2020-12,-0.0027219306495317847,28
+Random Forest,calendar,2020-04,-0.11960866479872312,1
+Random Forest,calendar,2020-05,-0.0051133564533003065,31
+Random Forest,calendar,2020-06,-0.001790248843819305,30
+Random Forest,calendar,2020-07,-0.004660917450373789,31
+Random Forest,calendar,2020-08,-0.0010798374484219816,31
+Random Forest,calendar,2020-09,-0.0032333271606973246,30
+Random Forest,calendar,2020-10,0.000609935449392667,31
+Random Forest,calendar,2020-11,-0.007299609885161295,30
+Random Forest,calendar,2020-12,0.0017235306055559674,28
