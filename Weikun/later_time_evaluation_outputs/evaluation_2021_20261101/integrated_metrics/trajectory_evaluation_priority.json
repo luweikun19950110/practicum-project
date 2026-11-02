@@ -1,0 +1,23 @@
+{
+  "primary_trajectory_direction_metric": "Endpoint direction agreement",
+  "definition": "Match sign(predicted Day3 - predicted Day1) with sign(actual Day3 - actual Day1). Rising/declining/exact endpoint-flat. Day1/Day3 are forecast horizons t+1/t+3, not currentday t.",
+  "flat_tolerance": 0,
+  "supplementary_metric": "Strict two-step shape agreement",
+  "supplementary_definition": "Both signs Day2-Day1 and Day3-Day2 must match actual signs.",
+  "count_metrics": "MAE/RMSE retained for level errors. Direction metric is primary for direction, not a replacement for the entire trajectory task.",
+  "timing": "Evaluation emphasis revised after inspecting 2021 results, exploratory and not a prespecified independent confirmation.",
+  "unchanged": [
+    "data",
+    "features",
+    "model fitting",
+    "forecasts",
+    "outbreak labels",
+    "warning thresholds",
+    "AP",
+    "event recall",
+    "warning precision",
+    "warning lead time",
+    "residual Moran I"
+  ],
+  "selection": "No new feature, model or window selection based on this change."
+}
