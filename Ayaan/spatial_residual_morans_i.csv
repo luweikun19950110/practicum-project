@@ -1,0 +1,3 @@
+Model Architecture,Residual Moran's I,Spatial Error Independence
+Random Forest,-0.0023756519117138675,Absorbed (Near Zero)
+XGBoost,-0.00205407980391919,Absorbed (Near Zero)
