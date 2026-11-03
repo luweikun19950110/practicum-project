@@ -1,0 +1,9 @@
+metric,value
+n_windows_ok,152.0
+mean_test_flat_share,0.9821859035221427
+mean_model_accuracy,0.9168987950805069
+mean_baseline_accuracy,0.9821859035221427
+mean_model_macro_f1,0.1379292572948756
+mean_baseline_macro_f1,0.1100848459973467
+share_windows_beat_baseline_acc,0.03289473684210526
+share_windows_beat_baseline_f1,0.743421052631579

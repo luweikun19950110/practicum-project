@@ -1,0 +1,23 @@
+{
+  "protocol": {
+    "train_days": 60,
+    "test_days": 26,
+    "step_days": 7,
+    "horizon_days": 7,
+    "base_min_for_nonflat": 10,
+    "leakage_guard": "train keeps only rows with target_date <= train_end"
+  },
+  "n_windows_total": 188,
+  "n_windows_ok": 152,
+  "n_windows_skipped": 36,
+  "mean_test_flat_share": 0.9821859035221427,
+  "median_test_flat_share": 0.9970057354925776,
+  "mean_model_accuracy": 0.9168987950805069,
+  "mean_baseline_accuracy": 0.9821859035221427,
+  "mean_model_macro_f1": 0.1379292572948756,
+  "mean_baseline_macro_f1": 0.1100848459973467,
+  "median_model_macro_f1": 0.13000798948483536,
+  "median_baseline_macro_f1": 0.11094451361488383,
+  "share_windows_beat_baseline_acc": 0.03289473684210526,
+  "share_windows_beat_baseline_f1": 0.743421052631579
+}

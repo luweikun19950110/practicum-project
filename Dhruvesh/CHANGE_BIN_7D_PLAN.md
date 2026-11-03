@@ -36,12 +36,23 @@ Bins when base ≥ 10:
 Not used as predictors in v1: raw `cases_today` (only gates the label), slope angles.
 
 ## Model
-Multinomial logistic regression (`sklearn`), `class_weight="balanced"`, chronological ~2/3–1/3 split.
+Multinomial logistic regression (`sklearn`), `class_weight="balanced"`.
+
+### Evaluation (preferred for slides)
+Rolling windows matching the mentor-style check:
+- train **60 days**
+- test **next 26 days**
+- step forward **7 days**
+- leakage guard: train rows only if `date + 7 <= train_end`
+
+Script: `Dhruvesh/change_bin_7d_rolling.py`  
+Outputs: `Dhruvesh/change_bin_7d_outputs/rolling_60_26_step7/`
+
+### Older one-shot split (kept for reference)
+Chronological ~2/3–1/3 in `change_bin_7d_logistic.ipynb` (not the primary slide result anymore).
 
 ## Phases
 1. Load data, build slopes/target, print distributions, save `label_rules.json` — done
-2. Build design matrix, chronological split, fit logistic — done
-3. Score vs flat baseline, confusion matrix, example rows — done
-4. Save metrics/predictions; short takeaway markdown in notebook — done
-
-Status: all four phases complete in `change_bin_7d_logistic.ipynb`.
+2. One-shot chronological fit in notebook — done (legacy)
+3. Rolling 60/26/step-7 evaluation + aggregate metrics — done
+4. Slide assets from rolling aggregates — done

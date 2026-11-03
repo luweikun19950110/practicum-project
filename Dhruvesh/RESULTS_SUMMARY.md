@@ -1,6 +1,6 @@
 # Results summary (honest read)
 
-Last updated: 2026-11-01
+Last updated: 2026-11-02
 
 ## Rolling dynamic panel (main forecasting result)
 
@@ -16,20 +16,27 @@ Short-horizon **case counts** with rolling FE OLS, scored vs persistence (“fut
 
 Code/outputs: `Weikun/rolling_dynamic_panel/window_{60,90,120}days/`
 
-## 7-day change-bin logistic (threat experiment)
+## 7-day change-bin logistic (side experiment)
 
-Classifies relative move by day t+7 into bins; base &lt; 10 forced to `flat`.
+Classifies relative move by day t+7 into % bins; base &lt; 10 forced to `flat`. This is a **side try**, not a replacement for the main rolling panel plan.
 
-| Model | Accuracy | Macro-F1 |
+### Rolling eval (preferred): train 60d → test 26d → step 7d
+
+| Metric (mean over OK windows) | Slope-based logistic | Always flat |
 |---|---|---|
-| Logistic (balanced) | 0.85 | 0.12 |
-| Always predict `flat` | ~1.00 | 0.12 |
+| Accuracy | 0.917 | 0.982 |
+| Macro-F1 | 0.138 | 0.110 |
 
-About **98%** of labels are `flat` (quiet ZIP-days + softening rule). Extreme up/down bins are rare.
+- Windows: **152** scored (36 skipped when train had &lt;2 classes, usually all-flat stretches)
+- Mean test flat share ≈ **98.2%**
+- Beat always-flat on **accuracy** in only **~3%** of windows
+- Beat always-flat on **Macro-F1** in **~74%** of windows (small absolute lift ≈ +0.03)
 
-**Meaning:** accuracy is misleading. The classifier does **not** clearly beat “everything is flat.” Treat this as an early experiment; an active-ZIP filter (e.g. only base ≥ 10 for learning non-flat classes) is the next fix if we continue this track.
+**Meaning:** accuracy still favors always-flat because most days are flat. On the fairer Macro-F1 score, the side try edges the baseline in most windows, but the lift is modest — not a breakthrough. Keep framing as exploratory.
 
-Code/outputs: `Dhruvesh/change_bin_7d_logistic.ipynb`, `Dhruvesh/change_bin_7d_outputs/`
+Code: `Dhruvesh/change_bin_7d_rolling.py`  
+Outputs: `Dhruvesh/change_bin_7d_outputs/rolling_60_26_step7/`  
+Legacy one-shot split notebook: `Dhruvesh/change_bin_7d_logistic.ipynb`
 
 ## Trajectory / slope visuals
 
