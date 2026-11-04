@@ -1,3 +1,3 @@
-Model Architecture,Outbreak Threshold (85th Pct),PR-AUC (Surge Hit Rate),Warning Lead Time
-Random Forest,2.0 Cases,0.8306959582548554,7.0 Days
-XGBoost,2.0 Cases,0.8306959582548554,7.0 Days
+Model Architecture,Outbreak Threshold Rule,PR-AUC (Outbreak Surge Hit Rate),Dynamic Warning Lead Time
+Random Forest,Baseline + 2 SD,0.08416388707490247,1.0 Days
+XGBoost,Baseline + 2 SD,0.09472226391823618,0.0 Days
