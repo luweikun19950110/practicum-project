@@ -1,0 +1,25 @@
+actual_class,DP_correct,XGB_correct,RF_correct,paths
+Declining,False,False,False,6888
+Declining,False,False,True,3348
+Declining,False,True,False,2951
+Declining,False,True,True,2723
+Declining,True,False,False,3393
+Declining,True,False,True,2232
+Declining,True,True,False,3714
+Declining,True,True,True,5018
+Exact endpoint-flat,False,False,False,73144
+Exact endpoint-flat,False,False,True,0
+Exact endpoint-flat,False,True,False,157
+Exact endpoint-flat,False,True,True,0
+Exact endpoint-flat,True,False,False,7265
+Exact endpoint-flat,True,False,True,0
+Exact endpoint-flat,True,True,False,148
+Exact endpoint-flat,True,True,True,0
+Rising,False,False,False,4308
+Rising,False,False,True,3377
+Rising,False,True,False,2105
+Rising,False,True,True,3130
+Rising,True,False,False,2762
+Rising,True,False,True,3118
+Rising,True,True,False,3938
+Rising,True,True,True,8436

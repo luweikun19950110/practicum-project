@@ -1,0 +1,11 @@
+{
+  "regions": 585,
+  "forecast_dates": 239,
+  "paths": 139815,
+  "new_horizon_fits": 420,
+  "reused_horizon_fits": 315,
+  "first_three_horizons_match_original": true,
+  "all_training_labels_matured": true,
+  "targets_end_by": "2020-12-31",
+  "horizon_definition": "7 separate daily counts, not 7-day moving average"
+}

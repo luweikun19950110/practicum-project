@@ -1,0 +1,4 @@
+model_A,model_B,both_detect,only_A,only_B,both_miss,jaccard
+Dynamic Panel FE,XGBoost,764,125,61,181,0.8042105263157895
+Dynamic Panel FE,Random Forest,818,71,79,163,0.8450413223140496
+XGBoost,Random Forest,799,26,98,208,0.8656554712892741

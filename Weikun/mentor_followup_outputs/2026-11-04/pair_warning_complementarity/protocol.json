@@ -1,0 +1,21 @@
+{
+  "assessment_start": "2020-09-01",
+  "assessment_last_forecast_date": "2020-12-28",
+  "regions": 585,
+  "events": 1131,
+  "at_risk_zip_dates": 55541,
+  "horizon_days": [
+    1,
+    2,
+    3
+  ],
+  "cooldown_days": 7,
+  "thresholds": {
+    "Dynamic Panel FE": 0.0,
+    "XGBoost": 0.0,
+    "Random Forest": 0.0
+  },
+  "retrained": false,
+  "event_rule": "Original Notebook 27 case_surge_v1",
+  "purpose": "Exploratory paired warning comparison"
+}

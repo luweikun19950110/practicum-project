@@ -1,0 +1,13 @@
+pair,logic,baseline,event_recall_delta_pp,warning_precision_delta_pp,detected_events_delta,false_warnings_delta,newly_detected_events,previously_detected_now_missed
+Dynamic Panel FE + XGBoost,OR,Dynamic Panel FE,0.5305039787798393,-0.16273524756403868,6,6,7,1
+Dynamic Panel FE + XGBoost,OR,XGBoost,6.189213085764811,-15.91969633921072,70,265,124,54
+Dynamic Panel FE + XGBoost,AND,Dynamic Panel FE,-6.10079575596817,16.27447320163832,-69,-266,54,123
+Dynamic Panel FE + XGBoost,AND,XGBoost,-0.4420866489831976,0.5175121099916358,-5,-7,2,7
+Dynamic Panel FE + Random Forest,OR,Dynamic Panel FE,1.8567639257294433,-1.8287449659998734,21,47,32,11
+Dynamic Panel FE + Random Forest,OR,Random Forest,1.1494252873563204,-10.580973129992744,13,194,60,47
+Dynamic Panel FE + Random Forest,AND,Dynamic Panel FE,-1.1494252873563204,11.649594194873881,-13,-195,47,60
+Dynamic Panel FE + Random Forest,AND,Random Forest,-1.8567639257294433,2.89736603088101,-21,-48,11,32
+XGBoost + Random Forest,OR,XGBoost,6.6312997347480085,-7.5292676146250574,75,121,97,22
+XGBoost + Random Forest,OR,Random Forest,0.2652519893899141,-0.5245346869712453,3,9,4,1
+XGBoost + Random Forest,AND,XGBoost,-0.2652519893899141,0.7228509190265409,-3,-9,1,4
+XGBoost + Random Forest,AND,Random Forest,-6.6312997347480085,7.727583846680353,-75,-121,22,97

@@ -1,0 +1,7 @@
+missed_by,rescued_by,missed_events,rescued_events,rescue_rate
+Dynamic Panel FE,XGBoost,242,61,0.25206611570247933
+XGBoost,Dynamic Panel FE,306,125,0.4084967320261438
+Dynamic Panel FE,Random Forest,242,79,0.32644628099173556
+Random Forest,Dynamic Panel FE,234,71,0.3034188034188034
+XGBoost,Random Forest,306,98,0.3202614379084967
+Random Forest,XGBoost,234,26,0.1111111111111111

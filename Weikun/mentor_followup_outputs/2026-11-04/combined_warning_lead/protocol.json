@@ -1,0 +1,15 @@
+{
+  "forecast_dates": "2020-09-01 to 2020-12-24,115daily dates",
+  "regions": 585,
+  "combination": "OR on same ZIP/date before common7daycooldown andone-to-one earliest-eventmatching",
+  "thresholds": "Retain Notebook37 calibration per model and horizon; all0",
+  "lead": "Rule-defined event start minus matched alert date,onlydetected events",
+  "event_rule": "Unchanged Notebook27 three-day smoothing;secondqualifyingday start",
+  "warning_horizons": [
+    3,
+    7
+  ],
+  "comparability": "Different detected subsets. Same-detected-event timing comparison saved separately. Nativeeligible eventdenominators1039vs1125. Do notmix oldSep1-Dec28 three-day figures.",
+  "new_model_training": false,
+  "verified_individuals_reproduce_notebook37": true
+}

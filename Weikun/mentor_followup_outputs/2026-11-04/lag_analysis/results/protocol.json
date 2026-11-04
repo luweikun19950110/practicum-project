@@ -1,0 +1,31 @@
+{
+  "scope": "2020 exploratory development only",
+  "regions": 585,
+  "dates": 243,
+  "window": 60,
+  "refit": 7,
+  "warmup": 14,
+  "common_inputs": "cases_today, pressure7/14, target weekday/month, ZIP FE",
+  "excluded": "rolling means/std, local population rates, acceleration/jerk, sparse history, to avoid indirect lag information",
+  "variants": {
+    "L1": [
+      "cases_lag_1"
+    ],
+    "L7": [
+      "cases_lag_7"
+    ],
+    "L1_L7": [
+      "cases_lag_1",
+      "cases_lag_7"
+    ],
+    "L1_L7_L14": [
+      "cases_lag_1",
+      "cases_lag_7",
+      "cases_lag_14"
+    ]
+  },
+  "descriptive": "within-ZIP monthly slope with7day circular date-block bootstrap2000 pointwise CI. Whole ZIP cross sections resampled, few monthly blocks limits inference. Association not causation or GMM.",
+  "forecast_tests": "paired daily losses;HAC7/HAC28;Holm3contrasts separately;14day dateblockbootstrap4000 pointwiseCI",
+  "availability": "retrospective onset counts;real-time reporting availability unverified",
+  "main_models": "unchanged;diagnostic FE configurations only"
+}

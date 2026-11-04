@@ -1,0 +1,21 @@
+{
+  "regions": 585,
+  "common_forecast_dates": 239,
+  "calibration_last_forecast_date": "2020-08-24",
+  "calibration_targets_end": "2020-08-31",
+  "assessment_first_forecast_date": "2020-09-01",
+  "assessment_last_forecast_date": "2020-12-24",
+  "assessment_dates": 115,
+  "common_events": 1039,
+  "case_surge_definition": "Original MA3 > 28-earlier-MA3 mean +2SD; sum3>=5; two consecutive days; reset after7 nonqualifying days",
+  "warning_horizons": [
+    3,
+    7
+  ],
+  "cooldown_days": 7,
+  "threshold_rule": "Original fixed nonnegative grid; smallest satisfying calibration false-alert criterion<=1 per30 at-risk ZIPdays",
+  "new_model_training": false,
+  "causality": "Issued predictions plus actual history through forecast date only; risk uses no future actual values",
+  "three_day_risk_reproduced": true,
+  "interpretation": "Changing horizon changes label prevalence and matching opportunity. Common-event recall uses intersection of eligible event catalogs; precision uses each native1..H-day matching. No untouched test or significance claim. Onset-date replay does not establish real-time availability."
+}

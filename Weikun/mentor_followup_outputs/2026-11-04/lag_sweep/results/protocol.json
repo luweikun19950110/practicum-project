@@ -1,0 +1,61 @@
+{
+  "scope": "2020 exploratory development only",
+  "regions": 585,
+  "dates": 243,
+  "window": 60,
+  "refit": 7,
+  "warmup": 14,
+  "common_inputs": "cases_today, pressure7/14, target weekday/month, ZIP FE",
+  "excluded": "rolling means/std, local population rates, acceleration/jerk, sparse history, to avoid indirect lag information",
+  "variants": {
+    "L1": [
+      "cases_lag_1"
+    ],
+    "L2": [
+      "cases_lag_2"
+    ],
+    "L3": [
+      "cases_lag_3"
+    ],
+    "L4": [
+      "cases_lag_4"
+    ],
+    "L5": [
+      "cases_lag_5"
+    ],
+    "L6": [
+      "cases_lag_6"
+    ],
+    "L7": [
+      "cases_lag_7"
+    ],
+    "L1_L2": [
+      "cases_lag_1",
+      "cases_lag_2"
+    ],
+    "L1_L3": [
+      "cases_lag_1",
+      "cases_lag_3"
+    ],
+    "L1_L4": [
+      "cases_lag_1",
+      "cases_lag_4"
+    ],
+    "L1_L5": [
+      "cases_lag_1",
+      "cases_lag_5"
+    ],
+    "L1_L6": [
+      "cases_lag_1",
+      "cases_lag_6"
+    ],
+    "L1_L7": [
+      "cases_lag_1",
+      "cases_lag_7"
+    ]
+  },
+  "coefficient_inference": "Initial training fit only; within-ZIP OLS, date cross-sectional score HAC7 and HAC14 sandwich; t reference with training-date count minus one df; Holm across39 focal coefficients separately by bandwidth. Exploratory, short sample, dynamic FE bias not corrected. Not causal or GMM validity inference. Residual correlations descriptive within-ZIP, never flattened adjacency.",
+  "forecast_tests": "paired daily losses;HAC7/HAC28;Holm12contrasts separately;14day dateblockbootstrap4000 pointwiseCI",
+  "availability": "retrospective onset counts;real-time reporting availability unverified",
+  "main_models": "unchanged;diagnostic FE configurations only"
+}
