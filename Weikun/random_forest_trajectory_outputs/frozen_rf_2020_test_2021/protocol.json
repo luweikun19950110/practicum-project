@@ -1,0 +1,33 @@
+{
+  "fit_date": "2020-12-23",
+  "fit_window": [
+    "2020-10-25",
+    "2020-12-23"
+  ],
+  "checkpoint_sha256": {
+    "rf_2020-12-23_h1.joblib": "77e65a10c7d3141f5e9ccbef279364a34816b20926dbe89be7a1a2bb1076f64d",
+    "rf_2020-12-23_h2.joblib": "65985b8bac728aa736515dd767a215a0d33bb8c6c128cc40a0f62724c0404c52",
+    "rf_2020-12-23_h3.joblib": "5049c41b7d8a18a6486c1a86213a72f3bfa57ea90995953b875043f6e9afa123"
+  },
+  "source_sha256": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4",
+  "refitting": false,
+  "cutoff_for_training_targets": "2020-12-23",
+  "validation_origins": [
+    "2020-12-23",
+    "2020-12-24",
+    "2020-12-25",
+    "2020-12-26",
+    "2020-12-27",
+    "2020-12-28"
+  ],
+  "saved_prediction_max_abs_difference": 3.552713678800501e-15,
+  "test_origins": [
+    "2021-01-01",
+    "2021-12-28"
+  ],
+  "test_targets_end": "2021-12-31",
+  "warning_threshold": 0.0,
+  "feature_update": "Observed data through each forecast origin; sparse-history state maintained from fit-window start",
+  "period_basis": "Precision and AP by warning/forecast origin; recall and lead by event-confirmation date",
+  "limitations": "Retrospective onset data availability; prior 2021 exploration; December window covers Omicron emergence"
+}
