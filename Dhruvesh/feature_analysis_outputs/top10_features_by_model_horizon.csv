@@ -1,0 +1,61 @@
+model,horizon,feature,normalized_training_importance,feature_group,rank
+Random Forest,1,case_rate_14d_per_100k,0.0197942043003983,local_case_history,5.0
+Random Forest,1,case_rate_7d_per_100k,0.0128799651038146,local_case_history,9.0
+Random Forest,1,case_rate_today_per_100k,0.0080485169456408,local_case_history,10.0
+Random Forest,1,case_std_14d,0.0139945180553926,local_case_history,6.0
+Random Forest,1,cases_lag_1,0.0136045831777842,local_case_history,7.0
+Random Forest,1,cases_mean_14d,0.1917520537223843,local_case_history,2.0
+Random Forest,1,cases_mean_7d,0.631611460906472,local_case_history,1.0
+Random Forest,1,cases_today,0.0407810622923201,local_case_history,3.0
+Random Forest,1,nj_covid_pressure_14d,0.0134046073352022,commuting_pressure,8.0
+Random Forest,1,nj_covid_pressure_7d,0.019932538243909,commuting_pressure,4.0
+Random Forest,2,case_rate_14d_per_100k,0.0233401959603146,local_case_history,4.0
+Random Forest,2,case_rate_7d_per_100k,0.0141279900608778,local_case_history,9.0
+Random Forest,2,case_rate_today_per_100k,0.0081403773442872,local_case_history,10.0
+Random Forest,2,case_std_14d,0.0151143415995815,local_case_history,7.0
+Random Forest,2,cases_lag_1,0.0202691215674104,local_case_history,6.0
+Random Forest,2,cases_mean_14d,0.2181935888711682,local_case_history,2.0
+Random Forest,2,cases_mean_7d,0.5867101386490186,local_case_history,1.0
+Random Forest,2,cases_today,0.0384732555720075,local_case_history,3.0
+Random Forest,2,nj_covid_pressure_14d,0.0147551422322719,commuting_pressure,8.0
+Random Forest,2,nj_covid_pressure_7d,0.0215291064652449,commuting_pressure,5.0
+Random Forest,3,case_rate_14d_per_100k,0.0274549192636044,local_case_history,4.0
+Random Forest,3,case_rate_7d_per_100k,0.0154862240802168,local_case_history,8.0
+Random Forest,3,case_std_14d,0.0171787282128404,local_case_history,7.0
+Random Forest,3,cases_lag_1,0.0152428669752641,local_case_history,9.0
+Random Forest,3,cases_mean_14d,0.2309152414612136,local_case_history,2.0
+Random Forest,3,cases_mean_7d,0.5583487848010815,local_case_history,1.0
+Random Forest,3,cases_today,0.0385531160883024,local_case_history,3.0
+Random Forest,3,nj_covid_pressure_14d,0.0173907205090239,commuting_pressure,6.0
+Random Forest,3,nj_covid_pressure_7d,0.023076871525798,commuting_pressure,5.0
+Random Forest,3,region_id,0.0100256221280468,identity,10.0
+XGBoost,1,case_rate_today_per_100k,0.0170693556411501,local_case_history,10.0
+XGBoost,1,case_std_14d,0.0176470696077113,local_case_history,9.0
+XGBoost,1,cases_lag_1,0.0540619183445613,local_case_history,5.0
+XGBoost,1,cases_mean_14d,0.1425059737834128,local_case_history,2.0
+XGBoost,1,cases_mean_7d,0.3713701245345837,local_case_history,1.0
+XGBoost,1,cases_today,0.0797129286534717,local_case_history,3.0
+XGBoost,1,days_since_last_observed_case_censored,0.0313243294268082,local_case_history,6.0
+XGBoost,1,nj_covid_pressure_14d,0.0198988930115462,commuting_pressure,8.0
+XGBoost,1,nj_covid_pressure_7d,0.019934815490533,commuting_pressure,7.0
+XGBoost,1,region_id,0.0639979735433882,identity,4.0
+XGBoost,2,case_rate_today_per_100k,0.0202798584814443,local_case_history,9.0
+XGBoost,2,case_std_7d,0.0198295191350665,local_case_history,10.0
+XGBoost,2,cases_lag_1,0.0530115080450897,local_case_history,5.0
+XGBoost,2,cases_mean_14d,0.1344954006930445,local_case_history,2.0
+XGBoost,2,cases_mean_7d,0.3466697297615087,local_case_history,1.0
+XGBoost,2,cases_today,0.0877945800101916,local_case_history,3.0
+XGBoost,2,days_since_last_observed_case_censored,0.0332765505695097,local_case_history,6.0
+XGBoost,2,nj_covid_pressure_14d,0.0219023499752261,commuting_pressure,8.0
+XGBoost,2,nj_covid_pressure_7d,0.0227834455952771,commuting_pressure,7.0
+XGBoost,2,region_id,0.0720361310841454,identity,4.0
+XGBoost,3,case_rate_7d_per_100k,0.0195377249634139,local_case_history,10.0
+XGBoost,3,case_rate_today_per_100k,0.019839916079042,local_case_history,9.0
+XGBoost,3,cases_lag_1,0.0488438144611493,local_case_history,5.0
+XGBoost,3,cases_mean_14d,0.1466540458553152,local_case_history,2.0
+XGBoost,3,cases_mean_7d,0.3118503511153815,local_case_history,1.0
+XGBoost,3,cases_today,0.0851069387824226,local_case_history,3.0
+XGBoost,3,days_since_last_observed_case_censored,0.0318720879681707,local_case_history,6.0
+XGBoost,3,nj_covid_pressure_14d,0.0274484844870316,commuting_pressure,7.0
+XGBoost,3,nj_covid_pressure_7d,0.0230732454498242,commuting_pressure,8.0
+XGBoost,3,region_id,0.0785376891643168,identity,4.0

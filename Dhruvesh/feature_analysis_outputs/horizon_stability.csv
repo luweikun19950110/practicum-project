@@ -1,0 +1,71 @@
+model,feature,top5_horizons,mean_horizon_importance,feature_group
+Random Forest,cases_mean_7d,3,0.5922234614521907,local_case_history
+Random Forest,cases_mean_14d,3,0.21362029468492202,local_case_history
+Random Forest,cases_today,3,0.039269144650876664,local_case_history
+Random Forest,case_rate_14d_per_100k,3,0.023529773174772433,local_case_history
+Random Forest,nj_covid_pressure_7d,3,0.02151283874498397,commuting_pressure
+Random Forest,cases_lag_1,0,0.016372190573486236,local_case_history
+Random Forest,case_std_14d,0,0.015429195955938167,local_case_history
+Random Forest,nj_covid_pressure_14d,0,0.015183490025499333,commuting_pressure
+Random Forest,case_rate_7d_per_100k,0,0.014164726414969733,local_case_history
+Random Forest,case_rate_today_per_100k,0,0.008221309421539567,local_case_history
+Random Forest,case_std_7d,0,0.0074742305791435,local_case_history
+Random Forest,region_id,0,0.0049008974442624675,identity
+Random Forest,case_jerk,0,0.004861309790349933,local_case_history
+Random Forest,cases_lag_14,0,0.0036563375108188668,local_case_history
+Random Forest,days_since_last_observed_case_censored,0,0.0029625656635045663,local_case_history
+Random Forest,case_acceleration,0,0.0029310304249258665,local_case_history
+Random Forest,cases_lag_7,0,0.0026901874990493996,local_case_history
+Random Forest,target_weekday_3,0,0.0014093684890269336,calendar
+Random Forest,target_month_6,0,0.0013949462896375,calendar
+Random Forest,target_month_7,0,0.0009217141073042333,calendar
+Random Forest,target_weekday_7,0,0.0008875428798949,calendar
+Random Forest,target_weekday_6,0,0.0007180003665944,calendar
+Random Forest,target_weekday_2,0,0.0007009053033077999,calendar
+Random Forest,target_month_11,0,0.0006821837714521333,calendar
+Random Forest,no_previous_observed_case,0,0.0006612120315295667,local_case_history
+Random Forest,target_month_3,0,0.0006503426459554,calendar
+Random Forest,target_month_5,0,0.0006012312165303,calendar
+Random Forest,target_weekday_4,0,0.0005455977765019667,calendar
+Random Forest,target_weekday_5,0,0.0005418488142928,calendar
+Random Forest,target_month_8,0,0.0003928102668114,calendar
+Random Forest,target_month_4,0,0.0003840757528112333,calendar
+Random Forest,target_month_9,0,0.00026545625858520003,calendar
+Random Forest,target_month_10,0,0.00018880342202093334,calendar
+Random Forest,target_month_12,0,5.0976596508290545e-05,calendar
+Random Forest,target_month_2,0,0.0,calendar
+XGBoost,cases_mean_7d,3,0.343296735137158,local_case_history
+XGBoost,cases_mean_14d,3,0.14121847344392416,local_case_history
+XGBoost,cases_today,3,0.08420481581536197,local_case_history
+XGBoost,region_id,3,0.07152393126395014,identity
+XGBoost,cases_lag_1,3,0.05197241361693344,local_case_history
+XGBoost,days_since_last_observed_case_censored,0,0.032157655988162864,local_case_history
+XGBoost,nj_covid_pressure_14d,0,0.023083242491267964,commuting_pressure
+XGBoost,nj_covid_pressure_7d,0,0.021930502178544767,commuting_pressure
+XGBoost,case_rate_today_per_100k,0,0.019063043400545467,local_case_history
+XGBoost,case_std_7d,0,0.0180962202957943,local_case_history
+XGBoost,case_rate_7d_per_100k,0,0.018094976361541067,local_case_history
+XGBoost,cases_lag_14,0,0.015419541374692031,local_case_history
+XGBoost,cases_lag_7,0,0.015283720047344166,local_case_history
+XGBoost,case_std_14d,0,0.015033715362299199,local_case_history
+XGBoost,case_rate_14d_per_100k,0,0.014303409639129032,local_case_history
+XGBoost,target_weekday_3,0,0.013337417855300867,calendar
+XGBoost,case_jerk,0,0.012197145266071767,local_case_history
+XGBoost,case_acceleration,0,0.011730858083923332,local_case_history
+XGBoost,target_weekday_4,0,0.011342109710422266,calendar
+XGBoost,target_weekday_5,0,0.010948953313106169,calendar
+XGBoost,target_weekday_7,0,0.0097235291492839,calendar
+XGBoost,target_weekday_6,0,0.008775826315707667,calendar
+XGBoost,target_weekday_2,0,0.0067373459507683335,calendar
+XGBoost,target_month_6,0,0.0059444627653934675,calendar
+XGBoost,target_month_7,0,0.0044247406093906,calendar
+XGBoost,target_month_9,0,0.0043798564821916665,calendar
+XGBoost,target_month_4,0,0.0034302877349098996,calendar
+XGBoost,target_month_10,0,0.003336514736552533,calendar
+XGBoost,target_month_8,0,0.0030329938779913666,calendar
+XGBoost,target_month_5,0,0.0024986889808677666,calendar
+XGBoost,target_month_11,0,0.0017909639549735332,calendar
+XGBoost,target_month_3,0,0.0015023274574957335,calendar
+XGBoost,target_month_12,0,0.000183581338999,calendar
+XGBoost,no_previous_observed_case,0,0.0,local_case_history
+XGBoost,target_month_2,0,0.0,calendar

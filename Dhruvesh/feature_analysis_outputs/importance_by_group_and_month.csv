@@ -1,0 +1,73 @@
+model,month,feature_group,group_importance
+Random Forest,2020-04,calendar,0.022043817886654063
+Random Forest,2020-04,commuting_pressure,0.0111803737532792
+Random Forest,2020-04,identity,9.565700411265792e-05
+Random Forest,2020-04,local_case_history,0.9666801513559534
+Random Forest,2020-05,calendar,0.009077730236554034
+Random Forest,2020-05,commuting_pressure,0.0096204299466757
+Random Forest,2020-05,identity,5.419325139591836e-05
+Random Forest,2020-05,local_case_history,0.9812476465653732
+Random Forest,2020-06,calendar,0.0085046536400649
+Random Forest,2020-06,commuting_pressure,0.029693889566127597
+Random Forest,2020-06,identity,0.0004592133138915
+Random Forest,2020-06,local_case_history,0.9613422434799148
+Random Forest,2020-07,calendar,0.0211466046445681
+Random Forest,2020-07,commuting_pressure,0.0864862980092424
+Random Forest,2020-07,identity,0.0002747884129882
+Random Forest,2020-07,local_case_history,0.8920923089332
+Random Forest,2020-08,calendar,0.0180530758762995
+Random Forest,2020-08,commuting_pressure,0.07876415848607829
+Random Forest,2020-08,identity,0.0028608580322254
+Random Forest,2020-08,local_case_history,0.9003219076053957
+Random Forest,2020-09,calendar,0.0073186953557215
+Random Forest,2020-09,commuting_pressure,0.041867969435550004
+Random Forest,2020-09,identity,0.0042251173861526
+Random Forest,2020-09,local_case_history,0.9465882178225749
+Random Forest,2020-10,calendar,0.0016293088101043448
+Random Forest,2020-10,commuting_pressure,0.0154269300023668
+Random Forest,2020-10,identity,0.0325316378855512
+Random Forest,2020-10,local_case_history,0.9504121233019767
+Random Forest,2020-11,calendar,0.008039376214453182
+Random Forest,2020-11,commuting_pressure,0.0131505210103347
+Random Forest,2020-11,identity,1.9542201623410317e-05
+Random Forest,2020-11,local_case_history,0.9787905605735875
+Random Forest,2020-12,calendar,0.004041560376311873
+Random Forest,2020-12,commuting_pressure,0.011199019985835699
+Random Forest,2020-12,identity,0.0013086114526549
+Random Forest,2020-12,local_case_history,0.9834508081851963
+XGBoost,2020-04,calendar,0.059385808072112904
+XGBoost,2020-04,commuting_pressure,0.012789444604021899
+XGBoost,2020-04,identity,0.0246904823128308
+XGBoost,2020-04,local_case_history,0.9031342650110333
+XGBoost,2020-05,calendar,0.0803465572648426
+XGBoost,2020-05,commuting_pressure,0.028632365196807202
+XGBoost,2020-05,identity,0.0190781367592028
+XGBoost,2020-05,local_case_history,0.8719429407791462
+XGBoost,2020-06,calendar,0.1023557673115614
+XGBoost,2020-06,commuting_pressure,0.0579694458969987
+XGBoost,2020-06,identity,0.0392083338610141
+XGBoost,2020-06,local_case_history,0.8004664529304248
+XGBoost,2020-07,calendar,0.15423637711291652
+XGBoost,2020-07,commuting_pressure,0.09086368997850791
+XGBoost,2020-07,identity,0.140876825352508
+XGBoost,2020-07,local_case_history,0.6140231075560664
+XGBoost,2020-08,calendar,0.1784579079948225
+XGBoost,2020-08,commuting_pressure,0.06661052698263739
+XGBoost,2020-08,identity,0.1829858454026321
+XGBoost,2020-08,local_case_history,0.5719457196199066
+XGBoost,2020-09,calendar,0.0832273374974123
+XGBoost,2020-09,commuting_pressure,0.0493726890477557
+XGBoost,2020-09,identity,0.1027779419925759
+XGBoost,2020-09,local_case_history,0.7646220314622549
+XGBoost,2020-10,calendar,0.0381375284465583
+XGBoost,2020-10,commuting_pressure,0.040124867212787504
+XGBoost,2020-10,identity,0.0303501885236046
+XGBoost,2020-10,local_case_history,0.8913874158170482
+XGBoost,2020-11,calendar,0.0581349582475428
+XGBoost,2020-11,commuting_pressure,0.015818292813277
+XGBoost,2020-11,identity,0.0188065572604574
+XGBoost,2020-11,local_case_history,0.9072401916787216
+XGBoost,2020-12,calendar,0.0305501874955904
+XGBoost,2020-12,commuting_pressure,0.006221932824518999
+XGBoost,2020-12,identity,0.0246642569930899
+XGBoost,2020-12,local_case_history,0.9385636226867996

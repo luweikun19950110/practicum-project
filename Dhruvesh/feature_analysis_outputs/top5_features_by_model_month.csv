@@ -1,0 +1,91 @@
+model,month,feature,normalized_training_importance,feature_group
+Random Forest,2020-04,cases_mean_7d,0.8397203067742253,local_case_history
+Random Forest,2020-04,cases_today,0.0554567624408175,local_case_history
+Random Forest,2020-04,case_std_14d,0.0224894264905235,local_case_history
+Random Forest,2020-04,cases_lag_1,0.0152726392513221,local_case_history
+Random Forest,2020-04,target_month_4,0.0095065886156457,calendar
+Random Forest,2020-05,cases_mean_7d,0.9213708610174232,local_case_history
+Random Forest,2020-05,cases_today,0.0110620971377631,local_case_history
+Random Forest,2020-05,cases_mean_14d,0.0095805996071437,local_case_history
+Random Forest,2020-05,cases_lag_14,0.0076430596947979,local_case_history
+Random Forest,2020-05,nj_covid_pressure_7d,0.0059090069484752,commuting_pressure
+Random Forest,2020-06,cases_mean_7d,0.571997780377704,local_case_history
+Random Forest,2020-06,cases_mean_14d,0.2939449775605364,local_case_history
+Random Forest,2020-06,nj_covid_pressure_7d,0.0173332579987237,commuting_pressure
+Random Forest,2020-06,case_rate_14d_per_100k,0.0140291870289397,local_case_history
+Random Forest,2020-06,case_std_14d,0.0136182979528158,local_case_history
+Random Forest,2020-07,cases_mean_7d,0.4843096042868978,local_case_history
+Random Forest,2020-07,cases_mean_14d,0.2172285742550982,local_case_history
+Random Forest,2020-07,nj_covid_pressure_7d,0.0525605412168896,commuting_pressure
+Random Forest,2020-07,case_rate_14d_per_100k,0.0436623234697547,local_case_history
+Random Forest,2020-07,case_std_14d,0.0358851911533772,local_case_history
+Random Forest,2020-08,cases_mean_14d,0.3945265148816733,local_case_history
+Random Forest,2020-08,cases_mean_7d,0.3124342925951767,local_case_history
+Random Forest,2020-08,case_rate_14d_per_100k,0.0584452300962711,local_case_history
+Random Forest,2020-08,nj_covid_pressure_7d,0.0472871320288766,commuting_pressure
+Random Forest,2020-08,case_rate_7d_per_100k,0.0321252749505043,local_case_history
+Random Forest,2020-09,cases_mean_7d,0.3881746649730581,local_case_history
+Random Forest,2020-09,cases_mean_14d,0.3385878813011878,local_case_history
+Random Forest,2020-09,cases_today,0.0845578606989777,local_case_history
+Random Forest,2020-09,case_rate_14d_per_100k,0.0376722811412425,local_case_history
+Random Forest,2020-09,cases_lag_1,0.032833433994267,local_case_history
+Random Forest,2020-10,cases_mean_7d,0.5012680759899394,local_case_history
+Random Forest,2020-10,cases_today,0.172269275612079,local_case_history
+Random Forest,2020-10,cases_mean_14d,0.1667377729656338,local_case_history
+Random Forest,2020-10,cases_lag_1,0.0663074315213723,local_case_history
+Random Forest,2020-10,region_id,0.0325316378855512,identity
+Random Forest,2020-11,cases_mean_7d,0.7322885914257024,local_case_history
+Random Forest,2020-11,cases_mean_14d,0.2014530822965719,local_case_history
+Random Forest,2020-11,cases_today,0.0109822239357512,local_case_history
+Random Forest,2020-11,case_rate_14d_per_100k,0.0080116670153664,local_case_history
+Random Forest,2020-11,nj_covid_pressure_7d,0.0075174857002,commuting_pressure
+Random Forest,2020-12,cases_mean_7d,0.8420602730322222,local_case_history
+Random Forest,2020-12,cases_mean_14d,0.1075929510492918,local_case_history
+Random Forest,2020-12,case_rate_7d_per_100k,0.0084439157242698,local_case_history
+Random Forest,2020-12,nj_covid_pressure_14d,0.0065453111870789,commuting_pressure
+Random Forest,2020-12,case_rate_14d_per_100k,0.0063440377365684,local_case_history
+XGBoost,2020-04,cases_mean_7d,0.5884558162822975,local_case_history
+XGBoost,2020-04,cases_today,0.1298805063625953,local_case_history
+XGBoost,2020-04,cases_lag_1,0.0998663518802554,local_case_history
+XGBoost,2020-04,case_std_14d,0.0334125295415153,local_case_history
+XGBoost,2020-04,region_id,0.0246904823128308,identity
+XGBoost,2020-05,cases_mean_7d,0.6065695031895735,local_case_history
+XGBoost,2020-05,cases_today,0.0805897725457399,local_case_history
+XGBoost,2020-05,cases_mean_14d,0.0520803642934027,local_case_history
+XGBoost,2020-05,cases_lag_1,0.0506109878304653,local_case_history
+XGBoost,2020-05,region_id,0.0190781367592028,identity
+XGBoost,2020-06,cases_mean_7d,0.3193618834029723,local_case_history
+XGBoost,2020-06,cases_mean_14d,0.3094410875850436,local_case_history
+XGBoost,2020-06,region_id,0.0392083338610141,identity
+XGBoost,2020-06,cases_today,0.0311036957671976,local_case_history
+XGBoost,2020-06,nj_covid_pressure_14d,0.0304959109675846,commuting_pressure
+XGBoost,2020-07,cases_mean_7d,0.155679928433857,local_case_history
+XGBoost,2020-07,region_id,0.140876825352508,identity
+XGBoost,2020-07,days_since_last_observed_case_censored,0.0895636705715426,local_case_history
+XGBoost,2020-07,nj_covid_pressure_7d,0.0496193479641165,commuting_pressure
+XGBoost,2020-07,cases_mean_14d,0.0440525116154682,local_case_history
+XGBoost,2020-08,region_id,0.1829858454026321,identity
+XGBoost,2020-08,days_since_last_observed_case_censored,0.1002702277012285,local_case_history
+XGBoost,2020-08,cases_mean_7d,0.0942822332668679,local_case_history
+XGBoost,2020-08,case_rate_today_per_100k,0.0437213713907543,local_case_history
+XGBoost,2020-08,cases_mean_14d,0.0417883914565749,local_case_history
+XGBoost,2020-09,cases_mean_7d,0.2071898434125209,local_case_history
+XGBoost,2020-09,cases_today,0.1693382208384867,local_case_history
+XGBoost,2020-09,region_id,0.1027779419925759,identity
+XGBoost,2020-09,cases_lag_1,0.0996176777767276,local_case_history
+XGBoost,2020-09,cases_mean_14d,0.0386081361285873,local_case_history
+XGBoost,2020-10,cases_mean_7d,0.2947030129150526,local_case_history
+XGBoost,2020-10,cases_today,0.2402830249309312,local_case_history
+XGBoost,2020-10,cases_lag_1,0.1344065808467388,local_case_history
+XGBoost,2020-10,cases_mean_14d,0.115584945669121,local_case_history
+XGBoost,2020-10,region_id,0.0303501885236046,identity
+XGBoost,2020-11,cases_mean_7d,0.4554742651336477,local_case_history
+XGBoost,2020-11,cases_mean_14d,0.3513010843288724,local_case_history
+XGBoost,2020-11,cases_today,0.0332858798355731,local_case_history
+XGBoost,2020-11,target_month_10,0.0198732065421186,calendar
+XGBoost,2020-11,region_id,0.0188065572604574,identity
+XGBoost,2020-12,cases_mean_7d,0.6327543656634714,local_case_history
+XGBoost,2020-12,cases_mean_14d,0.2611709293455524,local_case_history
+XGBoost,2020-12,region_id,0.0246642569930899,identity
+XGBoost,2020-12,cases_today,0.0136910949607534,local_case_history
+XGBoost,2020-12,cases_lag_1,0.0056304627138884,local_case_history
