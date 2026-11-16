@@ -1,4 +1,4 @@
-# Dhruvesh Testing Workflow
+# Dhruvesh Random Forest Testing Workflow
 
 This folder reproduces Weikun's chronological testing workflow in a readable sequence.
 
@@ -17,14 +17,18 @@ The planned testing protocol is:
 - ZIP cohort: the 585 ZIP codes used in the model outputs
 - Evaluation: count error, trajectory movement, outbreak detection, warning precision, and lead time
 
-The models and evaluation outputs will be added only after this protocol check passes.
+The Random Forest model and evaluation outputs are added only after this protocol check passes.
 
 ## Step 2: run the models
 
-`02_run_testing_models.py` calls the reviewed implementations in Weikun's notebooks 24, 25, and 26. It runs them with `stage="evaluation"` and `evaluation_plan_frozen=True`, with outputs separated by model under `outputs/model_runs_2021_2023/`.
+`02_run_testing_models.py` calls the reviewed Random Forest implementation in Weikun's notebook 26. It runs it with `stage="evaluation"` and `evaluation_plan_frozen=True`, with outputs under `outputs/model_runs_2021_2023/random_forest/`.
 
-The runner does not create a single permanent estimator. It reproduces the rolling process: each algorithm refits on its current 60-day window every seven days and produces direct 1-, 2-, and 3-day forecasts.
+The runner does not create a single permanent estimator. It reproduces the rolling process: Random Forest refits on its current 60-day window every seven days and produces direct 1-, 2-, and 3-day forecasts.
 
 ## Step 3: compare validation and testing
 
-`03_compare_validation_testing.py` combines Weikun's 2020 validation summaries with the new 2021-2023 testing summaries. It creates a CSV comparison table and a four-panel chart for trajectory MAE, RMSE, direction agreement, and two-step shape agreement.
+`03_compare_validation_testing.py` combines Weikun's Random Forest 2020 validation summary with the new 2021-2023 Random Forest testing summary. It creates a CSV comparison table and a four-panel chart for trajectory MAE, RMSE, direction agreement, and two-step shape agreement.
+
+## Scope
+
+This deliverable intentionally covers Random Forest only. Dynamic Panel and XGBoost testing code and comparison outputs are not part of the Dhruvesh workflow.

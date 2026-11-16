@@ -1,4 +1,4 @@
-"""Step 3: compare Weikun's 2020 validation with Dhruvesh's 2021-2023 testing.
+"""Step 3: compare Weikun's Random Forest validation with later testing.
 
 This script does not retrain models. It combines the saved trajectory summaries
 using the same metrics and labels the periods clearly.
@@ -16,17 +16,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DH_ROOT = Path(__file__).resolve().parent
 OUTPUT_DIR = DH_ROOT / "outputs" / "comparisons"
 
-VALIDATION_RUNS = {
-    "Dynamic Panel FE": REPO_ROOT / "Weikun" / "rolling_trajectory_outputs" / "rolling60_weekly_development_20261027" / "trajectory_scores_by_period.csv",
-    "XGBoost": REPO_ROOT / "Weikun" / "xgboost_trajectory_outputs" / "xgb60_weekly_development_20261027" / "trajectory_scores_by_period.csv",
-    "Random Forest": REPO_ROOT / "Weikun" / "random_forest_trajectory_outputs" / "rf60_weekly_development_20261027" / "trajectory_scores_by_period.csv",
-}
-
-TESTING_RUNS = {
-    "Dynamic Panel FE": DH_ROOT / "outputs" / "model_runs_2021_2023" / "dynamic_panel" / "trajectory_scores_by_period.csv",
-    "XGBoost": DH_ROOT / "outputs" / "model_runs_2021_2023" / "xgboost" / "trajectory_scores_by_period.csv",
-    "Random Forest": DH_ROOT / "outputs" / "model_runs_2021_2023" / "random_forest" / "trajectory_scores_by_period.csv",
-}
+VALIDATION_RUN = REPO_ROOT / "Weikun" / "random_forest_trajectory_outputs" / "rf60_weekly_development_20261027" / "trajectory_scores_by_period.csv"
+TESTING_RUN = DH_ROOT / "outputs" / "model_runs_2021_2023" / "random_forest" / "trajectory_scores_by_period.csv"
 
 
 def load_period(path: Path, model: str, period_label: str) -> pd.DataFrame:
@@ -42,10 +33,8 @@ def load_period(path: Path, model: str, period_label: str) -> pd.DataFrame:
 def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     rows = []
-    for model, path in VALIDATION_RUNS.items():
-        rows.append(load_period(path, model, "2020 validation"))
-    for model, path in TESTING_RUNS.items():
-        rows.append(load_period(path, model, "2021-2023 testing"))
+    rows.append(load_period(VALIDATION_RUN, "Random Forest", "2020 validation"))
+    rows.append(load_period(TESTING_RUN, "Random Forest", "2021-2023 testing"))
 
     comparison = pd.concat(rows, ignore_index=True)
     columns = [
@@ -77,7 +66,7 @@ def main() -> None:
 
     # A compact visual: one panel per metric, validation versus testing.
     fig, axes = plt.subplots(2, 2, figsize=(12, 8))
-    colors = {"Dynamic Panel FE": "#64748b", "XGBoost": "#2563eb", "Random Forest": "#087f78"}
+    color = "#087f78"
     titles = {
         "trajectory_MAE": "Trajectory MAE (lower is better)",
         "RMSE": "RMSE (lower is better)",
@@ -90,7 +79,7 @@ def main() -> None:
         plot_data.plot(
             kind="bar",
             ax=ax,
-            color=[colors[c] for c in ["Dynamic Panel FE", "XGBoost", "Random Forest"]],
+            color=color,
             legend=False,
         )
         ax.set_title(titles[metric])
@@ -99,10 +88,8 @@ def main() -> None:
         ax.grid(axis="y", alpha=0.25)
         ax.set_axisbelow(True)
         ax.tick_params(axis="x", rotation=0)
-    handles, labels = axes.flat[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 0.955), ncol=3, frameon=False)
-    fig.suptitle("Validation versus later testing", y=0.995)
-    fig.tight_layout(rect=[0, 0, 1, 0.89])
+    fig.suptitle("Random Forest: validation versus later testing", y=0.995)
+    fig.tight_layout(rect=[0, 0, 1, 0.95])
     fig.savefig(OUTPUT_DIR / "validation_vs_testing_metrics.png", dpi=200)
     plt.close(fig)
 

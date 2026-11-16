@@ -1,25 +1,9 @@
 period_label,model,metric,value
-2020 validation,Dynamic Panel FE,trajectory_MAE,0.7742829497091024
 2020 validation,Random Forest,trajectory_MAE,0.7518854078618635
-2020 validation,XGBoost,trajectory_MAE,0.7542990439782286
-2021-2023 testing,Dynamic Panel FE,trajectory_MAE,0.7533791770551791
 2021-2023 testing,Random Forest,trajectory_MAE,0.7434877992689236
-2021-2023 testing,XGBoost,trajectory_MAE,0.7480280803552789
-2020 validation,Dynamic Panel FE,RMSE,1.4183962468853617
 2020 validation,Random Forest,RMSE,1.4357663726578656
-2020 validation,XGBoost,RMSE,1.4312445818983492
-2021-2023 testing,Dynamic Panel FE,RMSE,1.4752301700969828
 2021-2023 testing,Random Forest,RMSE,1.4700999829199208
-2021-2023 testing,XGBoost,RMSE,1.486119680718598
-2020 validation,Dynamic Panel FE,direction_agreement,0.2815518272308395
 2020 validation,Random Forest,direction_agreement,0.2207590306355738
-2020 validation,XGBoost,direction_agreement,0.2273574619253631
-2021-2023 testing,Dynamic Panel FE,direction_agreement,0.2977145361760746
 2021-2023 testing,Random Forest,direction_agreement,0.2181381296765912
-2021-2023 testing,XGBoost,direction_agreement,0.233328637174791
-2020 validation,Dynamic Panel FE,two_step_shape_agreement,0.1261158594491928
 2020 validation,Random Forest,two_step_shape_agreement,0.0838310295100418
-2020 validation,XGBoost,two_step_shape_agreement,0.0899511097041961
-2021-2023 testing,Dynamic Panel FE,two_step_shape_agreement,0.1497714536176074
 2021-2023 testing,Random Forest,two_step_shape_agreement,0.0847797501643655
-2021-2023 testing,XGBoost,two_step_shape_agreement,0.0978335055258132

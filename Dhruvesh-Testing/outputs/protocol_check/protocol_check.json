@@ -7,7 +7,7 @@
   "zip_count": 598,
   "raw_testing_zip_count_2021_2023": 598,
   "saved_model_zip_count": 585,
-  "saved_model_cohort_is_subset_of_raw_panel": false,
+  "saved_model_cohort_is_subset_of_raw_panel": true,
   "expected_rows_if_complete_panel": 873678,
   "duplicate_zip_date_rows": 0,
   "candidate_feature_count": 34,
@@ -35,10 +35,6 @@
       "2023-12-28"
     ],
     "target_end_date": "2023-12-31",
-    "model_algorithms": [
-      "Dynamic Panel FE",
-      "XGBoost",
-      "Random Forest"
-    ]
+    "model_algorithm": "Random Forest"
   }
 }

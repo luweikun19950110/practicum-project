@@ -25,17 +25,15 @@ OUTPUT_DIR = Path(__file__).resolve().parent / "outputs" / "protocol_check"
 CANDIDATE_FILE = (
     REPO_ROOT
     / "Weikun"
-    / "later_time_evaluation_outputs"
-    / "evaluation_2021_20261101"
-    / "dynamic_panel"
+    / "random_forest_trajectory_outputs"
+    / "rf60_weekly_development_20261027"
     / "candidate_features.csv"
 )
 PREDICTIONS_FILE = (
     REPO_ROOT
     / "Weikun"
-    / "later_time_evaluation_outputs"
-    / "evaluation_2021_20261101"
-    / "dynamic_panel"
+    / "random_forest_trajectory_outputs"
+    / "rf60_weekly_development_20261027"
     / "predictions.npz"
 )
 
@@ -46,6 +44,8 @@ def main() -> None:
 
     df = pd.read_csv(INPUT_FILE, compression="gzip")
     df["date"] = pd.to_datetime(df["date"])
+    # Preserve New Jersey ZIP codes such as 07001 after pandas reads the CSV.
+    df["zip"] = df["zip"].astype(str).str.zfill(5)
 
     required_columns = {"zip", "date", "cases_today"}
     missing_columns = sorted(required_columns.difference(df.columns))
@@ -99,7 +99,7 @@ def main() -> None:
             "forecast_horizons_days": [1, 2, 3],
             "testing_origins": ["2021-01-01", "2023-12-28"],
             "target_end_date": "2023-12-31",
-            "model_algorithms": ["Dynamic Panel FE", "XGBoost", "Random Forest"],
+            "model_algorithm": "Random Forest",
         },
     }
 
