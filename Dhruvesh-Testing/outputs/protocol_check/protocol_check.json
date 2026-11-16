@@ -1,0 +1,44 @@
+{
+  "input_file": "/Users/dhruvesh/Desktop/Fall 2026/Analytics/practicum-project/Weikun/rolling_trajectory_outputs/inputs/nj_daily_features.csv.gz",
+  "row_count": 873678,
+  "date_count": 1461,
+  "date_min": "2020-01-01",
+  "date_max": "2023-12-31",
+  "zip_count": 598,
+  "raw_testing_zip_count_2021_2023": 598,
+  "saved_model_zip_count": 585,
+  "saved_model_cohort_is_subset_of_raw_panel": false,
+  "expected_rows_if_complete_panel": 873678,
+  "duplicate_zip_date_rows": 0,
+  "candidate_feature_count": 34,
+  "candidate_feature_groups": {
+    "core_history": 4,
+    "dynamics": 2,
+    "local_rates": 3,
+    "month": 11,
+    "pressure": 2,
+    "rolling_level": 2,
+    "sparse_history": 2,
+    "volatility": 2,
+    "weekday": 6
+  },
+  "protocol": {
+    "training_window_days": 60,
+    "refit_every_days": 7,
+    "forecast_horizons_days": [
+      1,
+      2,
+      3
+    ],
+    "testing_origins": [
+      "2021-01-01",
+      "2023-12-28"
+    ],
+    "target_end_date": "2023-12-31",
+    "model_algorithms": [
+      "Dynamic Panel FE",
+      "XGBoost",
+      "Random Forest"
+    ]
+  }
+}
