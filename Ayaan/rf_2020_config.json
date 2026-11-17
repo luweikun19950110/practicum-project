@@ -1,0 +1,11 @@
+{
+    "model_type": "RandomForestRegressor",
+    "n_estimators": 100,
+    "train_period": "2020-04-01 to 2020-12-31",
+    "train_samples": 164450,
+    "features_used": [
+        "case_velocity",
+        "case_acceleration"
+    ],
+    "outbreak_rule": "28-day baseline mean + 2 SD, min 5 cases"
+}
