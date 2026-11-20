@@ -1,0 +1,15 @@
+{
+  "all585_regions_matched": true,
+  "all1092_origins_matched": true,
+  "target_arrays_identical_to_RF": true,
+  "event_eligibility_and_truth_identical_to_RF": true,
+  "integration_independently_checked": true,
+  "integration_max_error": 5.172776500472764e-07,
+  "conservation_and_nonnegative_states_checked": true,
+  "causal_prefix_invariance_checked_by_training_script": true,
+  "zero_incidence_state_checked": true,
+  "latest_fit_target": "2020-12-23",
+  "boundary_fits": 74,
+  "no_training_state": 10,
+  "parameters_sha256": "681395499b327d4a4d4741cf82a7526f1aa15e9323ff4a192c4c7cd7d48aa529"
+}

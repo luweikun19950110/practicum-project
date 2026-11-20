@@ -1,0 +1,5 @@
+        model            period      start        end  origins  events  detected  event_recall  warnings  correct_warnings  warning_precision  average_precision  positive_origin_share  mean_lead_days  median_lead_days  trajectory_mae  trajectory_rmse  moran_day_1  moran_day_2  moran_day_3  moran_valid_day_1  moran_valid_day_2  moran_valid_day_3
+Random Forest 2021–2023 overall 2021-01-01 2023-12-31     1092    4891      4062      0.830505      5915              4062           0.686729           0.486978               0.024887        1.209257               1.0        0.825540         1.490467     0.031592     0.032212     0.032105               1092               1092               1092
+         SEIR 2021–2023 overall 2021-01-01 2023-12-31     1092    4891      4319      0.883051      6648              4319           0.649669           0.479431               0.024887        1.219264               1.0        0.729749         1.460375     0.011055     0.016305     0.019944               1092               1092               1092
+
+See protocol.json for the baseline assumptions and verification.json for checks.

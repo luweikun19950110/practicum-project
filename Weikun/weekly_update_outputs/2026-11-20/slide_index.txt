@@ -1,0 +1,15 @@
+1. SEIR Adds a Mechanistic Forecast Benchmark
+2. The Comparison Uses the Same Test Panel
+3. SEIR Detected More Events with Lower Precision
+4. Detection and Precision Across Test Years
+5. SEIR Produced More False Warnings
+6. Average Precision Favored RF Overall
+7. Most Successful Warnings Came One Day Early
+8. SEIR Had Lower Case Forecast Error
+9. Both Forecasts Smoothed the Omicron Peak
+10. Delta and Early Omicron Show the Same Tradeoff
+11. SEIR Had Less Residual Spatial Clustering
+12. The Pattern Persisted Across Duration Assumptions
+13. Sparse Training Histories Limited Parameter Fits
+14. How to Interpret This SEIR Benchmark
+15. SEIR Adds a Different Detection–Precision Tradeoff

@@ -1,0 +1,60 @@
+{
+  "model": "SEIR incidence benchmark with daily causal state reconstruction",
+  "fit_window": [
+    "2020-10-25",
+    "2020-12-23"
+  ],
+  "training_warmup_days": 14,
+  "training_origins": 43,
+  "beta_fit": "Per ZIP bounded [0,2], pooled horizon 1/2/3 log1p MSE",
+  "sigma": 0.2,
+  "gamma": 0.14285714285714285,
+  "latent_period_days": 5,
+  "infectious_period_days": 7,
+  "parameter_policy": "Beta estimated using 2020 targets only. Sigma/gamma are illustrative fixed assumptions, not estimated disease durations. All parameters frozen across testing.",
+  "observation_model": "Unit reporting assumption. Recorded symptom-onset counts approximate E-to-I incidence. I is a stock; forecasts integrate sigma*E per day.",
+  "state_update": "Each origin reconstructs E from trailing 3-day onset mean/sigma; I and R from the last 60 days of inflows and exponential survival; earlier removals reset outside the local forecast. S=N-E-I-R. A deterministic surveillance approximation, not Bayesian filtering.",
+  "source_sha256": "d18a70fe1b1efa550c0bc3e28edeca576f432996dfc85d67106c70069f79a9e4",
+  "warning_threshold": 0.0,
+  "limitations": "No reporting-delay model, under-ascertainment estimation, vaccination, reinfection, migration, or spatial transmission. Conditional on exact ZIP/ZCTA population mapping. Previously inspected test outcomes mean exploratory retrospective comparison.",
+  "test_origins": [
+    "2021-01-01",
+    "2023-12-28"
+  ],
+  "test_targets_end": "2023-12-31",
+  "periods": {
+    "2021\u20132023 overall": [
+      "2021-01-01",
+      "2023-12-31"
+    ],
+    "2021": [
+      "2021-01-01",
+      "2021-12-31"
+    ],
+    "2022": [
+      "2022-01-01",
+      "2022-12-31"
+    ],
+    "2023": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "Delta": [
+      "2021-07-01",
+      "2021-09-27"
+    ],
+    "Early Omicron (emergence through BA.1)": [
+      "2021-12-01",
+      "2022-03-19"
+    ],
+    "Omicron BA.1 predominance (sensitivity)": [
+      "2021-12-19",
+      "2022-03-19"
+    ]
+  },
+  "year_boundary": "Continuous forecasts and 7-day warning cooldown across internal year ends. Group recall/lead by confirmation date and precision/AP by origin.",
+  "pooled_AP": "Computed from all eligible ZIP-origin scores, not an average of yearly AP.",
+  "moran": "Mean daily global I by horizon on clipped prediction minus actual. Original symmetric-union row-standardized geographic KNN8 weights. Descriptive, no significance claims.",
+  "omicron_source": "https://www.cdc.gov/mmwr/volumes/71/wr/mm7134a3.htm",
+  "evaluation_note": "Variant windows are calendar context; no ZIP-level lineage labels."
+}
