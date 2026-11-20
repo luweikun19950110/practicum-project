@@ -1,0 +1,4 @@
+Period / Wave,Record Count,3-Day MAE,Pooled RMSE,Endpoint Acc (%),Flat Path Recall (%),Average Precision (AP),Detection Recall (%),Warning Precision (%)
+2021 (Delta Wave),199732,0.96,1.823,0,0,0.633,59.6,59.7
+2022 (Omicron Wave),236808,0.949,1.959,0,0,0.635,59.0,60.8
+2023 (Endemic Low),218270,0.178,0.402,0,0,0.679,76.4,46.6
