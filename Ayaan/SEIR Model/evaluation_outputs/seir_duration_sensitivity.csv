@@ -1,0 +1,4 @@
+Latent / Infectious Durations,Incubation Days,Infectious Days,Event Detection Recall (%),Warning Precision (%),Average Precision (AP),Trajectory MAE
+2 days / 4 days,2.0,4.0,88.3%,65.6%,0.48,0.725
+3 days / 5 days (Baseline),3.0,5.0,88.3%,65.0%,0.479,0.73
+5 days / 7 days,5.0,7.0,88.4%,63.9%,0.479,0.737
